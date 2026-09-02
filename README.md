@@ -10,7 +10,7 @@ Everything reported in the article and its supplementary material is produced by
 the code in this archive from the data in this archive. There are no hidden
 steps, no manual edits to any number, and no network access at analysis time.
 
-**Archive DOI:** `10.5281/zenodo.XXXXXXX` (to be inserted on deposit)
+**Archive DOI:** `10.5281/zenodo.22261267`
 
 ---
 

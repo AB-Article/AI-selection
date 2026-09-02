@@ -1,0 +1,13 @@
+family,cell,task,n,n_front,eps_inf,alpha,lambda_star,R2,t_knee_ms,t_min,t_max
+timm,timm | CPU i7-12700H | PyTorch 2.4.0 compile | fp32,Image classification,1091,41,0.0994,0.6546,0.3273,0.9652,10.76,1.075,2381
+timm,timm | CPU i9-10940X | PyTorch 2.4.0 compile | fp32,Image classification,1086,36,0.0994,0.9506,0.4753,0.9822,7.195,1.414,558.7
+timm,timm | RTX 3090 | PyTorch 2.4.0 eager | amp-fp16,Image classification,1091,37,0.0994,0.6569,0.3284,0.9860,0.1117,0.009146,16.31
+timm,timm | RTX 4090 | PyTorch 2.9.1 compile | amp-fp16,Image classification,1191,40,0.0994,0.6879,0.3440,0.9693,0.0408,0.003342,6.169
+timm,timm | RTX 4090 | PyTorch 2.9.1 eager | amp-fp16,Image classification,1193,33,0.0994,0.6876,0.3438,0.9665,0.06255,0.005133,9.714
+timm,timm | RTX 5090 | PyTorch 2.9.1 compile | amp-fp16,Image classification,1193,42,0.0994,0.7172,0.3586,0.9827,0.0248,0.002414,4.917
+timm,timm | RTX 5090 | PyTorch 2.9.1 eager | amp-fp16,Image classification,1193,34,0.0994,0.6876,0.3438,0.9789,0.04369,0.003835,8.151
+timm,timm | RTX Pro 6000 | PyTorch 2.9.1 compile | bf16,Image classification,1187,36,0.0935,0.5378,0.2689,0.9693,0.0402,0.001509,4.189
+timm,timm | RTX Pro 6000 | PyTorch 2.9.1 eager | amp-fp16,Image classification,1193,36,0.0981,0.6478,0.3239,0.9727,0.05226,0.00373,7.213
+ultralytics,ultralytics | CPU ONNX | ONNX Runtime,Object detection,20,7,0.4316,1.0523,0.5262,0.9949,23.28,56.1,2436
+ultralytics,ultralytics | CPU ONNX | ONNX Runtime,Oriented detection,10,6,0.1807,0.7190,0.3595,0.9934,12.36,117.6,1759
+ultralytics,ultralytics | CPU ONNX | ONNX Runtime,Pose estimation,11,6,0.2789,0.8890,0.4445,0.9983,40.14,52.4,4089

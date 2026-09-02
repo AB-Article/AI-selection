@@ -1,0 +1,110 @@
+{
+ "cells": [
+  {
+   "cell": "timm | CPU i7-12700H | PyTorch 2.4.0 compile | fp32",
+   "device": "CPU",
+   "n": 1091,
+   "alpha": 0.5679210459784909,
+   "lam": 0.28396052298924546,
+   "hetero_log": 0.2158748742035836,
+   "hetero_eps": 0.07191270367499922,
+   "shapiro_p": 3.0637117930665295e-19,
+   "favours": "eps"
+  },
+  {
+   "cell": "timm | CPU i9-10940X | PyTorch 2.4.0 compile | fp32",
+   "device": "CPU",
+   "n": 1086,
+   "alpha": 0.8231437631556012,
+   "lam": 0.4115718815778006,
+   "hetero_log": 0.2658110979003344,
+   "hetero_eps": 0.056069647478642286,
+   "shapiro_p": 1.5558666774215323e-20,
+   "favours": "eps"
+  },
+  {
+   "cell": "timm | RTX 3090 | PyTorch 2.4.0 eager | amp-fp16",
+   "device": "GPU",
+   "n": 1091,
+   "alpha": 0.6245789695600149,
+   "lam": 0.31228948478000745,
+   "hetero_log": 0.12773472027116878,
+   "hetero_eps": 0.1782600063684035,
+   "shapiro_p": 2.138852593795399e-11,
+   "favours": "log"
+  },
+  {
+   "cell": "timm | RTX 4090 | PyTorch 2.9.1 compile | amp-fp16",
+   "device": "GPU",
+   "n": 1191,
+   "alpha": 0.6365749769111378,
+   "lam": 0.3182874884555689,
+   "hetero_log": 0.06533055499007204,
+   "hetero_eps": 0.3115693784825479,
+   "shapiro_p": 3.6225931117091687e-13,
+   "favours": "log"
+  },
+  {
+   "cell": "timm | RTX 4090 | PyTorch 2.9.1 eager | amp-fp16",
+   "device": "GPU",
+   "n": 1193,
+   "alpha": 0.6589987905084091,
+   "lam": 0.3294993952542046,
+   "hetero_log": 0.022612765041660977,
+   "hetero_eps": 0.3249789303754314,
+   "shapiro_p": 5.392766670172614e-10,
+   "favours": "log"
+  },
+  {
+   "cell": "timm | RTX 5090 | PyTorch 2.9.1 compile | amp-fp16",
+   "device": "GPU",
+   "n": 1193,
+   "alpha": 0.6250011821591546,
+   "lam": 0.3125005910795773,
+   "hetero_log": 0.11410186816212285,
+   "hetero_eps": 0.2599778385845076,
+   "shapiro_p": 9.516021427532386e-14,
+   "favours": "log"
+  },
+  {
+   "cell": "timm | RTX 5090 | PyTorch 2.9.1 eager | amp-fp16",
+   "device": "GPU",
+   "n": 1193,
+   "alpha": 0.6420954239896717,
+   "lam": 0.32104771199483584,
+   "hetero_log": 0.0335249044633403,
+   "hetero_eps": 0.3136314591517183,
+   "shapiro_p": 6.830554698726003e-11,
+   "favours": "log"
+  },
+  {
+   "cell": "timm | RTX Pro 6000 | PyTorch 2.9.1 compile | bf16",
+   "device": "GPU",
+   "n": 1187,
+   "alpha": 0.5711726954377909,
+   "lam": 0.28558634771889546,
+   "hetero_log": 0.019535386627024393,
+   "hetero_eps": 0.31356319100657354,
+   "shapiro_p": 2.647350579528617e-13,
+   "favours": "log"
+  },
+  {
+   "cell": "timm | RTX Pro 6000 | PyTorch 2.9.1 eager | amp-fp16",
+   "device": "GPU",
+   "n": 1193,
+   "alpha": 0.6588212176096226,
+   "lam": 0.3294106088048113,
+   "hetero_log": 0.03841636419525755,
+   "hetero_eps": 0.32284533205069754,
+   "shapiro_p": 9.612444952428628e-11,
+   "favours": "log"
+  }
+ ],
+ "median_hetero_log": 0.06533055499007204,
+ "median_hetero_eps": 0.3115693784825479,
+ "gpu_favours_log": 7,
+ "gpu_n": 7,
+ "cpu_favours_eps": 2,
+ "cpu_n": 2,
+ "max_shapiro_p": 5.392766670172614e-10
+}

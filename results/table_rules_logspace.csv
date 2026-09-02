@@ -1,0 +1,15 @@
+rule,accuracy_pct_eps_space,accuracy_pct_log_space,regret_log_space
+Universal knee price $\lambda=0.35$,94.98,92.73,0.0040
+Universal knee price $\lambda=0.319$,93.92,96.68,0.0021
+Leave-one-cell-out knee price,95.49,95.24,0.0027
+Leave-one-task-out knee price,87.89,84.65,0.0172
+Fixed $\lambda=0.166$,54.24,58.33,0.1067
+Fixed $\lambda=0.2$,66.33,70.42,0.0621
+Fixed $\lambda=0.25$,82.05,86.13,0.0168
+Fixed $\lambda=0.3$,91.08,95.09,0.0029
+Fixed $\lambda=0.4$,90.31,87.62,0.0110
+Fixed $\lambda=0.5$,84.56,80.47,0.0267
+Accuracy per unit time ($\varepsilon t$),74.37,70.29,0.0567
+Always the faster system,74.35,70.27,0.0567
+Always the more accurate system,25.65,29.73,0.2450
+Coin flip,49.40,49.50,0.1560

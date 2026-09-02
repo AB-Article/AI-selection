@@ -1,0 +1,579 @@
+cell,task,source,metric,n,n_front,eps_inf,alpha,lambda_star,boot_lo,boot_hi,boot_se,R2,S_range,x_range,d_aicc,status
+llama.cpp | 1x RTX 4090 | text generation,LLM perplexity,llama.cpp,perplexity/100,37,10,0.052722,5.8583,2.9292,2.865,3.1112,0.1238,0.3577,0.816,1.007,-1.4,identified
+llm-bench | AMD MI250 GPU x4 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,8,6,0.480958,0.81,0.405,0.2489,1.9784,0.7623,0.6943,0.622,2.205,-9.71,identified
+llm-bench | AMD MI250 GPU x4 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,8,6,0.215917,1.3865,0.6933,0.4275,1.9725,0.6509,0.6955,1.216,2.205,-9.37,identified
+llm-bench | AMD MI300X GPU x1 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,7,6,0.415984,1.8904,0.9452,0.5694,2.0426,0.3657,0.8798,0.407,2.067,-6.1,identified
+llm-bench | AMD MI300X GPU x1 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,7,6,0.160106,2.7689,1.3845,0.9076,2.0545,0.2759,0.9838,0.597,2.067,4.75,identified
+llm-bench | AMD MI300X GPU x1 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,7,6,0.293306,1.551,0.7755,0.5052,1.5685,0.255,0.9827,0.56,2.067,0.03,identified
+llm-perf | 1xA10 | ARC-Challenge,LLM ARC-Challenge,llm-perf-task,ARC-Challenge,1312,12,0.443656,2.1737,1.0868,0.4744,2.8351,0.415,0.9488,0.664,1.409,8.4,identified
+llm-perf | 1xA100 | ARC-Challenge,LLM ARC-Challenge,llm-perf-task,ARC-Challenge,262,8,0.4,1.5145,0.7573,0.2085,1.885,0.473,0.9276,0.829,3.251,5.52,identified
+llm-perf | 1xA100 | BBH,LLM BBH,llm-perf-task,BBH,284,6,0.203973,0.2308,0.1154,0.097,0.7771,0.283,0.871,0.55,3.887,-9.91,identified
+llm-perf | 1xA100 | HellaSwag,LLM HellaSwag,llm-perf-task,HellaSwag,284,9,0.093424,0.9439,0.472,0.3743,1.242,0.2414,0.9614,1.717,3.887,-2.95,identified
+llm-perf | 1xA100 | IFEval,LLM IFEval,llm-perf-task,IFEval,284,8,0.620675,0.5003,0.2502,0.0444,1.0241,0.229,0.9295,0.207,3.887,1.09,identified
+llm-perf | 1xA100 | MMLU,LLM MMLU,llm-perf-task,MMLU,251,8,0.109238,0.5641,0.282,0.2209,0.8943,0.2562,0.9386,1.319,3.887,-4.87,identified
+llm-perf | 1xA100 | Winogrande,LLM Winogrande,llm-perf-task,Winogrande,284,7,0.240884,0.8239,0.412,0.2356,1.5643,0.4437,0.9023,1.112,3.887,-4.25,identified
+llm-perf | 1xT4 | ARC-Challenge,LLM ARC-Challenge,llm-perf-task,ARC-Challenge,727,10,0.490975,3.3906,1.6953,0.5133,2.9332,0.5385,0.9276,0.694,0.882,2.13,identified
+bench360 | 24GB-class GPU | vLLM | Extractive QA,LLM Extractive QA,bench360,F1,7,3,,,,,,,,0.6,0.507,,excluded: front shorter than six points
+bench360 | 24GB-class GPU | vLLM | Knowledge and reasoning,LLM Knowledge and reasoning,bench360,Accuracy,7,4,,,,,,,,0.328,1.957,,excluded: front shorter than six points
+bench360 | 24GB-class GPU | vLLM | Summarisation,LLM Summarisation,bench360,ROUGE-L,7,2,,,,,,,,0.02,0.755,,excluded: front shorter than six points
+bench360 | 24GB-class GPU | vLLM | Text-to-SQL,LLM Text-to-SQL,bench360,Execution accuracy,7,4,,,,,,,,0.31,1.031,,excluded: front shorter than six points
+llama.cpp | 1x RTX 4090 | prompt processing,LLM perplexity,llama.cpp,perplexity/100,37,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,5,3,,,,,,,,0.323,0.884,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,5,4,,,,,,,,0.317,0.113,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,5,4,,,,,,,,0.071,0.884,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,5,4,,,,,,,,1.202,0.113,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,5,3,,,,,,,,0.478,0.884,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,5,2,,,,,,,,0.088,0.113,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,5,4,,,,,,,,0.211,0.113,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,5,5,,,,,,,,0.663,0.884,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,5,4,,,,,,,,0.336,0.113,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,5,3,,,,,,,,0.116,0.113,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,5,3,,,,,,,,0.339,0.884,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,5,3,,,,,,,,0.17,1.272,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,5,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,5,3,,,,,,,,0.018,1.272,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,5,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,5,3,,,,,,,,0.399,1.272,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,5,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,5,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,5,2,,,,,,,,0.047,1.272,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,5,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,5,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x1 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,5,3,,,,,,,,0.337,1.272,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,5,3,,,,,,,,0.323,0.863,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,5,3,,,,,,,,0.317,0.105,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,5,5,,,,,,,,0.071,0.863,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,5,3,,,,,,,,1.202,0.105,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,5,3,,,,,,,,0.478,0.863,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,5,2,,,,,,,,0.088,0.105,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,5,3,,,,,,,,0.211,0.105,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,5,4,,,,,,,,0.663,0.863,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,5,3,,,,,,,,0.336,0.105,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,5,3,,,,,,,,0.116,0.105,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,5,3,,,,,,,,0.339,0.863,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,6,4,,,,,,,,0.254,1.591,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,6,2,,,,,,,,0.241,1.591,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,6,4,,,,,,,,0.144,1.591,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,6,2,,,,,,,,0.158,1.591,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,6,4,,,,,,,,0.518,1.591,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,6,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,6,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,6,3,,,,,,,,0.353,1.591,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,6,2,,,,,,,,0.095,1.591,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,6,2,,,,,,,,0.02,1.591,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x2 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,6,4,,,,,,,,0.558,1.591,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,8,5,,,,,,,,0.407,2.154,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,8,6,0.0,0.0755,0.0378,,,,0.9054,0.197,2.154,,excluded: floor at boundary (degenerate)
+llm-bench | AMD MI250 GPU x4 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,8,5,,,,,,,,1.812,2.205,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,8,5,,,,,,,,0.597,2.154,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,8,3,,,,,,,,0.192,2.205,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,8,4,,,,,,,,0.355,2.205,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,8,5,,,,,,,,0.645,2.205,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,8,5,,,,,,,,0.181,2.205,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,8,5,,,,,,,,0.56,2.154,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,7,4,,,,,,,,0.248,1.295,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,7,6,0.0,0.271,0.1355,,,,0.7937,0.482,1.309,,excluded: floor at boundary (degenerate)
+llm-bench | AMD MI250 GPU x4 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,7,4,,,,,,,,0.162,1.295,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,7,5,,,,,,,,1.441,1.309,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,7,4,,,,,,,,0.328,1.295,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,7,3,,,,,,,,0.209,1.309,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,7,5,,,,,,,,0.343,1.309,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,7,5,,,,,,,,0.793,1.309,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,7,5,,,,,,,,0.493,1.309,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,7,4,,,,,,,,0.107,1.309,,excluded: front shorter than six points
+llm-bench | AMD MI250 GPU x4 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,7,4,,,,,,,,0.388,1.295,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,5,4,,,,,,,,0.323,0.989,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,5,2,,,,,,,,0.317,0.162,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,5,4,,,,,,,,0.071,0.989,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,5,2,,,,,,,,1.202,0.162,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,5,4,,,,,,,,0.478,0.989,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,5,2,,,,,,,,0.088,0.162,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,5,2,,,,,,,,0.211,0.162,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,5,3,,,,,,,,0.663,0.989,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,5,2,,,,,,,,0.336,0.162,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,5,2,,,,,,,,0.116,0.162,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,5,4,,,,,,,,0.339,0.989,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,7,4,,,,,,,,0.558,2.067,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,7,5,,,,,,,,0.197,2.067,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,7,3,,,,,,,,1.36,2.067,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,7,2,,,,,,,,0.088,0.016,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,7,2,,,,,,,,0.211,0.016,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,7,4,,,,,,,,0.968,2.067,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,7,3,,,,,,,,0.431,2.067,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x1 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,7,3,,,,,,,,0.136,2.067,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,7,5,,,,,,,,0.407,1.847,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,7,4,,,,,,,,0.622,1.89,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,7,5,,,,,,,,0.197,1.847,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,7,4,,,,,,,,1.812,1.89,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,7,5,,,,,,,,0.597,1.847,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,7,3,,,,,,,,0.192,1.89,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,7,3,,,,,,,,0.355,1.89,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,7,5,,,,,,,,1.216,1.89,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,7,4,,,,,,,,0.645,1.89,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,7,4,,,,,,,,0.181,1.89,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,7,5,,,,,,,,0.56,1.847,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,6,4,,,,,,,,0.254,2.032,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,6,3,,,,,,,,0.241,2.032,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,6,4,,,,,,,,0.144,2.032,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,6,2,,,,,,,,0.158,2.032,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,6,5,,,,,,,,0.518,2.032,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,6,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,6,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,6,3,,,,,,,,0.353,2.032,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,6,2,,,,,,,,0.095,2.032,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,6,2,,,,,,,,0.02,2.032,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x2 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,6,5,,,,,,,,0.558,2.032,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,7,5,,,,,,,,0.407,1.855,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,7,4,,,,,,,,0.622,1.896,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,7,5,,,,,,,,0.197,1.855,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,7,4,,,,,,,,1.812,1.896,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,7,5,,,,,,,,0.597,1.855,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,7,3,,,,,,,,0.192,1.896,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,7,3,,,,,,,,0.355,1.896,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,7,5,,,,,,,,1.216,1.896,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,7,4,,,,,,,,0.645,1.896,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,7,4,,,,,,,,0.181,1.896,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,7,5,,,,,,,,0.56,1.855,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,6,4,,,,,,,,0.254,1.487,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,6,3,,,,,,,,0.241,1.487,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,6,4,,,,,,,,0.144,1.487,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,6,2,,,,,,,,0.158,1.487,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,6,5,,,,,,,,0.518,1.487,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,6,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,6,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,6,3,,,,,,,,0.353,1.487,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,6,2,,,,,,,,0.095,1.487,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,6,2,,,,,,,,0.02,1.487,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x4 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,6,5,,,,,,,,0.558,1.487,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,5,4,,,,,,,,0.254,1.171,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,5,4,,,,,,,,0.387,1.171,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,5,3,,,,,,,,0.143,1.171,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,5,3,,,,,,,,0.862,1.171,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,5,4,,,,,,,,0.397,1.171,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,5,2,,,,,,,,0.133,0.031,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,5,3,,,,,,,,0.159,1.171,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,5,3,,,,,,,,0.475,1.171,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,5,3,,,,,,,,0.249,1.171,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,5,3,,,,,,,,0.11,1.171,,excluded: front shorter than six points
+llm-bench | AMD MI300X GPU x8 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,5,4,,,,,,,,0.415,1.171,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,2,,,,,,,,0.006,0.153,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | BBH,LLM BBH,llm-inference-bench,BBH,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,2,,,,,,,,0.001,0.182,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,2,,,,,,,,0.19,0.153,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x1 | Deepspeed | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,2,,,,,,,,0.17,0.153,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | BBH,LLM BBH,llm-inference-bench,BBH,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | GPQA,LLM GPQA,llm-inference-bench,GPQA,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | IFEval,LLM IFEval,llm-inference-bench,IFEval,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | MMLU,LLM MMLU,llm-inference-bench,MMLU,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | MuSR,LLM MuSR,llm-inference-bench,MuSR,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x2 | Deepspeed | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,2,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | BBH,LLM BBH,llm-inference-bench,BBH,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,2,,,,,,,,0.001,0.111,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,2,,,,,,,,0.121,0.111,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x4 | Deepspeed | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,2,,,,,,,,0.144,0.111,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | BBH,LLM BBH,llm-inference-bench,BBH,3,2,,,,,,,,0.145,0.099,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,2,,,,,,,,0.704,0.099,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,2,,,,,,,,0.221,0.099,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,2,,,,,,,,0.182,0.099,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,2,,,,,,,,0.123,0.099,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,2,,,,,,,,0.155,0.099,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,2,,,,,,,,0.09,0.099,,excluded: front shorter than six points
+llm-bench | Habana Gaudi2 x8 | Deepspeed | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,3,,,,,,,,0.159,0.083,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,4,2,,,,,,,,0.317,0.037,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,3,,,,,,,,0.054,0.119,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,2,,,,,,,,1.202,0.037,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,3,,,,,,,,0.269,0.083,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,2,,,,,,,,0.088,0.037,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,2,,,,,,,,0.211,0.037,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,2,,,,,,,,0.615,0.037,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,2,,,,,,,,0.336,0.037,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,2,,,,,,,,0.116,0.037,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,3,,,,,,,,0.172,0.083,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,2,,,,,,,,0.006,0.225,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,2,,,,,,,,0.001,0.24,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,2,,,,,,,,0.19,0.225,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x1 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,2,,,,,,,,0.17,0.225,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,3,,,,,,,,0.159,0.062,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,4,2,,,,,,,,0.317,0.001,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,3,,,,,,,,0.054,0.068,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,2,,,,,,,,1.202,0.001,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,3,,,,,,,,0.269,0.062,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,2,,,,,,,,0.088,0.001,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,2,,,,,,,,0.211,0.001,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,2,,,,,,,,0.615,0.001,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,2,,,,,,,,0.336,0.001,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,2,,,,,,,,0.116,0.001,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,3,,,,,,,,0.172,0.062,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x2 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,2,,,,,,,,0.006,0.064,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,2,,,,,,,,0.001,0.069,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,2,,,,,,,,0.19,0.064,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,2,,,,,,,,0.17,0.064,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Intel PVC GPU x4 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | BBH,LLM BBH,llm-inference-bench,BBH,3,2,,,,,,,,0.032,0.042,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,2,,,,,,,,0.019,0.042,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,2,,,,,,,,0.127,0.042,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,2,,,,,,,,0.018,0.221,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,2,,,,,,,,0.016,0.042,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,2,,,,,,,,0.07,0.042,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,2,,,,,,,,0.029,0.042,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | Deepspeed-MII | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | BBH,LLM BBH,llm-inference-bench,BBH,3,2,,,,,,,,0.032,0.045,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,2,,,,,,,,0.019,0.045,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,2,,,,,,,,0.127,0.045,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,2,,,,,,,,0.018,0.66,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,2,,,,,,,,0.016,0.045,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,2,,,,,,,,0.07,0.045,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,2,,,,,,,,0.029,0.045,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | TensorRT-LLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,2,,,,,,,,0.159,0.054,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,3,3,,,,,,,,0.172,0.087,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,3,,,,,,,,0.054,0.087,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,3,,,,,,,,0.498,0.087,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,2,,,,,,,,0.269,0.054,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,3,,,,,,,,0.029,0.087,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,3,,,,,,,,0.493,0.087,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,3,,,,,,,,0.181,0.087,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,2,,,,,,,,0.075,0.054,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,2,,,,,,,,0.172,0.054,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,15,3,,,,,,,,0.043,0.951,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,13,3,,,,,,,,0.042,0.169,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,12,2,,,,,,,,0.014,0.169,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,15,2,,,,,,,,0.124,0.851,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,15,3,,,,,,,,0.047,0.217,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,13,2,,,,,,,,0.371,0.949,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,13,4,,,,,,,,0.068,0.851,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,13,3,,,,,,,,0.186,0.169,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,13,3,,,,,,,,0.073,0.169,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,13,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x1 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,15,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | BBH,LLM BBH,llm-inference-bench,BBH,3,2,,,,,,,,0.032,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,2,,,,,,,,0.019,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,2,,,,,,,,0.127,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,2,,,,,,,,0.018,0.067,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,2,,,,,,,,0.016,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,2,,,,,,,,0.07,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,2,,,,,,,,0.029,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | Deepspeed-MII | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | BBH,LLM BBH,llm-inference-bench,BBH,3,2,,,,,,,,0.032,0.044,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,2,,,,,,,,0.019,0.044,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,2,,,,,,,,0.127,0.044,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,2,,,,,,,,0.018,0.323,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,2,,,,,,,,0.016,0.044,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,2,,,,,,,,0.07,0.044,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,2,,,,,,,,0.029,0.044,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | TensorRT-LLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,2,,,,,,,,0.159,0.053,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,4,3,,,,,,,,0.317,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,4,,,,,,,,0.054,0.086,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,3,,,,,,,,1.202,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,2,,,,,,,,0.269,0.053,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,2,,,,,,,,0.088,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,3,,,,,,,,0.211,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,3,,,,,,,,0.615,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,3,,,,,,,,0.336,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,3,,,,,,,,0.116,0.055,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,2,,,,,,,,0.172,0.053,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,2,,,,,,,,0.006,0.113,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,2,,,,,,,,0.001,0.086,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,3,,,,,,,,0.19,0.113,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x2 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,3,,,,,,,,0.17,0.113,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,3,,,,,,,,0.209,1.522,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | BBH,LLM BBH,llm-inference-bench,BBH,4,3,,,,,,,,0.164,1.522,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,2,,,,,,,,0.017,0.237,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,2,,,,,,,,0.252,0.237,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,3,,,,,,,,0.344,1.522,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,2,,,,,,,,0.133,0.02,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,2,,,,,,,,0.057,0.237,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,2,,,,,,,,0.17,0.237,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,2,,,,,,,,0.101,0.237,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,2,,,,,,,,0.076,0.237,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | Deepspeed-MII | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,3,,,,,,,,0.312,1.522,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,6,4,,,,,,,,0.248,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | BBH,LLM BBH,llm-inference-bench,BBH,6,5,,,,,,,,0.419,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,6,4,,,,,,,,0.162,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,6,4,,,,,,,,0.989,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,6,4,,,,,,,,0.328,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,6,2,,,,,,,,0.018,0.224,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,6,4,,,,,,,,0.176,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,6,4,,,,,,,,0.546,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,6,4,,,,,,,,0.278,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,6,3,,,,,,,,0.062,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | TensorRT-LLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,6,4,,,,,,,,0.388,2.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,3,,,,,,,,0.159,0.052,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,4,2,,,,,,,,0.317,0.048,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,3,,,,,,,,0.054,0.084,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,2,,,,,,,,1.202,0.048,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,3,,,,,,,,0.269,0.052,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,2,,,,,,,,0.088,0.048,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,2,,,,,,,,0.211,0.048,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,2,,,,,,,,0.615,0.048,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,2,,,,,,,,0.336,0.048,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,2,,,,,,,,0.116,0.048,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,3,,,,,,,,0.172,0.052,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,2,,,,,,,,0.164,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,3,2,,,,,,,,0.113,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,2,,,,,,,,0.036,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,2,,,,,,,,0.38,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,2,,,,,,,,0.209,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,2,,,,,,,,0.018,0.23,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,2,,,,,,,,0.073,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,2,,,,,,,,0.24,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,2,,,,,,,,0.129,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,2,,,,,,,,0.028,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia A100 GPU x4 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,2,,,,,,,,0.167,0.812,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | BBH,LLM BBH,llm-inference-bench,BBH,3,2,,,,,,,,0.032,0.049,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,2,,,,,,,,0.019,0.049,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,2,,,,,,,,0.127,0.049,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,2,,,,,,,,0.018,0.355,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,2,,,,,,,,0.016,0.049,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,2,,,,,,,,0.07,0.049,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,2,,,,,,,,0.029,0.049,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | TensorRT-LLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,3,,,,,,,,0.159,0.11,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,4,2,,,,,,,,0.317,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,3,,,,,,,,0.054,0.141,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,2,,,,,,,,1.202,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,3,,,,,,,,0.269,0.11,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,2,,,,,,,,0.088,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,2,,,,,,,,0.211,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,2,,,,,,,,0.615,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,2,,,,,,,,0.336,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,2,,,,,,,,0.116,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,3,,,,,,,,0.172,0.11,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,9,2,,,,,,,,0.008,0.011,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,8,2,,,,,,,,0.187,0.011,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,7,3,,,,,,,,0.014,0.063,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,9,2,,,,,,,,0.665,0.011,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,9,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,8,2,,,,,,,,0.048,0.011,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,8,2,,,,,,,,0.199,0.011,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,8,2,,,,,,,,0.309,0.011,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,8,2,,,,,,,,0.228,0.011,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,8,2,,,,,,,,0.015,0.011,,excluded: front shorter than six points
+llm-bench | Nvidia GH200 GPU x1 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,9,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,2,,,,,,,,0.006,0.052,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | BBH,LLM BBH,llm-inference-bench,BBH,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,2,,,,,,,,0.001,0.084,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,2,,,,,,,,0.19,0.052,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | TensorRT-LLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,2,,,,,,,,0.17,0.052,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,2,,,,,,,,0.159,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,3,3,,,,,,,,0.172,0.134,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,3,,,,,,,,0.054,0.134,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,3,,,,,,,,0.498,0.134,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,2,,,,,,,,0.269,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,3,,,,,,,,0.029,0.134,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,3,,,,,,,,0.493,0.134,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,3,,,,,,,,0.181,0.134,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,2,,,,,,,,0.075,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,2,,,,,,,,0.172,0.1,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,10,2,,,,,,,,0.006,0.591,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,9,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,8,2,,,,,,,,0.001,0.07,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,10,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,10,3,,,,,,,,0.19,0.591,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,9,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,9,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,9,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,9,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,9,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x1 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,10,2,,,,,,,,0.246,0.013,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | BBH,LLM BBH,llm-inference-bench,BBH,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,3,2,,,,,,,,0.001,0.024,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,3,2,,,,,,,,0.121,0.024,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,3,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | TensorRT-LLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,3,2,,,,,,,,0.144,0.024,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,4,3,,,,,,,,0.159,0.091,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,4,2,,,,,,,,0.317,0.079,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,4,3,,,,,,,,0.054,0.134,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,4,2,,,,,,,,1.202,0.079,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,4,3,,,,,,,,0.269,0.091,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,4,2,,,,,,,,0.088,0.079,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,4,2,,,,,,,,0.211,0.079,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,4,2,,,,,,,,0.615,0.079,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,4,2,,,,,,,,0.336,0.079,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,4,2,,,,,,,,0.116,0.079,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,4,3,,,,,,,,0.172,0.091,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,5,3,,,,,,,,0.015,0.098,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,5,2,,,,,,,,0.187,0.016,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,5,3,,,,,,,,0.014,0.065,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,5,2,,,,,,,,0.665,0.016,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,5,2,,,,,,,,0.047,0.098,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,5,2,,,,,,,,0.048,0.016,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,5,2,,,,,,,,0.199,0.016,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,5,2,,,,,,,,0.309,0.016,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,5,2,,,,,,,,0.228,0.016,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,5,2,,,,,,,,0.015,0.016,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x2 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,5,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,6,3,,,,,,,,0.254,1.371,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | BBH,LLM BBH,llm-inference-bench,BBH,6,2,,,,,,,,0.305,1.371,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,6,4,,,,,,,,0.144,1.444,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,6,2,,,,,,,,0.61,1.371,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,6,5,,,,,,,,0.518,1.444,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,6,2,,,,,,,,0.104,1.371,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,6,2,,,,,,,,0.145,1.371,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,6,3,,,,,,,,0.6,1.371,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,6,2,,,,,,,,0.309,1.371,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,6,2,,,,,,,,0.065,1.371,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | TensorRT-LLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,6,4,,,,,,,,0.558,1.444,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,6,5,,,,,,,,0.407,1.974,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | BBH,LLM BBH,llm-inference-bench,BBH,6,3,,,,,,,,0.558,1.974,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | GPQA,LLM GPQA,llm-inference-bench,GPQA,6,5,,,,,,,,0.197,1.974,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,6,3,,,,,,,,1.36,1.974,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,6,5,,,,,,,,0.597,1.974,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | IFEval,LLM IFEval,llm-inference-bench,IFEval,6,2,,,,,,,,0.088,0.075,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,6,2,,,,,,,,0.211,0.075,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | MMLU,LLM MMLU,llm-inference-bench,MMLU,6,4,,,,,,,,0.968,1.974,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,6,3,,,,,,,,0.431,1.974,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | MuSR,LLM MuSR,llm-inference-bench,MuSR,6,3,,,,,,,,0.136,1.974,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | llama.cpp | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,6,5,,,,,,,,0.56,1.974,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,8,4,,,,,,,,0.263,1.225,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | BBH,LLM BBH,llm-inference-bench,BBH,8,6,0.0,0.2621,0.131,,,,0.7192,0.492,1.248,,excluded: floor at boundary (degenerate)
+llm-bench | Nvidia H100 GPU x4 | vLLM | GPQA,LLM GPQA,llm-inference-bench,GPQA,8,4,,,,,,,,0.157,1.225,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,8,4,,,,,,,,1.275,1.248,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,8,4,,,,,,,,0.375,1.225,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | IFEval,LLM IFEval,llm-inference-bench,IFEval,8,3,,,,,,,,0.152,1.248,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,8,4,,,,,,,,0.344,1.248,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | MMLU,LLM MMLU,llm-inference-bench,MMLU,8,5,,,,,,,,0.909,1.248,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,8,5,,,,,,,,0.537,1.248,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | MuSR,LLM MuSR,llm-inference-bench,MuSR,8,4,,,,,,,,0.08,1.248,,excluded: front shorter than six points
+llm-bench | Nvidia H100 GPU x4 | vLLM | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,8,3,,,,,,,,0.312,1.225,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | ARC-Challenge,LLM ARC-Challenge,llm-inference-bench,ARC-Challenge,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | BBH,LLM BBH,llm-inference-bench,BBH,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | GPQA,LLM GPQA,llm-inference-bench,GPQA,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | GSM8K,LLM GSM8K,llm-inference-bench,GSM8K,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | HellaSwag,LLM HellaSwag,llm-inference-bench,HellaSwag,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | IFEval,LLM IFEval,llm-inference-bench,IFEval,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | MATH Lvl 5,LLM MATH Lvl 5,llm-inference-bench,MATH Lvl 5,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | MMLU,LLM MMLU,llm-inference-bench,MMLU,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | MMLU-PRO,LLM MMLU-PRO,llm-inference-bench,MMLU-PRO,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | MuSR,LLM MuSR,llm-inference-bench,MuSR,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-bench | SambaNova SN40L x8 | sambaflow | Winogrande,LLM Winogrande,llm-inference-bench,Winogrande,1,1,,,,,,,,,,,excluded: front shorter than six points
+llm-perf | 1xA10 | BBH,LLM BBH,llm-perf-task,BBH,1543,12,0.0,0.152,0.076,,,,0.6381,0.465,2.748,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA10 | GPQA,LLM GPQA,llm-perf-task,GPQA,1308,6,0.0,0.0532,0.0266,,,,0.6452,0.157,2.658,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA10 | GSM8K,LLM GSM8K,llm-perf-task,GSM8K,1468,8,0.0,0.523,0.2615,,,,0.5828,1.361,1.586,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA10 | HellaSwag,LLM HellaSwag,llm-perf-task,HellaSwag,1468,12,0.0,0.8321,0.416,,,,0.923,1.565,2.167,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA10 | IFEval,LLM IFEval,llm-perf-task,IFEval,1543,8,0.0,0.2243,0.1122,,,,0.6015,0.877,1.992,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA10 | MATH Lvl 5,LLM MATH Lvl 5,llm-perf-task,MATH Lvl 5,1543,11,0.0,0.1028,0.0514,,,,0.5824,0.355,2.748,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA10 | MMLU,LLM MMLU,llm-perf-task,MMLU,1322,13,0.0,0.4771,0.2386,,,,0.7901,1.143,2.167,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA10 | MMLU-PRO,LLM MMLU-PRO,llm-perf-task,MMLU-PRO,1543,11,0.0,0.1685,0.0843,,,,0.6419,0.471,2.748,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA10 | MuSR,LLM MuSR,llm-perf-task,MuSR,1543,2,,,,,,,,0.04,0.491,,excluded: front shorter than six points
+llm-perf | 1xA10 | Winogrande,LLM Winogrande,llm-perf-task,Winogrande,1468,8,0.0,0.4928,0.2464,,,,0.8992,1.072,2.167,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA100 | GPQA,LLM GPQA,llm-perf-task,GPQA,247,6,0.0,0.0629,0.0315,,,,0.8615,0.165,2.142,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA100 | GSM8K,LLM GSM8K,llm-perf-task,GSM8K,284,9,0.0,0.4223,0.2111,,,,0.9035,1.66,3.887,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA100 | MATH Lvl 5,LLM MATH Lvl 5,llm-perf-task,MATH Lvl 5,284,6,0.0,0.1478,0.0739,,,,0.7286,0.355,2.111,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA100 | MMLU-PRO,LLM MMLU-PRO,llm-perf-task,MMLU-PRO,284,9,0.0,0.1853,0.0927,,,,0.9153,0.66,3.887,,excluded: floor at boundary (degenerate)
+llm-perf | 1xA100 | MuSR,LLM MuSR,llm-perf-task,MuSR,284,2,,,,,,,,0.132,0.012,,excluded: front shorter than six points
+llm-perf | 1xT4 | BBH,LLM BBH,llm-perf-task,BBH,881,10,0.0,0.1327,0.0663,,,,0.5525,0.448,2.159,,excluded: floor at boundary (degenerate)
+llm-perf | 1xT4 | GPQA,LLM GPQA,llm-perf-task,GPQA,745,4,,,,,,,,0.094,2.159,,excluded: front shorter than six points
+llm-perf | 1xT4 | GSM8K,LLM GSM8K,llm-perf-task,GSM8K,831,8,0.0,0.5065,0.2532,,,,0.6215,1.361,1.668,,excluded: floor at boundary (degenerate)
+llm-perf | 1xT4 | HellaSwag,LLM HellaSwag,llm-perf-task,HellaSwag,831,9,0.0,0.7424,0.3712,,,,0.7371,1.51,1.716,,excluded: floor at boundary (degenerate)
+llm-perf | 1xT4 | IFEval,LLM IFEval,llm-perf-task,IFEval,881,9,0.0,0.1953,0.0976,,,,0.5543,0.877,2.089,,excluded: floor at boundary (degenerate)
+llm-perf | 1xT4 | MATH Lvl 5,LLM MATH Lvl 5,llm-perf-task,MATH Lvl 5,881,11,0.0,0.0646,0.0323,,,,0.4814,0.22,2.448,,excluded: floor at boundary (degenerate)
+llm-perf | 1xT4 | MMLU,LLM MMLU,llm-perf-task,MMLU,737,12,0.0,0.4638,0.2319,,,,0.7899,0.884,1.957,,excluded: floor at boundary (degenerate)
+llm-perf | 1xT4 | MMLU-PRO,LLM MMLU-PRO,llm-perf-task,MMLU-PRO,881,9,0.0,0.1319,0.0659,,,,0.514,0.375,2.159,,excluded: floor at boundary (degenerate)
+llm-perf | 1xT4 | MuSR,LLM MuSR,llm-perf-task,MuSR,881,2,,,,,,,,0.04,0.491,,excluded: front shorter than six points
+llm-perf | 1xT4 | Winogrande,LLM Winogrande,llm-perf-task,Winogrande,831,9,0.0,0.441,0.2205,,,,0.7227,0.905,1.555,,excluded: floor at boundary (degenerate)
+llm-perf | 32vCPU-C7i | ARC-Challenge,LLM ARC-Challenge,llm-perf-task,ARC-Challenge,210,5,,,,,,,,0.69,1.669,,excluded: front shorter than six points
+llm-perf | 32vCPU-C7i | BBH,LLM BBH,llm-perf-task,BBH,260,7,0.0,0.0841,0.042,,,,0.4901,0.448,2.936,,excluded: floor at boundary (degenerate)
+llm-perf | 32vCPU-C7i | GPQA,LLM GPQA,llm-perf-task,GPQA,234,5,,,,,,,,0.094,2.936,,excluded: front shorter than six points
+llm-perf | 32vCPU-C7i | GSM8K,LLM GSM8K,llm-perf-task,GSM8K,239,6,0.0,0.376,0.188,,,,0.8961,1.365,2.502,,excluded: floor at boundary (degenerate)
+llm-perf | 32vCPU-C7i | HellaSwag,LLM HellaSwag,llm-perf-task,HellaSwag,239,10,0.0,0.4401,0.22,,,,0.9665,1.494,3.217,,excluded: floor at boundary (degenerate)
+llm-perf | 32vCPU-C7i | IFEval,LLM IFEval,llm-perf-task,IFEval,260,8,0.0,0.1619,0.0809,,,,0.7042,0.877,3.496,,excluded: floor at boundary (degenerate)
+llm-perf | 32vCPU-C7i | MATH Lvl 5,LLM MATH Lvl 5,llm-perf-task,MATH Lvl 5,260,8,0.0,0.0519,0.026,,,,0.7643,0.22,4.047,,excluded: floor at boundary (degenerate)
+llm-perf | 32vCPU-C7i | MMLU,LLM MMLU,llm-perf-task,MMLU,216,7,0.0,0.272,0.136,,,,0.8823,0.882,3.598,,excluded: floor at boundary (degenerate)
+llm-perf | 32vCPU-C7i | MMLU-PRO,LLM MMLU-PRO,llm-perf-task,MMLU-PRO,260,6,0.0,0.0824,0.0412,,,,0.536,0.375,2.936,,excluded: floor at boundary (degenerate)
+llm-perf | 32vCPU-C7i | MuSR,LLM MuSR,llm-perf-task,MuSR,260,2,,,,,,,,0.04,0.506,,excluded: front shorter than six points
+llm-perf | 32vCPU-C7i | Winogrande,LLM Winogrande,llm-perf-task,Winogrande,239,9,0.0,0.2451,0.1226,,,,0.9053,0.883,3.054,,excluded: floor at boundary (degenerate)

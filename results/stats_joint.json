@@ -1,0 +1,85 @@
+{
+ "n_ladders": 13,
+ "n_points": 85,
+ "n_tasks": 9,
+ "joint": {
+  "power, free alpha per ladder": {
+   "logL": 189.216722607142,
+   "k": 39,
+   "aicc": -231.1001118809507
+  },
+  "saturating, free alpha per ladder": {
+   "logL": 222.66519395170874,
+   "k": 52,
+   "aicc": -169.0803879034175
+  },
+  "power, alpha shared by benchmark": {
+   "logL": 184.79653131021888,
+   "k": 35,
+   "aicc": -248.16449119186632
+  },
+  "saturating, alpha shared by benchmark": {
+   "logL": 212.3134358232528,
+   "k": 48,
+   "aicc": -197.96020497983895
+  },
+  "saturating, one alpha for the whole study": {
+   "logL": 201.5847929006409,
+   "k": 40,
+   "aicc": -248.62413125582725
+  }
+ },
+ "decisive_daicc": 17.52401937487656,
+ "alpha_global": 0.5316486262473741,
+ "lambda_global": 0.26582431312368704,
+ "alpha_by_task": {
+  "ARC-Challenge": 0.42730272565569194,
+  "BBH": 0.5486973732058742,
+  "GSM8K": 1.0522270084028487,
+  "HellaSwag": 0.7821437162511491,
+  "IFEval": 0.32948988970588233,
+  "MMLU": 0.3314023109243698,
+  "MMLU-PRO": 0.3753311965044807,
+  "MuSR": 0.5638973011690027,
+  "Winogrande": 0.6259736261447941
+ },
+ "lrt": {
+  "stat": 55.03380902606784,
+  "df": 13,
+  "p": 3.98612062357806e-07
+ },
+ "bayes": {
+  "mean_log_bf": 1.1620992596654327,
+  "unit_total": 10.273840945345643,
+  "unit_favourable": 8,
+  "n_units": 9,
+  "per_unit": {
+   "qwen1.5 | ARC-Challenge": 1.6000886344786842,
+   "qwen1.5 | HellaSwag": 2.6199018451821736,
+   "qwen1.5 | IFEval": 0.3240907731727489,
+   "qwen1.5 | MMLU": 0.28936817747137766,
+   "qwen1.5 | BBH": 2.5310441091756495,
+   "qwen1.5 | GSM8K": 1.1355040131253284,
+   "qwen1.5 | MMLU-PRO": 0.5767554158107444,
+   "qwen1.5 | MuSR": -0.22954381173305904,
+   "qwen1.5 | Winogrande": 1.4266317886619948
+  }
+ },
+ "prediction": {
+  "n": 0,
+  "rmse": null,
+  "null_rmse": null,
+  "perm_p": null,
+  "predicted": {
+   "ARC-Challenge": 0.42730272565569194,
+   "BBH": 0.5486973732058742,
+   "GSM8K": 1.0522270084028487,
+   "HellaSwag": 0.7821437162511491,
+   "IFEval": 0.32948988970588233,
+   "MMLU": 0.3314023109243698,
+   "MMLU-PRO": 0.3753311965044807,
+   "MuSR": 0.5638973011690027,
+   "Winogrande": 0.6259736261447941
+  }
+ }
+}

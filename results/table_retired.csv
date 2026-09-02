@@ -1,0 +1,81 @@
+label,suite,model,task,shots,resource,n_sizes,n_front,eps_min,eps_inf,floor_lo,floor_hi,alpha,lambda_star,boot_lo,boot_hi,boot_se,R2,R2_power,S_range,x_range,d_aicc,status
+OPT / ARC-Easy,OPT,,ARC-Easy,0,parameters,8,8,0.377665,0.055771,0.012143,0.337792,0.1367,0.0684,0.0621,0.2116,0.055,0.9662,0.966,0.69,6.269,-5.56,identified
+OPT / LAMBADA,OPT,,LAMBADA,0,parameters,8,8,0.261013,0.164537,0.053117,0.258018,0.2549,0.1275,0.0846,0.2422,0.0456,0.9907,0.9819,0.867,6.269,-0.3,identified
+OPT / PIQA,OPT,,PIQA,0,parameters,8,7,0.424374,0.306049,0.083931,0.419429,0.224,0.112,0.0599,0.2699,0.0688,0.9664,0.9521,0.556,6.269,-4.52,identified
+OPT / SciQ,OPT,,SciQ,0,parameters,8,7,0.098667,0.021493,0.00198,0.11472,0.2272,0.1136,0.0976,0.5153,0.126,0.9866,0.986,1.213,6.269,-6.7,identified
+OPT / Winogrande,OPT,,Winogrande,0,parameters,8,7,0.625098,0.348564,0.051939,0.574905,0.1482,0.0741,0.0438,0.2011,0.0518,0.9802,0.9761,0.464,6.269,-5.68,identified
+Pythia v1 / ARC-Easy,Pythia v1,,ARC-Easy,0,parameters,7,7,0.396745,0.128744,0.021623,0.309857,0.1911,0.0956,0.077,0.1702,0.0279,0.9971,0.9962,0.744,5.125,-5.19,identified
+Pythia v1 / ARC-Easy / 5-shot,Pythia v1,,ARC-Easy,5,parameters,7,7,0.386644,0.249,0.078519,0.340096,0.3005,0.1503,0.0988,0.2531,0.0499,0.9931,0.984,0.758,5.125,-1.09,identified
+Pythia v1 / LAMBADA,Pythia v1,,LAMBADA,0,parameters,7,7,0.295362,0.242275,0.14453,0.312262,0.4547,0.2274,0.157,0.3938,0.0636,0.9926,0.9687,1.016,5.125,3.12,identified
+Pythia v1 / LAMBADA / 5-shot,Pythia v1,,LAMBADA,5,parameters,7,7,0.327382,0.247654,0.07642,0.339889,0.4036,0.2018,0.1202,0.3672,0.0665,0.9908,0.974,0.983,5.125,0.28,identified
+Pythia v1 / PIQA,Pythia v1,,PIQA,0,parameters,7,7,0.47987,0.243814,0.07436,0.444526,0.1798,0.0899,0.0616,0.2689,0.0613,0.9949,0.9924,0.524,5.125,-4.16,identified
+Pythia v1 / PIQA / 5-shot,Pythia v1,,PIQA,5,parameters,6,6,0.489662,0.349965,0.043955,0.489246,0.275,0.1375,0.0637,0.2547,0.0483,0.9914,0.9834,0.555,4.578,-6.02,identified
+Pythia v1 / SciQ,Pythia v1,,SciQ,0,parameters,7,7,0.130667,0.120881,0.105336,0.133605,0.6715,0.3358,0.2695,0.3663,0.0332,0.9988,0.9591,1.404,5.125,17.96,identified
+Pythia v1 / SciQ / 5-shot,Pythia v1,,SciQ,5,parameters,7,7,0.062667,0.061812,0.02934,0.069269,0.9472,0.4736,0.2041,0.5882,0.097,0.9979,0.9689,2.197,5.125,11.75,identified
+Pythia v1 deduped / ARC-Easy,Pythia v1 deduped,,ARC-Easy,0,parameters,8,8,0.389451,0.007206,0.005185,0.28875,0.151,0.0755,0.0746,0.1648,0.0295,0.9954,0.9954,0.745,5.125,-5.6,identified
+Pythia v1 deduped / ARC-Easy / 5-shot,Pythia v1 deduped,,ARC-Easy,5,parameters,8,8,0.379349,0.158726,0.031802,0.313604,0.2272,0.1136,0.0884,0.2271,0.0424,0.9954,0.993,0.773,5.125,-2.24,identified
+Pythia v1 deduped / LAMBADA,Pythia v1 deduped,,LAMBADA,0,parameters,8,8,0.290316,0.231255,0.115531,0.309316,0.4429,0.2214,0.1167,0.3617,0.0595,0.9943,0.9711,1.024,5.125,7.39,identified
+Pythia v1 deduped / LAMBADA / 5-shot,Pythia v1 deduped,,LAMBADA,5,parameters,8,8,0.30914,0.200955,0.054085,0.324783,0.3518,0.1759,0.1137,0.3138,0.0536,0.9927,0.9832,1.03,5.125,1.03,identified
+Pythia v1 deduped / PIQA,Pythia v1 deduped,,PIQA,0,parameters,8,8,0.474428,0.232178,0.016576,0.449636,0.184,0.092,0.0602,0.2486,0.0695,0.9851,0.9821,0.528,5.125,-4.15,identified
+Pythia v1 deduped / PIQA / 5-shot,Pythia v1 deduped,,PIQA,5,parameters,8,8,0.466812,0.326763,0.18044,0.424582,0.2586,0.1293,0.085,0.2195,0.035,0.9946,0.984,0.584,5.125,3.04,identified
+Pythia v1 deduped / SciQ,Pythia v1 deduped,,SciQ,0,parameters,8,7,0.094667,0.081544,0.044246,0.118548,0.5664,0.2832,0.2072,0.4043,0.0493,0.9931,0.9771,1.714,5.125,1.37,identified
+Pythia v1 deduped / SciQ / 5-shot,Pythia v1 deduped,,SciQ,5,parameters,8,8,0.06,0.05994,0.04196,0.071003,0.8926,0.4463,0.2952,0.4794,0.0501,0.9989,0.9734,2.19,5.125,19.9,identified
+BLOOM / ARC-Challenge,BLOOM,,ARC-Challenge,0,parameters,2,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+BLOOM / ARC-Easy,BLOOM,,ARC-Easy,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+BLOOM / LAMBADA,BLOOM,,LAMBADA,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+BLOOM / LogiQA,BLOOM,,LogiQA,0,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+BLOOM / PIQA,BLOOM,,PIQA,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+BLOOM / SciQ,BLOOM,,SciQ,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+BLOOM / WSC,BLOOM,,WSC,0,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+BLOOM / Winogrande,BLOOM,,Winogrande,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+OPT / ARC-Challenge,OPT,,ARC-Challenge,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+OPT / LogiQA,OPT,,LogiQA,0,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+OPT / WSC,OPT,,WSC,0,parameters,4,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / ARC-Challenge,Pythia v0,,ARC-Challenge,0,parameters,3,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / ARC-Challenge / 5-shot,Pythia v0,,ARC-Challenge,5,parameters,4,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / ARC-Easy,Pythia v0,,ARC-Easy,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / ARC-Easy / 5-shot,Pythia v0,,ARC-Easy,5,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / LAMBADA,Pythia v0,,LAMBADA,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / LAMBADA / 5-shot,Pythia v0,,LAMBADA,5,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / LogiQA,Pythia v0,,LogiQA,0,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / LogiQA / 5-shot,Pythia v0,,LogiQA,5,parameters,1,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / PIQA,Pythia v0,,PIQA,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / PIQA / 5-shot,Pythia v0,,PIQA,5,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / SciQ,Pythia v0,,SciQ,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / SciQ / 5-shot,Pythia v0,,SciQ,5,parameters,5,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / WSC,Pythia v0,,WSC,0,parameters,1,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / WSC / 5-shot,Pythia v0,,WSC,5,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / Winogrande,Pythia v0,,Winogrande,0,parameters,4,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 / Winogrande / 5-shot,Pythia v0,,Winogrande,5,parameters,4,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / ARC-Challenge,Pythia v0 deduped,,ARC-Challenge,0,parameters,3,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / ARC-Challenge / 5-shot,Pythia v0 deduped,,ARC-Challenge,5,parameters,4,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / ARC-Easy,Pythia v0 deduped,,ARC-Easy,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / ARC-Easy / 5-shot,Pythia v0 deduped,,ARC-Easy,5,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / LAMBADA,Pythia v0 deduped,,LAMBADA,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / LAMBADA / 5-shot,Pythia v0 deduped,,LAMBADA,5,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / LogiQA,Pythia v0 deduped,,LogiQA,0,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / LogiQA / 5-shot,Pythia v0 deduped,,LogiQA,5,parameters,2,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / PIQA,Pythia v0 deduped,,PIQA,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / PIQA / 5-shot,Pythia v0 deduped,,PIQA,5,parameters,5,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / SciQ,Pythia v0 deduped,,SciQ,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / SciQ / 5-shot,Pythia v0 deduped,,SciQ,5,parameters,5,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / WSC,Pythia v0 deduped,,WSC,0,parameters,2,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / WSC / 5-shot,Pythia v0 deduped,,WSC,5,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / Winogrande,Pythia v0 deduped,,Winogrande,0,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped / Winogrande / 5-shot,Pythia v0 deduped,,Winogrande,5,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 / ARC-Challenge,Pythia v1,,ARC-Challenge,0,parameters,4,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 / ARC-Challenge / 5-shot,Pythia v1,,ARC-Challenge,5,parameters,4,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 / LogiQA,Pythia v1,,LogiQA,0,parameters,1,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 / LogiQA / 5-shot,Pythia v1,,LogiQA,5,parameters,1,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 / WSC,Pythia v1,,WSC,0,parameters,2,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 / WSC / 5-shot,Pythia v1,,WSC,5,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 / Winogrande,Pythia v1,,Winogrande,0,parameters,7,7,0.72139,0.0,,,0.0501,0.025,,,,0.9239,0.9239,0.269,5.125,-7.0,excluded: floor at boundary (degenerate)
+Pythia v1 / Winogrande / 5-shot,Pythia v1,,Winogrande,5,parameters,7,6,0.716654,0.0,,,0.0605,0.0303,,,,0.913,0.913,0.287,5.125,-10.0,excluded: floor at boundary (degenerate)
+Pythia v1 deduped / ARC-Challenge,Pythia v1 deduped,,ARC-Challenge,0,parameters,4,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped / ARC-Challenge / 5-shot,Pythia v1 deduped,,ARC-Challenge,5,parameters,5,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped / LogiQA,Pythia v1 deduped,,LogiQA,0,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped / LogiQA / 5-shot,Pythia v1 deduped,,LogiQA,5,parameters,2,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped / WSC,Pythia v1 deduped,,WSC,0,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped / WSC / 5-shot,Pythia v1 deduped,,WSC,5,parameters,0,0,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped / Winogrande,Pythia v1 deduped,,Winogrande,0,parameters,6,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped / Winogrande / 5-shot,Pythia v1 deduped,,Winogrande,5,parameters,7,7,0.66772,0.0,,,0.0845,0.0422,,,,0.9212,0.9212,0.377,4.29,-7.0,excluded: floor at boundary (degenerate)

@@ -1,0 +1,52 @@
+source,cell,task,group,n,n_front,eps_inf,alpha,lambda_star,boot_lo,boot_hi,boot_se,R2,S_range,x_range,d_aicc,status
+llm-perf-leaderboard,llm-perf | Open LLM | 1xA10,LLM inference,LLM inference,1543,10,0.0,0.0841,0.0421,,,,0.491,0.278,2.077,,excluded: floor at boundary (degenerate)
+llm-perf-leaderboard,llm-perf | Open LLM | 1xA100,LLM inference,LLM inference,284,7,0.32904,0.145,0.0725,0.0315,0.7943,0.206,0.8744,0.306,3.887,-6.91,identified
+llm-perf-leaderboard,llm-perf | Open LLM | 1xT4,LLM inference,LLM inference,881,9,0.0,0.0829,0.0415,,,,0.5515,0.278,2.159,,excluded: floor at boundary (degenerate)
+llm-perf-leaderboard,llm-perf | Open LLM | 32vCPU-C7i,LLM inference,LLM inference,260,7,0.0,0.0517,0.0259,,,,0.5047,0.278,2.936,,excluded: floor at boundary (degenerate)
+mai,MAI2021-SR-CPU,Super-resolution,Primary vision inference,7,3,,,,,,,,,,,excluded: front shorter than six points
+mai,MAI2021-SR-NPU,Super-resolution,Primary vision inference,10,1,,,,,,,,,,,excluded: front shorter than six points
+mai,MAI2022-SR-CPU,Super-resolution,Primary vision inference,25,5,,,,,,,,,,,excluded: front shorter than six points
+mai,MAI2022-SR-NPU,Super-resolution,Primary vision inference,25,5,,,,,,,,,,,excluded: front shorter than six points
+mmdet,mmdet | COCO | V100,Instance segmentation,Extended cross-domain,58,9,0.57919,1.0822,0.5411,0.0181,1.1465,0.2538,0.9629,0.135,1.959,5.2,identified
+mmdet,mmdet | COCO | V100,Object detection,Extended cross-domain,160,12,0.33624,0.4182,0.2091,0.0878,0.8525,0.2137,0.9422,0.416,1.877,-3.15,identified
+mmseg,mmseg | ADE20K | 1080 Ti,Semantic segmentation,Extended cross-domain,1,1,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | ADE20K | A100,Semantic segmentation,Extended cross-domain,11,9,0.4043,0.776,0.388,0.0674,0.9684,0.2387,0.958,0.285,1.783,-1.3,identified
+mmseg,mmseg | ADE20K | TITAN Xp,Semantic segmentation,Extended cross-domain,2,2,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | ADE20K | V100,Semantic segmentation,Extended cross-domain,114,19,0.43626,1.0777,0.5389,0.3173,0.8245,0.143,0.9212,0.609,4.206,20.51,identified
+mmseg,mmseg | COCO-Stuff 10k | V100,Semantic segmentation,Extended cross-domain,4,3,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | COCO-Stuff 164k | V100,Semantic segmentation,Extended cross-domain,7,6,0.55555,0.7241,0.362,0.2512,1.0983,0.3076,0.9895,0.189,2.144,0.37,identified
+mmseg,mmseg | Cityscapes | A100,Semantic segmentation,Extended cross-domain,12,8,0.16334,0.7182,0.3591,0.0297,2.3031,0.5794,0.8595,0.304,3.402,-4.81,identified
+mmseg,mmseg | Cityscapes | TITAN Xp,Semantic segmentation,Extended cross-domain,12,3,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | Cityscapes | V100,Semantic segmentation,Extended cross-domain,156,12,0.14032,0.3983,0.1991,0.0849,0.5309,0.1045,0.9606,0.492,3.704,0.85,identified
+mmseg,mmseg | HRNet backbone | A100,Semantic segmentation,Extended cross-domain,1,1,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | HRNet backbone | V100,Semantic segmentation,Extended cross-domain,2,2,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | LoveDA | V100,Semantic segmentation,Extended cross-domain,9,5,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | Mapillary Vistas v1.2 | A100,Semantic segmentation,Extended cross-domain,1,1,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | Pascal Context | V100,Semantic segmentation,Extended cross-domain,5,3,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | Pascal VOC 2012 + Aug | V100,Semantic segmentation,Extended cross-domain,30,7,0.20348,2.2215,1.1108,0.7252,2.242,0.4764,0.9879,0.482,1.486,10.62,identified
+mmseg,mmseg | Potsdam | V100,Semantic segmentation,Extended cross-domain,9,6,0.0,0.0478,0.0239,,,,0.9477,0.073,1.578,,excluded: floor at boundary (degenerate)
+mmseg,mmseg | ResNet backbone | V100,Semantic segmentation,Extended cross-domain,1,1,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | Vaihingen | V100,Semantic segmentation,Extended cross-domain,9,3,,,,,,,,,,,excluded: front shorter than six points
+mmseg,mmseg | iSAID | V100,Semantic segmentation,Extended cross-domain,7,6,0.0,0.1449,0.0725,,,,0.9094,0.211,1.299,,excluded: floor at boundary (degenerate)
+open-asr-leaderboard,"open-asr | English, long-form | leaderboard GPU",Speech recognition,Extended cross-domain,23,6,0.09723,2.9104,1.4552,0.1659,2.2074,0.5956,0.9253,0.793,2.582,-2.37,identified
+open-asr-leaderboard,"open-asr | English, short-form | leaderboard GPU",Speech recognition,Extended cross-domain,76,4,,,,,,,,,,,excluded: front shorter than six points
+open-asr-leaderboard,open-asr | Multilingual | leaderboard GPU,Speech recognition,Extended cross-domain,27,4,,,,,,,,,,,excluded: front shorter than six points
+timm,timm | CPU i7-12700H | PyTorch 2.4.0 compile | fp32,Image classification,Primary vision inference,1091,41,0.09944,0.6546,0.3273,0.2588,0.3968,0.0318,0.9652,1.695,7.703,58.12,identified
+timm,timm | CPU i9-10940X | PyTorch 2.4.0 compile | fp32,Image classification,Primary vision inference,1086,36,0.09944,0.9506,0.4753,0.3812,0.547,0.0352,0.9822,1.781,5.979,70.06,identified
+timm,timm | RTX 3090 | PyTorch 2.4.0 eager | amp-fp16,Image classification,Primary vision inference,1091,37,0.09944,0.6569,0.3284,0.311,0.372,0.0166,0.986,1.781,7.486,62.46,identified
+timm,timm | RTX 4090 | PyTorch 2.9.1 compile | amp-fp16,Image classification,Primary vision inference,1191,40,0.09944,0.6879,0.344,0.3121,0.4316,0.03,0.9693,1.781,7.521,40.93,identified
+timm,timm | RTX 4090 | PyTorch 2.9.1 eager | amp-fp16,Image classification,Primary vision inference,1193,33,0.09944,0.6876,0.3438,0.3117,0.432,0.0314,0.9665,1.781,7.546,33.56,identified
+timm,timm | RTX 5090 | PyTorch 2.9.1 compile | amp-fp16,Image classification,Primary vision inference,1193,42,0.09944,0.7172,0.3586,0.3337,0.4098,0.02,0.9827,1.781,7.619,66.08,identified
+timm,timm | RTX 5090 | PyTorch 2.9.1 eager | amp-fp16,Image classification,Primary vision inference,1193,34,0.09944,0.6876,0.3438,0.3175,0.4089,0.0232,0.9789,1.781,7.662,50.08,identified
+timm,timm | RTX Pro 6000 | PyTorch 2.9.1 compile | bf16,Image classification,Primary vision inference,1187,36,0.09347,0.5378,0.2689,0.2408,0.3585,0.0294,0.9693,1.781,7.929,29.05,identified
+timm,timm | RTX Pro 6000 | PyTorch 2.9.1 eager | amp-fp16,Image classification,Primary vision inference,1193,36,0.09806,0.6478,0.3239,0.2932,0.4035,0.0279,0.9727,1.781,7.567,38.83,identified
+ultralytics,ultralytics | CPU ONNX | ONNX Runtime,Image classification,Primary vision inference,10,5,,,,,,,,,,,excluded: front shorter than six points
+ultralytics,ultralytics | CPU ONNX | ONNX Runtime,Instance segmentation,Primary vision inference,10,5,,,,,,,,,,,excluded: front shorter than six points
+ultralytics,ultralytics | CPU ONNX | ONNX Runtime,Object detection,Primary vision inference,20,7,0.43157,1.0523,0.5262,0.3941,0.6593,0.0827,0.9949,0.337,3.771,18.88,identified
+ultralytics,ultralytics | CPU ONNX | ONNX Runtime,Oriented detection,Primary vision inference,10,6,0.18071,0.719,0.3595,0.1771,0.6418,0.1304,0.9934,0.147,2.705,3.77,identified
+ultralytics,ultralytics | CPU ONNX | ONNX Runtime,Pose estimation,Primary vision inference,11,6,0.27891,0.889,0.4445,0.276,0.5534,0.052,0.9983,0.566,4.357,18.07,identified
+ultralytics,ultralytics | NVIDIA T4 | TensorRT10,Image classification,Primary vision inference,5,5,,,,,,,,,,,excluded: front shorter than six points
+ultralytics,ultralytics | NVIDIA T4 | TensorRT10,Instance segmentation,Primary vision inference,5,5,,,,,,,,,,,excluded: front shorter than six points
+ultralytics,ultralytics | NVIDIA T4 | TensorRT10,Object detection,Primary vision inference,5,5,,,,,,,,,,,excluded: front shorter than six points
+ultralytics,ultralytics | NVIDIA T4 | TensorRT10,Oriented detection,Primary vision inference,5,5,,,,,,,,,,,excluded: front shorter than six points
+ultralytics,ultralytics | NVIDIA T4 | TensorRT10,Pose estimation,Primary vision inference,5,5,,,,,,,,,,,excluded: front shorter than six points

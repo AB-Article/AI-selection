@@ -1,0 +1,160 @@
+{
+  "train_records_total": 971551,
+  "train_records_bounded": 951389,
+  "n_curves": 73136,
+  "n_growing": 58647,
+  "beta_median": 0.3989110244515835,
+  "beta_iqr": [
+    0.10811953898307886,
+    0.8267884949205575
+  ],
+  "beta_frac_lt1": 0.8195280026252462,
+  "beta_frac_le0": 0.1258614088820827,
+  "cmp": {
+    "n": 73136,
+    "pow_wins_holdout": 0.317422336469044,
+    "mae_pow_med": 0.01897898608595633,
+    "mae_log_med": 0.013827845522479064,
+    "wilcoxon_p": 0.0,
+    "pow_wins_insample": 0.3470930868518924,
+    "r2_pow_med": 0.8980715707491688,
+    "r2_log_med": 0.9369853020463359,
+    "grow_pow_wins_insample": 0.39947482394666395,
+    "grow_pow_wins_holdout": 0.36661721827203436
+  },
+  "xdataset": {
+    "n_models": 1308,
+    "within_model_sd": 0.4272594046354967,
+    "across_model_sd": 0.26043036844877293,
+    "medians": {
+      "celeba-gender": 0.0476,
+      "cifar-10": 0.4772,
+      "cifar-100": 0.9514,
+      "imagenette": 0.6607,
+      "mnist": 0.2724,
+      "places365": 0.6229,
+      "svhn": 0.0
+    },
+    "n": {
+      "celeba-gender": 8158,
+      "cifar-10": 14910,
+      "cifar-100": 10552,
+      "imagenette": 9768,
+      "mnist": 12363,
+      "places365": 1084,
+      "svhn": 13491
+    }
+  },
+  "xhyper": {
+    "n_cells": 10636,
+    "within_sd": 0.36864915216332517,
+    "between_sd": 0.41498514679651893
+  },
+  "by_task": {
+    "img-captioning_coco_bleu4": {
+      "n": 825,
+      "beta": 0.0,
+      "pow_wins": 0.3394,
+      "r2_pow": 0.193,
+      "r2_log": 0.2579
+    },
+    "img-classification_celeba-gender_acc": {
+      "n": 8158,
+      "beta": 0.0476,
+      "pow_wins": 0.1834,
+      "r2_pow": 0.9587,
+      "r2_log": 0.9674
+    },
+    "img-classification_cifar-10_acc": {
+      "n": 14910,
+      "beta": 0.4772,
+      "pow_wins": 0.3856,
+      "r2_pow": 0.9497,
+      "r2_log": 0.962
+    },
+    "img-classification_cifar-100_acc": {
+      "n": 10552,
+      "beta": 0.9514,
+      "pow_wins": 0.4179,
+      "r2_pow": 0.9536,
+      "r2_log": 0.9541
+    },
+    "img-classification_imagenette_acc": {
+      "n": 9768,
+      "beta": 0.6607,
+      "pow_wins": 0.4564,
+      "r2_pow": 0.9298,
+      "r2_log": 0.9344
+    },
+    "img-classification_mnist_acc": {
+      "n": 12363,
+      "beta": 0.2724,
+      "pow_wins": 0.2706,
+      "r2_pow": 0.8702,
+      "r2_log": 0.9199
+    },
+    "img-classification_places365_acc": {
+      "n": 1084,
+      "beta": 0.6229,
+      "pow_wins": 0.2343,
+      "r2_pow": 0.9369,
+      "r2_log": 0.9677
+    },
+    "img-classification_svhn_acc": {
+      "n": 13491,
+      "beta": 0.0,
+      "pow_wins": 0.18,
+      "r2_pow": 0.0516,
+      "r2_log": 0.8048
+    },
+    "img-segmentation_coco_iou": {
+      "n": 1496,
+      "beta": 0.1307,
+      "pow_wins": 0.4418,
+      "r2_pow": 0.7337,
+      "r2_log": 0.7574
+    },
+    "obj-detection_coco_map": {
+      "n": 245,
+      "beta": 0.3317,
+      "pow_wins": 0.2408,
+      "r2_pow": 0.7079,
+      "r2_log": 0.7841
+    },
+    "txt-generation_wikitext_acc": {
+      "n": 121,
+      "beta": 0.1246,
+      "pow_wins": 0.2479,
+      "r2_pow": 0.9443,
+      "r2_log": 0.9614
+    },
+    "txt-image_coco_clip": {
+      "n": 123,
+      "beta": 0.0032,
+      "pow_wins": 0.3496,
+      "r2_pow": 0.2836,
+      "r2_log": 0.267
+    }
+  },
+  "infer_records_total": 58131,
+  "infer_joined": 21144,
+  "frontier": {
+    "n_cells": 10,
+    "beta_median": 0.021596954569412644,
+    "beta_min": -0.006337627380725479,
+    "beta_max": 0.1726756642549475,
+    "beta_sd": 0.06668478598843218,
+    "pow_wins_r2": 5,
+    "pow_wins_holdout": 2,
+    "r2_pow_med": 0.12795265999679745,
+    "r2_log_med": 0.11595146737421969,
+    "n_cells_r2_below_02": 6
+  },
+  "xdevice": {
+    "n_cells": 10,
+    "median_rho": 0.7105378514813644,
+    "min_rho": -0.025613460114745683,
+    "max_rho": 0.969332781147717,
+    "tflite_median_rho": 0.7626337332824076
+  }
+}

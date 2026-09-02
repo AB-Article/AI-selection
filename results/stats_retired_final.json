@@ -1,0 +1,749 @@
+{
+ "n_ladders": 283,
+ "n_series": 61,
+ "by_task": {
+  "ARC-Challenge": {
+   "n": 27,
+   "identified": 10,
+   "eps_min": 0.896473,
+   "S_max": 0.10928710351262082,
+   "d_aicc": -4.8,
+   "saturating": 0,
+   "n_aicc": 27,
+   "R2": 0.9631,
+   "ceiling": null
+  },
+  "ARC-Easy": {
+   "n": 56,
+   "identified": 34,
+   "eps_min": 0.4764305,
+   "S_max": 0.7414341162174519,
+   "d_aicc": -2.705,
+   "saturating": 22,
+   "n_aicc": 56,
+   "R2": 0.9921,
+   "ceiling": null
+  },
+  "LAMBADA": {
+   "n": 55,
+   "identified": 54,
+   "eps_min": 0.379585,
+   "S_max": 0.9686767283063548,
+   "d_aicc": 7.33,
+   "saturating": 43,
+   "n_aicc": 55,
+   "R2": 0.9949,
+   "ceiling": null
+  },
+  "PIQA": {
+   "n": 51,
+   "identified": 35,
+   "eps_min": 0.51469,
+   "S_max": 0.6641905013056416,
+   "d_aicc": -2.1,
+   "saturating": 21,
+   "n_aicc": 51,
+   "R2": 0.9867,
+   "ceiling": 0.10000000000000009
+  },
+  "SciQ": {
+   "n": 55,
+   "identified": 51,
+   "eps_min": 0.129333,
+   "S_max": 2.045364805349882,
+   "d_aicc": 6.01,
+   "saturating": 41,
+   "n_aicc": 55,
+   "R2": 0.9953,
+   "ceiling": null
+  },
+  "Winogrande": {
+   "n": 39,
+   "identified": 4,
+   "eps_min": 0.754538,
+   "S_max": 0.2816496375626933,
+   "d_aicc": -4.8,
+   "saturating": 0,
+   "n_aicc": 39,
+   "R2": 0.88,
+   "ceiling": 0.1200000000000001
+  }
+ },
+ "rho": {
+  "S_max_daicc": [
+   0.6256910159056444,
+   0.5377127924494304,
+   0.7131199031884285,
+   0.0
+  ],
+  "S_max_identified": [
+   0.5185157029373447,
+   0.43705890804171554,
+   0.5920536680573931,
+   0.0
+  ],
+  "front_daicc": [
+   0.4393675181435657,
+   0.332845900561115,
+   0.5312434572582752,
+   0.0
+  ],
+  "span_daicc": [
+   0.6225010213328773,
+   0.5299302904810874,
+   0.7057225037804469,
+   0.0
+  ],
+  "across_benchmarks": [
+   -0.8696565534786727,
+   0.02437689168569078
+  ]
+ },
+ "anchor": {
+  "n": 39,
+  "violations": 0,
+  "expected": 7.297646924129048,
+  "p_left": 0.0003034537062004343,
+  "rows": [
+   {
+    "label": "OPT / PIQA",
+    "task": "PIQA",
+    "resource": "parameters",
+    "eps_inf": 0.306049,
+    "eps_min": 0.424374,
+    "eps_c": 0.10000000000000009,
+    "A": 0.23564120327824065,
+    "respects": true,
+    "lo": 0.08393105386792439,
+    "hi": 0.4194289833534454,
+    "covers": true
+   },
+   {
+    "label": "OPT / Winogrande",
+    "task": "Winogrande",
+    "resource": "parameters",
+    "eps_inf": 0.348564,
+    "eps_min": 0.625098,
+    "eps_c": 0.1200000000000001,
+    "A": 0.19196989911981818,
+    "respects": true,
+    "lo": 0.05193940583986767,
+    "hi": 0.5749046414136837,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 / PIQA",
+    "task": "PIQA",
+    "resource": "parameters",
+    "eps_inf": 0.243814,
+    "eps_min": 0.47987,
+    "eps_c": 0.10000000000000009,
+    "A": 0.20838977222997912,
+    "respects": true,
+    "lo": 0.07435954707965292,
+    "hi": 0.44452587710883285,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "parameters",
+    "eps_inf": 0.349965,
+    "eps_min": 0.489662,
+    "eps_c": 0.10000000000000009,
+    "A": 0.20422250450310642,
+    "respects": true,
+    "lo": 0.043954663376437574,
+    "hi": 0.489245713500979,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 deduped / PIQA",
+    "task": "PIQA",
+    "resource": "parameters",
+    "eps_inf": 0.232178,
+    "eps_min": 0.474428,
+    "eps_c": 0.10000000000000009,
+    "A": 0.21078013945214044,
+    "respects": true,
+    "lo": 0.016576224084303197,
+    "hi": 0.4496358500226942,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 deduped / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "parameters",
+    "eps_inf": 0.326763,
+    "eps_min": 0.466812,
+    "eps_c": 0.10000000000000009,
+    "A": 0.21421900036845687,
+    "respects": true,
+    "lo": 0.18043972402667502,
+    "hi": 0.42458208131155434,
+    "covers": false
+   },
+   {
+    "label": "Pythia v0 deduped pythia-1.4b / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.360208,
+    "eps_min": 0.547334,
+    "eps_c": 0.10000000000000009,
+    "A": 0.1827037969503084,
+    "respects": true,
+    "lo": 2.4930030003407046e-06,
+    "hi": 0.44612210536307495,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 deduped pythia-12b / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.318976,
+    "eps_min": 0.471164,
+    "eps_c": 0.10000000000000009,
+    "A": 0.21224032396363068,
+    "respects": true,
+    "lo": 0.12862253935893328,
+    "hi": 0.416713137370872,
+    "covers": false
+   },
+   {
+    "label": "Pythia v0 deduped pythia-12b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.293487,
+    "eps_min": 0.461372,
+    "eps_c": 0.10000000000000009,
+    "A": 0.21674483930537633,
+    "respects": true,
+    "lo": 0.03139104736570213,
+    "hi": 0.435970838669736,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 deduped pythia-1b / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.484228,
+    "eps_min": 0.57889,
+    "eps_c": 0.10000000000000009,
+    "A": 0.17274439012593082,
+    "respects": true,
+    "lo": 7.3060043925367214e-06,
+    "hi": 0.5550696061247176,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 deduped pythia-1b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.249076,
+    "eps_min": 0.56148,
+    "eps_c": 0.10000000000000009,
+    "A": 0.1781007337750233,
+    "respects": true,
+    "lo": 2.7139089687632367e-06,
+    "hi": 0.5062239143584005,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 deduped pythia-2.8b / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.184167,
+    "eps_min": 0.504896,
+    "eps_c": 0.10000000000000009,
+    "A": 0.19806059069590587,
+    "respects": true,
+    "lo": 0.037735299349640844,
+    "hi": 0.47331887975617387,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 deduped pythia-2.8b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.325169,
+    "eps_min": 0.487486,
+    "eps_c": 0.10000000000000009,
+    "A": 0.2051340961586591,
+    "respects": true,
+    "lo": 8.340896398518187e-05,
+    "hi": 0.47276753926954157,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 deduped pythia-410m / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.545615,
+    "eps_min": 0.639826,
+    "eps_c": 0.10000000000000009,
+    "A": 0.1562924920212684,
+    "respects": true,
+    "lo": 4.255819481204473e-06,
+    "hi": 0.6160751518431749,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 deduped pythia-6.9b / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.287687,
+    "eps_min": 0.489662,
+    "eps_c": 0.10000000000000009,
+    "A": 0.20422250450310642,
+    "respects": true,
+    "lo": 0.09919525659958878,
+    "hi": 0.47376824288319136,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 deduped pythia-6.9b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.15349,
+    "eps_min": 0.4679,
+    "eps_c": 0.10000000000000009,
+    "A": 0.21372088053002797,
+    "respects": true,
+    "lo": 0.015501061318353092,
+    "hi": 0.449070265518702,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 pythia-1.4b / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.474805,
+    "eps_min": 0.575626,
+    "eps_c": 0.10000000000000009,
+    "A": 0.17372391101166398,
+    "respects": true,
+    "lo": 0.37231033229577687,
+    "hi": 0.564767819773113,
+    "covers": false
+   },
+   {
+    "label": "Pythia v0 pythia-12b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.195239,
+    "eps_min": 0.474428,
+    "eps_c": 0.10000000000000009,
+    "A": 0.21078013945214044,
+    "respects": true,
+    "lo": 0.029212263853331918,
+    "hi": 0.39834247466336764,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 pythia-160m / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.649361,
+    "eps_min": 0.727966,
+    "eps_c": 0.10000000000000009,
+    "A": 0.13736905295027527,
+    "respects": true,
+    "lo": 2.0407837865133272e-06,
+    "hi": 0.7408962406998161,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 pythia-1b / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.462627,
+    "eps_min": 0.57889,
+    "eps_c": 0.10000000000000009,
+    "A": 0.17274439012593082,
+    "respects": true,
+    "lo": 7.473294063261127e-06,
+    "hi": 0.5163173194282269,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 pythia-1b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.454982,
+    "eps_min": 0.583242,
+    "eps_c": 0.10000000000000009,
+    "A": 0.17145541644806114,
+    "respects": true,
+    "lo": 8.249245446204477e-06,
+    "hi": 0.557704064842961,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 pythia-2.8b / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.339091,
+    "eps_min": 0.522306,
+    "eps_c": 0.10000000000000009,
+    "A": 0.1914586468468677,
+    "respects": true,
+    "lo": 0.15073862337414978,
+    "hi": 0.45838708844699977,
+    "covers": false
+   },
+   {
+    "label": "Pythia v0 pythia-2.8b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.38907,
+    "eps_min": 0.51469,
+    "eps_c": 0.10000000000000009,
+    "A": 0.1942917095727527,
+    "respects": true,
+    "lo": 2.6510915224501026e-06,
+    "hi": 0.4709254778263673,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 pythia-410m / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.587918,
+    "eps_min": 0.650708,
+    "eps_c": 0.10000000000000009,
+    "A": 0.1536787622097778,
+    "respects": true,
+    "lo": 3.0299199614168214e-06,
+    "hi": 0.6298010778490408,
+    "covers": true
+   },
+   {
+    "label": "Pythia v0 pythia-6.9b / PIQA",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.420795,
+    "eps_min": 0.50925,
+    "eps_c": 0.10000000000000009,
+    "A": 0.19636720667648522,
+    "respects": true,
+    "lo": 0.157667356260362,
+    "hi": 0.5030218099214462,
+    "covers": false
+   },
+   {
+    "label": "Pythia v0 pythia-6.9b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.247566,
+    "eps_min": 0.489662,
+    "eps_c": 0.10000000000000009,
+    "A": 0.20422250450310642,
+    "respects": true,
+    "lo": 0.0002698542510777429,
+    "hi": 0.4612882837982125,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 deduped pythia-1.4b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.15252,
+    "eps_min": 0.541894,
+    "eps_c": 0.10000000000000009,
+    "A": 0.18453793546339337,
+    "respects": true,
+    "lo": 3.450418759695462e-06,
+    "hi": 0.4848133782722376,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 deduped pythia-12b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.218684,
+    "eps_min": 0.461372,
+    "eps_c": 0.10000000000000009,
+    "A": 0.21674483930537633,
+    "respects": true,
+    "lo": 0.03968680699650707,
+    "hi": 0.4253299393762422,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 deduped pythia-1b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.534595,
+    "eps_min": 0.59086,
+    "eps_c": 0.10000000000000009,
+    "A": 0.16924482957045675,
+    "respects": true,
+    "lo": 0.07871540052716075,
+    "hi": 0.586138909827098,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 deduped pythia-2.8b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.400811,
+    "eps_min": 0.524484,
+    "eps_c": 0.10000000000000009,
+    "A": 0.1906635855431245,
+    "respects": true,
+    "lo": 5.126293239875037e-06,
+    "hi": 0.4722019087815192,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 deduped pythia-410m / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.599591,
+    "eps_min": 0.633298,
+    "eps_c": 0.10000000000000009,
+    "A": 0.15790354619784064,
+    "respects": true,
+    "lo": 0.2569343571093731,
+    "hi": 0.6503083676024142,
+    "covers": false
+   },
+   {
+    "label": "Pythia v1 deduped pythia-410m / Winogrande",
+    "task": "Winogrande",
+    "resource": "training tokens",
+    "eps_inf": 0.62156,
+    "eps_min": 0.932912,
+    "eps_c": 0.1200000000000001,
+    "A": 0.12862949560087136,
+    "respects": true,
+    "lo": 0.5218890584797986,
+    "hi": 0.9540569879999998,
+    "covers": false
+   },
+   {
+    "label": "Pythia v1 deduped pythia-6.9b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.320214,
+    "eps_min": 0.484222,
+    "eps_c": 0.10000000000000009,
+    "A": 0.20651684557909408,
+    "respects": true,
+    "lo": 7.32466304339214e-06,
+    "hi": 0.40283225920187476,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 pythia-1.4b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.516905,
+    "eps_min": 0.581066,
+    "eps_c": 0.10000000000000009,
+    "A": 0.17209748978601414,
+    "respects": true,
+    "lo": 0.0002665478511230721,
+    "hi": 0.5826587579999999,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 pythia-12b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.366071,
+    "eps_min": 0.47987,
+    "eps_c": 0.10000000000000009,
+    "A": 0.20838977222997912,
+    "respects": true,
+    "lo": 4.5707883797984165e-06,
+    "hi": 0.44595025851988174,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 pythia-2.8b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.361377,
+    "eps_min": 0.52666,
+    "eps_c": 0.10000000000000009,
+    "A": 0.1898758212129269,
+    "respects": true,
+    "lo": 2.9498593822543942e-06,
+    "hi": 0.48348701530449073,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 pythia-410m / Winogrande",
+    "task": "Winogrande",
+    "resource": "training tokens",
+    "eps_inf": 0.538931,
+    "eps_min": 0.926598,
+    "eps_c": 0.1200000000000001,
+    "A": 0.1295059993654207,
+    "respects": true,
+    "lo": 0.0009692394803330191,
+    "hi": 0.6961431389030569,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 pythia-6.9b / PIQA / 5-shot",
+    "task": "PIQA",
+    "resource": "training tokens",
+    "eps_inf": 0.37338,
+    "eps_min": 0.487486,
+    "eps_c": 0.10000000000000009,
+    "A": 0.2051340961586591,
+    "respects": true,
+    "lo": 2.1186920094028054e-05,
+    "hi": 0.40922176179407815,
+    "covers": true
+   },
+   {
+    "label": "Pythia v1 pythia-70m / Winogrande",
+    "task": "Winogrande",
+    "resource": "training tokens",
+    "eps_inf": 0.512126,
+    "eps_min": 0.943962,
+    "eps_c": 0.1200000000000001,
+    "A": 0.12712376133785058,
+    "respects": true,
+    "lo": 0.3617064938940188,
+    "hi": 0.7057813827881004,
+    "covers": false
+   }
+  ],
+  "covers": 31
+ },
+ "censoring": {
+  "n_llm": 111,
+  "n_primary": 11,
+  "bins": [
+   {
+    "lo": 0.3,
+    "hi": 0.5,
+    "LLM ladder": [
+     0.9333333333333333,
+     30
+    ],
+    "primary cell": null
+   },
+   {
+    "lo": 0.5,
+    "hi": 0.7,
+    "LLM ladder": [
+     0.9333333333333333,
+     165
+    ],
+    "primary cell": null
+   },
+   {
+    "lo": 0.7,
+    "hi": 1.0,
+    "LLM ladder": [
+     0.972318339100346,
+     289
+    ],
+    "primary cell": [
+     0.0,
+     7
+    ]
+   },
+   {
+    "lo": 1.0,
+    "hi": 1.5,
+    "LLM ladder": [
+     0.9859154929577465,
+     142
+    ],
+    "primary cell": [
+     0.10666666666666667,
+     75
+    ]
+   },
+   {
+    "lo": 1.5,
+    "hi": 10,
+    "LLM ladder": [
+     0.96,
+     100
+    ],
+    "primary cell": [
+     0.8709677419354839,
+     217
+    ]
+   }
+  ],
+  "median_gap": 0.48414054217779795
+ },
+ "pooled": {
+  "ladder": {
+   "k": 105,
+   "mu": 0.23300178471884472,
+   "se": 0.008522195618819346,
+   "tau": 0.05046537233803197,
+   "I2": 46.75355870708983,
+   "Q_p": 1.5253750351718054e-07,
+   "ci": [
+    0.2162982813059588,
+    0.24970528813173065
+   ],
+   "pi": [
+    0.1314985345906562,
+    0.33450503484703326
+   ]
+  },
+  "two_stage": {
+   "k": 10,
+   "mu": 0.23689136539219757,
+   "se": 0.02387229456367337,
+   "tau": 0.06865557962222911,
+   "I2": 93.95715632466613,
+   "Q_p": 0.0,
+   "ci": [
+    0.19010166804739775,
+    0.2836810627369974
+   ],
+   "pi": [
+    0.06927365166933014,
+    0.404509079115065
+   ]
+  },
+  "by_task": {
+   "SciQ": {
+    "k": 51,
+    "mu": 0.3377579868873372,
+    "se": 0.011930290385448367,
+    "tau": 0.0,
+    "I2": 0.0,
+    "Q_p": 0.8322528563092505,
+    "ci": [
+     0.31437461773185843,
+     0.361141356042816
+    ],
+    "pi": [
+     0.31378317075697915,
+     0.3617328030176953
+    ]
+   },
+   "LAMBADA": {
+    "k": 54,
+    "mu": 0.18465306917047902,
+    "se": 0.005776617661079654,
+    "tau": 0.0,
+    "I2": 0.0,
+    "Q_p": 0.9999637174506303,
+    "ci": [
+     0.1733308985547629,
+     0.19597523978619513
+    ],
+    "pi": [
+     0.1730614377968106,
+     0.19624470054414744
+    ]
+   }
+  },
+  "n_below_half": 65,
+  "n": 105
+ }
+}

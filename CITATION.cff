@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: >-
+  If you use this archive, please cite both the article and the archive.
+title: >-
+  The price of computation: every saturating frontier fixes its own exchange rate
+  in AI model selection — reproducibility archive
+abstract: >-
+  Data and analysis code reproducing every number, table and figure in the
+  article. The archive contains seven measurement corpora spanning image
+  classification, object detection, semantic segmentation, speech recognition
+  and language-model inference, together with the analysis pipeline that fits
+  the quality-resource frontiers, estimates the canonical price, and runs the
+  decision, transfer and robustness experiments.
+type: dataset
+authors:
+  - family-names: Ignatov
+    given-names: Dmitry
+    affiliation: >-
+      Computer Vision Lab, CAIDAS & IFI, University of Würzburg, Germany
+version: 1.0.0
+date-released: '2026-09-02'
+license: MIT
+license-url: https://opensource.org/licenses/MIT
+keywords:
+  - model selection
+  - multicriteria decision making
+  - convex duality
+  - Pareto frontier
+  - scaling laws
+  - reproducibility
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.XXXXXXX
+    description: Archived snapshot of this release
+preferred-citation:
+  type: article
+  title: >-
+    The price of computation: a convex duality for the quality-cost trade-off
+    in AI model selection
+  authors:
+    - family-names: Ignatov
+      given-names: Dmitry
+      affiliation: >-
+        Computer Vision Lab, CAIDAS & IFI, University of Würzburg, Germany
+  journal: Information Sciences
+  year: 2026

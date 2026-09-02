@@ -1,0 +1,29 @@
+task,dataset,metric,chance,model,quantisation,score,tpot_ms,joules_per_token
+Knowledge and reasoning,MMLU,Accuracy,0.25,Gemma-2-9B,FP16,0.714,47.6,4.65
+Knowledge and reasoning,MMLU,Accuracy,0.25,Gemma-2-27B,INT4,0.742,125.5,12.71
+Knowledge and reasoning,MMLU,Accuracy,0.25,Mistral-7B,FP16,0.574,89.6,9.03
+Knowledge and reasoning,MMLU,Accuracy,0.25,Mistral-24B,INT4,0.574,110.5,10.44
+Knowledge and reasoning,MMLU,Accuracy,0.25,Qwen2.5-7B,FP16,0.688,189.7,17.86
+Knowledge and reasoning,MMLU,Accuracy,0.25,Qwen2.5-14B,INT8,0.769,266.2,26.14
+Knowledge and reasoning,MMLU,Accuracy,0.25,Qwen2.5-32B,INT4,0.794,336.9,32.93
+Extractive QA,SQuAD v2,F1,0.0,Gemma-2-9B,FP16,0.903,36.5,4.12
+Extractive QA,SQuAD v2,F1,0.0,Gemma-2-27B,INT4,0.907,78.1,9.03
+Extractive QA,SQuAD v2,F1,0.0,Mistral-7B,FP16,0.847,35.4,4.23
+Extractive QA,SQuAD v2,F1,0.0,Mistral-24B,INT4,0.916,58.8,6.82
+Extractive QA,SQuAD v2,F1,0.0,Qwen2.5-7B,FP16,0.871,57.4,6.32
+Extractive QA,SQuAD v2,F1,0.0,Qwen2.5-14B,INT8,0.885,98.5,11.24
+Extractive QA,SQuAD v2,F1,0.0,Qwen2.5-32B,INT4,0.889,128.2,14.34
+Summarisation,CNN/DailyMail,ROUGE-L,0.0,Gemma-2-9B,FP16,0.380,16.3,1.75
+Summarisation,CNN/DailyMail,ROUGE-L,0.0,Gemma-2-27B,INT4,0.395,18.2,2.09
+Summarisation,CNN/DailyMail,ROUGE-L,0.0,Mistral-7B,FP16,0.384,7.0,0.81
+Summarisation,CNN/DailyMail,ROUGE-L,0.0,Mistral-24B,INT4,0.396,14.9,1.75
+Summarisation,CNN/DailyMail,ROUGE-L,0.0,Qwen2.5-7B,FP16,0.231,7.2,0.82
+Summarisation,CNN/DailyMail,ROUGE-L,0.0,Qwen2.5-14B,INT8,0.370,11.7,1.35
+Summarisation,CNN/DailyMail,ROUGE-L,0.0,Qwen2.5-32B,INT4,0.378,32.5,3.68
+Text-to-SQL,Spider,Execution accuracy,0.0,Gemma-2-9B,FP16,0.616,14.0,1.61
+Text-to-SQL,Spider,Execution accuracy,0.0,Gemma-2-27B,INT4,0.657,20.0,2.30
+Text-to-SQL,Spider,Execution accuracy,0.0,Mistral-7B,FP16,0.335,22.8,2.78
+Text-to-SQL,Spider,Execution accuracy,0.0,Mistral-24B,INT4,0.528,26.2,3.02
+Text-to-SQL,Spider,Execution accuracy,0.0,Qwen2.5-7B,FP16,0.565,8.7,0.96
+Text-to-SQL,Spider,Execution accuracy,0.0,Qwen2.5-14B,INT8,0.550,21.1,2.38
+Text-to-SQL,Spider,Execution accuracy,0.0,Qwen2.5-32B,INT4,0.681,24.4,2.75

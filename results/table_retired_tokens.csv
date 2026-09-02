@@ -1,0 +1,338 @@
+label,suite,model,task,shots,resource,n_sizes,n_front,eps_min,eps_inf,floor_lo,floor_hi,alpha,lambda_star,boot_lo,boot_hi,boot_se,R2,R2_power,S_range,x_range,d_aicc,status
+Pythia v0 deduped pythia-1.4b / ARC-Easy,Pythia v0 deduped,pythia-1.4b,ARC-Easy,0,training tokens,15,13,0.556677,0.422347,1e-05,0.510426,0.2725,0.1362,0.0411,0.2121,0.0578,0.9795,0.9693,0.389,3.864,1.76,identified
+Pythia v0 deduped pythia-1.4b / LAMBADA,Pythia v0 deduped,pythia-1.4b,LAMBADA,0,training tokens,15,9,0.404619,0.371721,4.1e-05,0.396883,0.5696,0.2848,0.0541,0.3769,0.0884,0.9922,0.9471,0.635,3.864,12.38,identified
+Pythia v0 deduped pythia-1.4b / PIQA,Pythia v0 deduped,pythia-1.4b,PIQA,0,training tokens,15,14,0.547334,0.360208,2e-06,0.446122,0.2226,0.1113,0.0436,0.1507,0.0295,0.9938,0.9888,0.401,3.792,4.97,identified
+Pythia v0 deduped pythia-1.4b / SciQ,Pythia v0 deduped,pythia-1.4b,SciQ,0,training tokens,15,7,0.176,0.155551,0.076437,0.192528,0.7278,0.3639,0.1756,0.4902,0.0836,0.996,0.9668,1.091,3.629,7.82,identified
+Pythia v0 deduped pythia-12b / ARC-Easy,Pythia v0 deduped,pythia-12b,ARC-Easy,0,training tokens,15,12,0.40404,0.202029,0.038395,0.351185,0.2695,0.1347,0.0908,0.3143,0.0605,0.995,0.9911,0.622,3.864,3.11,identified
+Pythia v0 deduped pythia-12b / ARC-Easy / 5-shot,Pythia v0 deduped,pythia-12b,ARC-Easy,5,training tokens,15,12,0.36532,0.189128,0.128861,0.271481,0.3102,0.1551,0.1268,0.2355,0.0378,0.9981,0.9933,0.73,3.864,11.63,identified
+Pythia v0 deduped pythia-12b / LAMBADA,Pythia v0 deduped,pythia-12b,LAMBADA,0,training tokens,15,13,0.287017,0.113833,0.072783,0.249115,0.3125,0.1562,0.1354,0.3652,0.066,0.9966,0.9944,0.837,3.714,3.25,identified
+Pythia v0 deduped pythia-12b / LAMBADA / 5-shot,Pythia v0 deduped,pythia-12b,LAMBADA,5,training tokens,15,13,0.297691,0.05613,0.008958,0.224233,0.2834,0.1417,0.1272,0.285,0.0544,0.9966,0.9962,0.93,3.714,-2.16,identified
+Pythia v0 deduped pythia-12b / PIQA,Pythia v0 deduped,pythia-12b,PIQA,0,training tokens,15,12,0.471164,0.318976,0.128623,0.416713,0.2782,0.1391,0.0735,0.2495,0.0423,0.9898,0.9822,0.472,3.792,3.05,identified
+Pythia v0 deduped pythia-12b / PIQA / 5-shot,Pythia v0 deduped,pythia-12b,PIQA,5,training tokens,14,10,0.461372,0.293487,0.031391,0.435971,0.2658,0.1329,0.0642,0.393,0.0682,0.995,0.9889,0.491,3.714,3.6,identified
+Pythia v0 deduped pythia-12b / SciQ / 5-shot,Pythia v0 deduped,pythia-12b,SciQ,5,training tokens,15,7,0.065333,0.026321,0.004002,0.05855,0.6339,0.317,0.2491,0.6451,0.1149,0.9985,0.9967,1.593,3.192,-1.63,identified
+Pythia v0 deduped pythia-160m / LAMBADA,Pythia v0 deduped,pythia-160m,LAMBADA,0,training tokens,15,6,0.610324,0.408507,0.078067,0.613009,0.2339,0.117,0.0528,0.8885,0.2846,0.9814,0.9773,0.293,3.192,-8.81,identified
+Pythia v0 deduped pythia-160m / SciQ,Pythia v0 deduped,pythia-160m,SciQ,0,training tokens,15,9,0.296,0.272653,0.137254,0.283482,0.648,0.324,0.1002,0.4069,0.1078,0.9982,0.9391,0.63,3.864,26.88,identified
+Pythia v0 deduped pythia-1b / ARC-Easy / 5-shot,Pythia v0 deduped,pythia-1b,ARC-Easy,5,training tokens,15,11,0.536476,0.392667,3e-06,0.528487,0.2242,0.1121,0.0334,0.2428,0.059,0.9739,0.9687,0.33,3.629,-1.96,identified
+Pythia v0 deduped pythia-1b / LAMBADA,Pythia v0 deduped,pythia-1b,LAMBADA,0,training tokens,15,12,0.416068,0.285231,0.108902,0.407051,0.2939,0.147,0.0833,0.488,0.1112,0.9873,0.9775,0.496,3.864,3.19,identified
+Pythia v0 deduped pythia-1b / LAMBADA / 5-shot,Pythia v0 deduped,pythia-1b,LAMBADA,5,training tokens,15,11,0.474093,0.372525,1.8e-05,0.452001,0.3506,0.1753,0.0458,0.5701,0.1118,0.9925,0.9766,0.478,3.864,8.52,identified
+Pythia v0 deduped pythia-1b / PIQA,Pythia v0 deduped,pythia-1b,PIQA,0,training tokens,15,10,0.57889,0.484228,7e-06,0.55507,0.3041,0.152,0.0327,0.2734,0.0631,0.9859,0.9704,0.33,3.864,3.15,identified
+Pythia v0 deduped pythia-1b / PIQA / 5-shot,Pythia v0 deduped,pythia-1b,PIQA,5,training tokens,15,10,0.56148,0.249076,3e-06,0.506224,0.1316,0.0658,0.0357,0.1673,0.0386,0.9869,0.986,0.328,3.792,-3.67,identified
+Pythia v0 deduped pythia-1b / SciQ,Pythia v0 deduped,pythia-1b,SciQ,0,training tokens,15,9,0.164,0.119388,0.0117,0.176978,0.4405,0.2202,0.0969,0.7781,0.1902,0.9869,0.9739,0.844,3.629,1.42,identified
+Pythia v0 deduped pythia-1b / SciQ / 5-shot,Pythia v0 deduped,pythia-1b,SciQ,5,training tokens,15,12,0.106667,0.098292,0.005067,0.10989,0.7456,0.3728,0.1101,0.4284,0.103,0.9953,0.9552,1.267,3.864,23.47,identified
+Pythia v0 deduped pythia-2.8b / ARC-Easy / 5-shot,Pythia v0 deduped,pythia-2.8b,ARC-Easy,5,training tokens,15,14,0.424804,0.275272,5e-06,0.366447,0.2868,0.1434,0.0557,0.2538,0.0434,0.9956,0.9877,0.551,3.864,10.94,identified
+Pythia v0 deduped pythia-2.8b / LAMBADA,Pythia v0 deduped,pythia-2.8b,LAMBADA,0,training tokens,15,12,0.328546,0.23281,0.097255,0.295696,0.3846,0.1923,0.0941,0.3361,0.0573,0.9974,0.9832,0.702,3.864,18.78,identified
+Pythia v0 deduped pythia-2.8b / LAMBADA / 5-shot,Pythia v0 deduped,pythia-2.8b,LAMBADA,5,training tokens,15,11,0.35979,0.226368,0.023361,0.275672,0.3492,0.1746,0.0874,0.2079,0.0318,0.9971,0.9898,0.719,3.714,9.95,identified
+Pythia v0 deduped pythia-2.8b / PIQA,Pythia v0 deduped,pythia-2.8b,PIQA,0,training tokens,15,12,0.504896,0.184167,0.037735,0.473319,0.1474,0.0737,0.0545,0.3761,0.0873,0.9942,0.9934,0.384,3.864,-2.1,identified
+Pythia v0 deduped pythia-2.8b / PIQA / 5-shot,Pythia v0 deduped,pythia-2.8b,PIQA,5,training tokens,15,11,0.487486,0.325169,8.3e-05,0.472768,0.2425,0.1212,0.0511,0.404,0.0803,0.9867,0.9809,0.445,3.864,0.09,identified
+Pythia v0 deduped pythia-2.8b / SciQ / 5-shot,Pythia v0 deduped,pythia-2.8b,SciQ,5,training tokens,15,8,0.068,0.053704,0.016039,0.068994,0.6917,0.3458,0.1762,1.0989,0.2096,0.9938,0.9743,1.396,3.792,5.72,identified
+Pythia v0 deduped pythia-410m / ARC-Easy,Pythia v0 deduped,pythia-410m,ARC-Easy,0,training tokens,15,10,0.650953,0.599228,0.384378,0.645702,0.4313,0.2156,0.0658,0.5107,0.1163,0.9947,0.9571,0.263,3.629,16.56,identified
+Pythia v0 deduped pythia-410m / PIQA,Pythia v0 deduped,pythia-410m,PIQA,0,training tokens,15,11,0.639826,0.545615,4e-06,0.616075,0.2629,0.1314,0.025,0.2142,0.0499,0.9844,0.972,0.246,3.714,2.53,identified
+Pythia v0 deduped pythia-410m / SciQ,Pythia v0 deduped,pythia-410m,SciQ,0,training tokens,15,9,0.253333,0.25308,3e-06,0.267715,0.9876,0.4938,0.0533,0.6534,0.1599,0.9936,0.9068,0.84,3.714,19.36,identified
+Pythia v0 deduped pythia-6.9b / ARC-Easy,Pythia v0 deduped,pythia-6.9b,ARC-Easy,0,training tokens,15,13,0.439393,0.216759,0.042562,0.328265,0.2256,0.1128,0.0706,0.1866,0.031,0.9975,0.995,0.525,3.792,5.7,identified
+Pythia v0 deduped pythia-6.9b / ARC-Easy / 5-shot,Pythia v0 deduped,pythia-6.9b,ARC-Easy,5,training tokens,15,13,0.392256,0.186489,0.069524,0.304048,0.2629,0.1314,0.0913,0.2316,0.0561,0.9961,0.9927,0.644,3.864,4.52,identified
+Pythia v0 deduped pythia-6.9b / LAMBADA,Pythia v0 deduped,pythia-6.9b,LAMBADA,0,training tokens,15,15,0.307588,0.204941,0.055295,0.222916,0.4254,0.2127,0.1104,0.2435,0.051,0.9982,0.9852,0.866,3.864,28.46,identified
+Pythia v0 deduped pythia-6.9b / LAMBADA / 5-shot,Pythia v0 deduped,pythia-6.9b,LAMBADA,5,training tokens,15,14,0.328352,0.144675,0.013432,0.174568,0.3287,0.1643,0.1096,0.1799,0.0184,0.9981,0.995,0.876,3.864,10.53,identified
+Pythia v0 deduped pythia-6.9b / PIQA,Pythia v0 deduped,pythia-6.9b,PIQA,0,training tokens,15,10,0.489662,0.287687,0.099195,0.473768,0.2335,0.1167,0.0736,0.4322,0.1212,0.9901,0.9856,0.439,3.792,-0.57,identified
+Pythia v0 deduped pythia-6.9b / PIQA / 5-shot,Pythia v0 deduped,pythia-6.9b,PIQA,5,training tokens,14,11,0.4679,0.15349,0.015501,0.44907,0.1656,0.0828,0.0631,0.4057,0.1137,0.9869,0.9862,0.458,3.864,-3.32,identified
+Pythia v0 deduped pythia-6.9b / SciQ,Pythia v0 deduped,pythia-6.9b,SciQ,0,training tokens,15,6,0.129333,0.047043,0.015805,0.127062,0.4088,0.2044,0.1699,1.2372,0.2668,0.9871,0.9849,1.081,3.714,-9.07,identified
+Pythia v0 deduped pythia-6.9b / SciQ / 5-shot,Pythia v0 deduped,pythia-6.9b,SciQ,5,training tokens,15,10,0.069333,0.037946,0.027575,0.052707,0.6249,0.3124,0.2674,0.4096,0.0482,0.9997,0.9947,1.538,3.536,25.68,identified
+Pythia v0 deduped pythia-70m / ARC-Easy,Pythia v0 deduped,pythia-70m,ARC-Easy,0,training tokens,15,6,0.775533,0.774441,0.002797,0.777658,0.9769,0.4884,0.0055,1.2838,0.2704,0.9972,0.8745,0.096,3.629,12.91,identified
+Pythia v0 deduped pythia-70m / ARC-Easy / 5-shot,Pythia v0 deduped,pythia-70m,ARC-Easy,5,training tokens,15,7,0.787317,0.741532,3e-06,0.798119,0.2835,0.1417,0.01,0.37,0.1057,0.9606,0.9492,0.108,3.32,-5.22,identified
+Pythia v0 pythia-1.4b / ARC-Challenge,Pythia v0,pythia-1.4b,ARC-Challenge,0,training tokens,9,6,0.982935,0.003614,8e-06,0.268258,0.0246,0.0123,0.0117,0.1091,0.0616,0.9921,0.9921,0.014,0.584,-10.0,identified
+Pythia v0 pythia-1.4b / ARC-Easy,Pythia v0,pythia-1.4b,ARC-Easy,0,training tokens,15,12,0.566779,0.472252,0.010102,0.50728,0.3491,0.1745,0.0417,0.2182,0.0871,0.9946,0.9735,0.372,3.792,15.44,identified
+Pythia v0 pythia-1.4b / LAMBADA,Pythia v0,pythia-1.4b,LAMBADA,0,training tokens,15,10,0.396468,0.323538,0.057573,0.384395,0.4896,0.2448,0.0852,0.7267,0.1204,0.9955,0.9687,0.694,3.864,15.13,identified
+Pythia v0 pythia-1.4b / PIQA,Pythia v0,pythia-1.4b,PIQA,0,training tokens,15,9,0.575626,0.474805,0.37231,0.564768,0.3147,0.1573,0.099,0.4862,0.1369,0.993,0.9767,0.352,3.792,6.06,identified
+Pythia v0 pythia-1.4b / SciQ,Pythia v0,pythia-1.4b,SciQ,0,training tokens,15,8,0.188,0.185554,7.6e-05,0.19717,0.824,0.412,0.0642,0.5091,0.128,0.9873,0.9393,0.859,3.714,6.9,identified
+Pythia v0 pythia-12b / ARC-Easy / 5-shot,Pythia v0,pythia-12b,ARC-Easy,5,training tokens,15,14,0.361392,0.133976,0.009152,0.172938,0.2643,0.1322,0.0947,0.1549,0.027,0.9969,0.9952,0.743,3.864,2.98,identified
+Pythia v0 pythia-12b / LAMBADA,Pythia v0,pythia-12b,LAMBADA,0,training tokens,15,14,0.295362,0.14162,0.017277,0.17441,0.3128,0.1564,0.1004,0.1771,0.0402,0.9979,0.9941,0.798,3.864,11.28,identified
+Pythia v0 pythia-12b / LAMBADA / 5-shot,Pythia v0,pythia-12b,LAMBADA,5,training tokens,15,13,0.323113,0.118464,0.034126,0.221382,0.3013,0.1506,0.119,0.2414,0.0554,0.9967,0.9947,0.851,3.864,2.7,identified
+Pythia v0 pythia-12b / PIQA / 5-shot,Pythia v0,pythia-12b,PIQA,5,training tokens,15,13,0.474428,0.195239,0.029212,0.398342,0.1866,0.0933,0.0656,0.2323,0.043,0.9943,0.993,0.473,3.792,-0.69,identified
+Pythia v0 pythia-12b / SciQ,Pythia v0,pythia-12b,SciQ,0,training tokens,15,9,0.1,0.012567,5.2e-05,0.062853,0.3244,0.1622,0.1506,0.223,0.0618,0.9939,0.9937,1.184,3.629,-4.61,identified
+Pythia v0 pythia-12b / SciQ / 5-shot,Pythia v0,pythia-12b,SciQ,5,training tokens,15,10,0.062667,0.042365,0.017969,0.062604,0.6552,0.3276,0.2132,0.8583,0.1469,0.9959,0.9836,1.539,3.864,9.45,identified
+Pythia v0 pythia-160m / ARC-Easy,Pythia v0,pythia-160m,ARC-Easy,0,training tokens,15,7,0.725589,0.701739,0.543241,0.724864,0.4364,0.2182,0.0546,1.0271,0.2243,0.9883,0.9334,0.129,3.792,5.19,identified
+Pythia v0 pythia-160m / LAMBADA,Pythia v0,pythia-160m,LAMBADA,0,training tokens,15,7,0.608966,0.598062,0.002293,0.626313,0.6768,0.3384,0.0164,0.9219,0.1903,0.9906,0.9001,0.322,3.714,9.56,identified
+Pythia v0 pythia-160m / PIQA,Pythia v0,pythia-160m,PIQA,0,training tokens,15,7,0.727966,0.649361,2e-06,0.740896,0.2473,0.1236,0.0158,0.3728,0.1044,0.9679,0.9598,0.152,3.192,-5.44,identified
+Pythia v0 pythia-1b / ARC-Easy / 5-shot,Pythia v0,pythia-1b,ARC-Easy,5,training tokens,15,10,0.534792,0.183475,0.000154,0.466903,0.1371,0.0685,0.0497,0.2362,0.0619,0.9932,0.9926,0.347,3.714,-3.53,identified
+Pythia v0 pythia-1b / LAMBADA,Pythia v0,pythia-1b,LAMBADA,0,training tokens,15,12,0.430429,0.330998,4e-06,0.380147,0.3041,0.152,0.0453,0.2041,0.0404,0.9907,0.9787,0.453,3.792,6.25,identified
+Pythia v0 pythia-1b / LAMBADA / 5-shot,Pythia v0,pythia-1b,LAMBADA,5,training tokens,15,7,0.483214,0.362904,0.190813,0.47507,0.3292,0.1646,0.0921,0.7266,0.138,0.9958,0.9807,0.459,3.792,3.66,identified
+Pythia v0 pythia-1b / PIQA,Pythia v0,pythia-1b,PIQA,0,training tokens,15,10,0.57889,0.462627,7e-06,0.516317,0.2534,0.1267,0.0321,0.1785,0.085,0.9901,0.9804,0.31,3.792,2.55,identified
+Pythia v0 pythia-1b / PIQA / 5-shot,Pythia v0,pythia-1b,PIQA,5,training tokens,15,14,0.583242,0.454982,8e-06,0.557704,0.235,0.1175,0.032,0.2113,0.0459,0.9783,0.9708,0.305,3.864,0.83,identified
+Pythia v0 pythia-1b / SciQ,Pythia v0,pythia-1b,SciQ,0,training tokens,15,7,0.204,0.188772,0.053947,0.20677,0.7055,0.3528,0.0679,0.4868,0.1024,0.9975,0.9395,0.683,3.714,15.18,identified
+Pythia v0 pythia-1b / SciQ / 5-shot,Pythia v0,pythia-1b,SciQ,5,training tokens,15,11,0.114667,0.101598,0.024465,0.116885,0.774,0.387,0.1464,0.5173,0.1312,0.9933,0.9623,1.276,3.629,15.07,identified
+Pythia v0 pythia-2.8b / ARC-Challenge / 5-shot,Pythia v0,pythia-2.8b,ARC-Challenge,5,training tokens,13,8,0.896473,0.826264,0.000342,0.901259,0.4262,0.2131,0.0241,1.1758,0.2753,0.9594,0.9511,0.09,1.827,-4.12,identified
+Pythia v0 pythia-2.8b / LAMBADA,Pythia v0,pythia-2.8b,LAMBADA,0,training tokens,15,12,0.336309,0.241757,1.6e-05,0.301924,0.3799,0.1899,0.0675,0.3185,0.0626,0.9973,0.9843,0.684,3.792,17.35,identified
+Pythia v0 pythia-2.8b / LAMBADA / 5-shot,Pythia v0,pythia-2.8b,LAMBADA,5,training tokens,15,11,0.369688,0.235271,0.101562,0.347727,0.3492,0.1746,0.1155,0.3752,0.0636,0.9937,0.9854,0.708,3.792,5.35,identified
+Pythia v0 pythia-2.8b / PIQA,Pythia v0,pythia-2.8b,PIQA,0,training tokens,15,11,0.522306,0.339091,0.150739,0.458387,0.2308,0.1154,0.0697,0.2544,0.0479,0.9984,0.9922,0.405,3.864,13.62,identified
+Pythia v0 pythia-2.8b / PIQA / 5-shot,Pythia v0,pythia-2.8b,PIQA,5,training tokens,15,13,0.51469,0.38907,3e-06,0.470925,0.2903,0.1452,0.0418,0.3254,0.0697,0.9863,0.9756,0.427,3.792,4.05,identified
+Pythia v0 pythia-2.8b / SciQ,Pythia v0,pythia-2.8b,SciQ,0,training tokens,15,6,0.162667,0.120974,9e-06,0.176351,0.5365,0.2682,0.0964,0.4967,0.1008,0.9909,0.9819,0.733,2.872,-5.9,identified
+Pythia v0 pythia-2.8b / SciQ / 5-shot,Pythia v0,pythia-2.8b,SciQ,5,training tokens,15,7,0.072,0.061915,0.013958,0.07547,0.8104,0.4052,0.1628,0.8562,0.1547,0.9956,0.9726,1.492,3.629,5.75,identified
+Pythia v0 pythia-410m / ARC-Easy,Pythia v0,pythia-410m,ARC-Easy,0,training tokens,15,10,0.656004,0.603128,0.542695,0.651589,0.446,0.223,0.14,0.7617,0.1649,0.9938,0.9484,0.276,3.864,16.85,identified
+Pythia v0 pythia-410m / LAMBADA,Pythia v0,pythia-410m,LAMBADA,0,training tokens,15,10,0.488841,0.342067,0.047865,0.398666,0.3146,0.1573,0.0695,0.1974,0.0416,0.9977,0.9887,0.524,3.629,11.89,identified
+Pythia v0 pythia-410m / PIQA,Pythia v0,pythia-410m,PIQA,0,training tokens,15,8,0.650708,0.587918,3e-06,0.629801,0.3566,0.1783,0.0242,0.2512,0.0611,0.9957,0.9705,0.238,3.629,9.79,identified
+Pythia v0 pythia-410m / SciQ,Pythia v0,pythia-410m,SciQ,0,training tokens,15,7,0.222667,0.214974,8e-06,0.238824,0.8089,0.4044,0.0764,0.4979,0.131,0.9933,0.963,0.905,3.192,5.02,identified
+Pythia v0 pythia-6.9b / ARC-Challenge,Pythia v0,pythia-6.9b,ARC-Challenge,0,training tokens,13,12,0.902161,0.733596,9e-06,0.893199,0.2462,0.1231,0.0273,0.558,0.1456,0.984,0.9816,0.102,1.827,-2.04,identified
+Pythia v0 pythia-6.9b / ARC-Challenge / 5-shot,Pythia v0,pythia-6.9b,ARC-Challenge,5,training tokens,13,8,0.858931,0.776832,3e-06,0.86084,0.4284,0.2142,0.0276,1.2448,0.3818,0.9218,0.9125,0.092,1.755,-4.7,identified
+Pythia v0 pythia-6.9b / ARC-Easy,Pythia v0,pythia-6.9b,ARC-Easy,0,training tokens,15,12,0.444444,0.117219,0.026814,0.412488,0.188,0.094,0.0785,0.4351,0.0865,0.9953,0.9948,0.552,3.792,-2.42,identified
+Pythia v0 pythia-6.9b / ARC-Easy / 5-shot,Pythia v0,pythia-6.9b,ARC-Easy,5,training tokens,15,14,0.398989,0.190489,0.136252,0.338846,0.2626,0.1313,0.1143,0.3067,0.0539,0.9978,0.9944,0.637,3.864,9.69,identified
+Pythia v0 pythia-6.9b / LAMBADA,Pythia v0,pythia-6.9b,LAMBADA,0,training tokens,15,13,0.323695,0.203919,0.125455,0.268318,0.3735,0.1868,0.1181,0.2861,0.037,0.9968,0.9868,0.77,3.864,15.13,identified
+Pythia v0 pythia-6.9b / LAMBADA / 5-shot,Pythia v0,pythia-6.9b,LAMBADA,5,training tokens,15,12,0.357656,0.16281,0.007011,0.325344,0.3059,0.153,0.1082,0.3953,0.0917,0.9931,0.9896,0.769,3.864,1.2,identified
+Pythia v0 pythia-6.9b / PIQA,Pythia v0,pythia-6.9b,PIQA,0,training tokens,15,12,0.50925,0.420795,0.157667,0.503022,0.3615,0.1808,0.0625,0.4244,0.0989,0.9882,0.9681,0.428,3.864,8.26,identified
+Pythia v0 pythia-6.9b / PIQA / 5-shot,Pythia v0,pythia-6.9b,PIQA,5,training tokens,15,11,0.489662,0.247566,0.00027,0.461288,0.2001,0.1001,0.0576,0.3829,0.0886,0.9932,0.9908,0.453,3.792,-0.68,identified
+Pythia v0 pythia-6.9b / SciQ / 5-shot,Pythia v0,pythia-6.9b,SciQ,5,training tokens,15,10,0.068,0.003933,0.001098,0.066783,0.4263,0.2131,0.2067,0.8981,0.1843,0.9943,0.9943,1.429,3.629,-4.22,identified
+Pythia v0 pythia-70m / SciQ,Pythia v0,pythia-70m,SciQ,0,training tokens,16,6,0.398667,0.336185,1.1e-05,0.404049,0.3698,0.1849,0.0396,0.3977,0.0965,0.9773,0.9689,0.34,3.045,-8.12,identified
+Pythia v0 pythia-70m / SciQ / 5-shot,Pythia v0,pythia-70m,SciQ,5,training tokens,17,7,0.402667,0.345928,0.069076,0.401087,0.448,0.224,0.0579,0.4018,0.0891,0.9967,0.9791,0.356,3.045,6.01,identified
+Pythia v1 deduped pythia-1.4b / ARC-Easy / 5-shot,Pythia v1 deduped,pythia-1.4b,ARC-Easy,5,training tokens,15,12,0.482043,0.294646,0.236381,0.390185,0.2389,0.1194,0.1009,0.1969,0.0317,0.9986,0.9933,0.442,3.792,14.76,identified
+Pythia v1 deduped pythia-1.4b / LAMBADA,Pythia v1 deduped,pythia-1.4b,LAMBADA,0,training tokens,16,12,0.379585,0.31028,0.141495,0.35271,0.4257,0.2128,0.1051,0.2661,0.0522,0.9953,0.9761,0.89,4.812,15.82,identified
+Pythia v1 deduped pythia-1.4b / LAMBADA / 5-shot,Pythia v1 deduped,pythia-1.4b,LAMBADA,5,training tokens,15,10,0.418591,0.281285,0.148419,0.404927,0.3149,0.1575,0.1064,0.3327,0.0535,0.9938,0.9869,0.578,3.536,3.1,identified
+Pythia v1 deduped pythia-1.4b / PIQA / 5-shot,Pythia v1 deduped,pythia-1.4b,PIQA,5,training tokens,15,8,0.541894,0.15252,3e-06,0.484813,0.1222,0.0611,0.0442,0.2863,0.0642,0.9929,0.9926,0.35,3.792,-5.29,identified
+Pythia v1 deduped pythia-1.4b / SciQ,Pythia v1 deduped,pythia-1.4b,SciQ,0,training tokens,16,7,0.165333,0.149617,0.132764,0.170442,0.7654,0.3827,0.2999,0.5128,0.0656,0.9979,0.9593,1.506,4.727,13.61,identified
+Pythia v1 deduped pythia-1.4b / SciQ / 5-shot,Pythia v1 deduped,pythia-1.4b,SciQ,5,training tokens,15,6,0.094667,0.081658,0.041643,0.094572,0.8509,0.4254,0.2307,1.2835,0.2423,0.9933,0.955,1.309,3.714,1.45,identified
+Pythia v1 deduped pythia-12b / ARC-Challenge / 5-shot,Pythia v1 deduped,pythia-12b,ARC-Challenge,5,training tokens,14,8,0.83504,0.5492,1.2e-05,0.833539,0.1972,0.0986,0.0403,0.7711,0.1801,0.9766,0.975,0.175,2.325,-5.09,identified
+Pythia v1 deduped pythia-12b / ARC-Easy / 5-shot,Pythia v1 deduped,pythia-12b,ARC-Easy,5,training tokens,15,14,0.363075,0.111326,0.029806,0.258398,0.2413,0.1206,0.0996,0.2167,0.0355,0.9979,0.9969,0.715,3.792,2.1,identified
+Pythia v1 deduped pythia-12b / LAMBADA,Pythia v1 deduped,pythia-12b,LAMBADA,0,training tokens,16,14,0.284883,0.189032,0.024779,0.229615,0.4162,0.2081,0.1195,0.2497,0.0378,0.9972,0.9884,1.225,4.812,16.71,identified
+Pythia v1 deduped pythia-12b / LAMBADA / 5-shot,Pythia v1 deduped,pythia-12b,LAMBADA,5,training tokens,15,12,0.30914,0.064245,0.015441,0.269897,0.2738,0.1369,0.1214,0.3689,0.0753,0.9932,0.9927,0.87,3.864,-2.83,identified
+Pythia v1 deduped pythia-12b / PIQA / 5-shot,Pythia v1 deduped,pythia-12b,PIQA,5,training tokens,15,11,0.461372,0.218684,0.039687,0.42533,0.1925,0.0963,0.0646,0.2718,0.0479,0.9945,0.9928,0.453,3.714,-0.93,identified
+Pythia v1 deduped pythia-12b / SciQ,Pythia v1 deduped,pythia-12b,SciQ,0,training tokens,16,11,0.094667,0.082129,0.015476,0.098568,0.681,0.3405,0.2357,0.674,0.1026,0.9914,0.979,2.074,4.963,5.87,identified
+Pythia v1 deduped pythia-12b / SciQ / 5-shot,Pythia v1 deduped,pythia-12b,SciQ,5,training tokens,15,7,0.058667,0.0198,0.004672,0.065063,0.5634,0.2817,0.2362,0.7125,0.1321,0.9941,0.9928,1.572,3.536,-5.68,identified
+Pythia v1 deduped pythia-160m / LAMBADA,Pythia v1 deduped,pythia-160m,LAMBADA,0,training tokens,16,6,0.601785,0.558441,0.356703,0.601183,0.4745,0.2372,0.0988,1.2941,0.2232,0.969,0.9272,0.458,4.533,-4.88,identified
+Pythia v1 deduped pythia-160m / LAMBADA / 5-shot,Pythia v1 deduped,pythia-160m,LAMBADA,5,training tokens,15,7,0.667184,0.340155,1.9e-05,0.651628,0.1422,0.0711,0.0425,0.6886,0.1801,0.9886,0.9873,0.249,3.434,-6.28,identified
+Pythia v1 deduped pythia-160m / SciQ / 5-shot,Pythia v1 deduped,pythia-160m,SciQ,5,training tokens,15,7,0.237333,0.161574,0.088161,0.23238,0.4776,0.2388,0.1633,0.7464,0.2024,0.9938,0.9829,0.724,3.192,0.16,identified
+Pythia v1 deduped pythia-1b / ARC-Easy / 5-shot,Pythia v1 deduped,pythia-1b,ARC-Easy,5,training tokens,15,9,0.520763,0.384112,0.182405,0.529168,0.2685,0.1343,0.069,0.5629,0.1357,0.9929,0.9844,0.394,3.714,2.26,identified
+Pythia v1 deduped pythia-1b / LAMBADA,Pythia v1 deduped,pythia-1b,LAMBADA,0,training tokens,17,14,0.419561,0.305281,0.185854,0.373223,0.3244,0.1622,0.1007,0.2269,0.037,0.9967,0.9844,0.868,5.632,18.51,identified
+Pythia v1 deduped pythia-1b / LAMBADA / 5-shot,Pythia v1 deduped,pythia-1b,LAMBADA,5,training tokens,15,13,0.471764,0.305117,0.041803,0.466918,0.2625,0.1313,0.0684,0.5104,0.1043,0.9856,0.9793,0.484,3.864,1.25,identified
+Pythia v1 deduped pythia-1b / PIQA / 5-shot,Pythia v1 deduped,pythia-1b,PIQA,5,training tokens,15,7,0.59086,0.534595,0.078715,0.586139,0.4104,0.2052,0.0415,0.8042,0.1553,0.9876,0.959,0.267,3.536,1.37,identified
+Pythia v1 deduped pythia-1b / SciQ,Pythia v1 deduped,pythia-1b,SciQ,0,training tokens,17,12,0.173333,0.161363,0.095954,0.17982,0.6536,0.3268,0.1786,0.3962,0.0566,0.9973,0.9698,1.728,5.632,25.33,identified
+Pythia v1 deduped pythia-1b / SciQ / 5-shot,Pythia v1 deduped,pythia-1b,SciQ,5,training tokens,15,9,0.109333,0.095679,0.069209,0.1098,0.7954,0.3977,0.2436,0.8066,0.1309,0.9981,0.9596,1.26,3.792,22.69,identified
+Pythia v1 deduped pythia-2.8b / ARC-Easy / 5-shot,Pythia v1 deduped,pythia-2.8b,ARC-Easy,5,training tokens,15,13,0.428732,0.298579,0.240935,0.387141,0.3169,0.1584,0.1268,0.3031,0.0505,0.9969,0.9869,0.534,3.714,15.46,identified
+Pythia v1 deduped pythia-2.8b / LAMBADA,Pythia v1 deduped,pythia-2.8b,LAMBADA,0,training tokens,16,14,0.347953,0.267413,0.216778,0.300828,0.4301,0.2151,0.1447,0.2643,0.0293,0.999,0.981,0.992,4.812,37.74,identified
+Pythia v1 deduped pythia-2.8b / LAMBADA / 5-shot,Pythia v1 deduped,pythia-2.8b,LAMBADA,5,training tokens,15,13,0.382302,0.274953,0.071258,0.315265,0.3815,0.1907,0.0867,0.2257,0.0367,0.9949,0.9819,0.693,3.792,13.13,identified
+Pythia v1 deduped pythia-2.8b / PIQA / 5-shot,Pythia v1 deduped,pythia-2.8b,PIQA,5,training tokens,15,10,0.524484,0.400811,5e-06,0.472202,0.2892,0.1446,0.0416,0.205,0.0472,0.9871,0.977,0.373,3.714,1.5,identified
+Pythia v1 deduped pythia-2.8b / SciQ,Pythia v1 deduped,pythia-2.8b,SciQ,0,training tokens,16,10,0.14,0.13986,0.040613,0.163836,0.8044,0.4022,0.1353,0.4721,0.1077,0.9945,0.9436,1.693,4.89,18.91,identified
+Pythia v1 deduped pythia-2.8b / SciQ / 5-shot,Pythia v1 deduped,pythia-2.8b,SciQ,5,training tokens,15,9,0.072,0.050436,0.018532,0.072277,0.6209,0.3104,0.1982,0.7236,0.1207,0.9968,0.9853,1.349,3.536,8.8,identified
+Pythia v1 deduped pythia-410m / ARC-Easy / 5-shot,Pythia v1 deduped,pythia-410m,ARC-Easy,5,training tokens,15,11,0.59596,0.486043,6e-06,0.568019,0.2597,0.1299,0.0317,0.2179,0.0524,0.9844,0.9746,0.289,3.629,1.44,identified
+Pythia v1 deduped pythia-410m / LAMBADA,Pythia v1 deduped,pythia-410m,LAMBADA,0,training tokens,16,10,0.468465,0.388903,0.128198,0.440769,0.3953,0.1976,0.0832,0.2497,0.0528,0.9945,0.9734,0.726,4.89,11.38,identified
+Pythia v1 deduped pythia-410m / LAMBADA / 5-shot,Pythia v1 deduped,pythia-410m,LAMBADA,5,training tokens,15,10,0.530953,0.277301,8.6e-05,0.48611,0.2088,0.1044,0.0586,0.361,0.0901,0.9867,0.9841,0.434,3.792,-2.49,identified
+Pythia v1 deduped pythia-410m / PIQA / 5-shot,Pythia v1 deduped,pythia-410m,PIQA,5,training tokens,15,7,0.633298,0.599591,0.256934,0.650308,0.4404,0.2202,0.0427,0.6832,0.1407,0.9864,0.9521,0.244,3.629,1.83,identified
+Pythia v1 deduped pythia-410m / SciQ,Pythia v1 deduped,pythia-410m,SciQ,0,training tokens,16,9,0.218667,0.218448,1.5e-05,0.236567,0.7802,0.3901,0.0666,0.4364,0.0942,0.9973,0.9285,1.284,4.812,24.59,identified
+Pythia v1 deduped pythia-410m / SciQ / 5-shot,Pythia v1 deduped,pythia-410m,SciQ,5,training tokens,15,8,0.154667,0.146736,0.055122,0.15181,0.9258,0.4629,0.1191,0.6913,0.1382,0.9981,0.9316,0.993,3.792,22.87,identified
+Pythia v1 deduped pythia-410m / Winogrande,Pythia v1 deduped,pythia-410m,Winogrande,0,training tokens,18,7,0.932912,0.62156,0.521889,0.954057,0.01,0.005,0.005,0.1144,0.0322,0.799,0.7993,0.056,11.72,-7.01,identified
+Pythia v1 deduped pythia-6.9b / ARC-Easy / 5-shot,Pythia v1 deduped,pythia-6.9b,ARC-Easy,5,training tokens,15,12,0.389451,0.164585,0.020183,0.261552,0.242,0.121,0.0876,0.1718,0.0328,0.9938,0.9919,0.656,3.792,-0.52,identified
+Pythia v1 deduped pythia-6.9b / LAMBADA,Pythia v1 deduped,pythia-6.9b,LAMBADA,0,training tokens,16,14,0.311081,0.189548,0.111113,0.211477,0.3769,0.1884,0.1368,0.2032,0.0231,0.999,0.9913,1.135,4.963,27.1,identified
+Pythia v1 deduped pythia-6.9b / LAMBADA / 5-shot,Pythia v1 deduped,pythia-6.9b,LAMBADA,5,training tokens,15,11,0.336697,0.178784,0.076557,0.244973,0.3495,0.1748,0.13,0.2284,0.0285,0.997,0.9916,0.835,3.864,7.33,identified
+Pythia v1 deduped pythia-6.9b / PIQA / 5-shot,Pythia v1 deduped,pythia-6.9b,PIQA,5,training tokens,13,10,0.484222,0.320214,7e-06,0.402832,0.2395,0.1198,0.0481,0.1673,0.0346,0.9893,0.9836,0.423,3.864,0.01,identified
+Pythia v1 deduped pythia-6.9b / SciQ,Pythia v1 deduped,pythia-6.9b,SciQ,0,training tokens,16,11,0.116,0.115884,0.009412,0.12654,0.7548,0.3774,0.1645,0.5379,0.0873,0.9849,0.9581,1.914,4.812,7.31,identified
+Pythia v1 deduped pythia-70m / SciQ,Pythia v1 deduped,pythia-70m,SciQ,0,training tokens,17,8,0.396,0.388057,0.344487,0.395054,0.7944,0.3972,0.2223,0.409,0.0548,0.9995,0.9255,0.906,4.64,34.56,identified
+Pythia v1 deduped pythia-70m / SciQ / 5-shot,Pythia v1 deduped,pythia-70m,SciQ,5,training tokens,15,6,0.409333,0.234636,0.04932,0.403014,0.2214,0.1107,0.0654,0.6153,0.1972,0.9912,0.9885,0.351,3.192,-8.39,identified
+Pythia v1 pythia-1.4b / ARC-Challenge / 5-shot,Pythia v1,pythia-1.4b,ARC-Challenge,5,training tokens,12,8,0.94198,0.883081,2e-06,0.951744,0.4398,0.2199,0.011,1.2564,0.3326,0.957,0.9525,0.055,1.316,-4.8,identified
+Pythia v1 pythia-1.4b / ARC-Easy / 5-shot,Pythia v1,pythia-1.4b,ARC-Easy,5,training tokens,15,14,0.475869,0.221369,0.030931,0.414151,0.196,0.098,0.0647,0.248,0.0505,0.9946,0.9926,0.471,3.864,1.13,identified
+Pythia v1 pythia-1.4b / LAMBADA,Pythia v1,pythia-1.4b,LAMBADA,0,training tokens,16,13,0.383854,0.314524,0.187611,0.341862,0.4248,0.2124,0.1208,0.2448,0.0395,0.9965,0.9753,0.888,4.963,21.81,identified
+Pythia v1 pythia-1.4b / LAMBADA / 5-shot,Pythia v1,pythia-1.4b,LAMBADA,5,training tokens,15,13,0.421696,0.156729,0.010985,0.293122,0.2117,0.1058,0.077,0.2005,0.0781,0.9967,0.9954,0.587,3.864,0.61,identified
+Pythia v1 pythia-1.4b / PIQA / 5-shot,Pythia v1,pythia-1.4b,PIQA,5,training tokens,12,8,0.581066,0.516905,0.000267,0.582659,0.3823,0.1912,0.0224,1.0782,0.2741,0.9903,0.9674,0.31,3.792,4.14,identified
+Pythia v1 pythia-1.4b / SciQ,Pythia v1,pythia-1.4b,SciQ,0,training tokens,16,7,0.168,0.160186,0.097081,0.169164,0.8144,0.4072,0.2006,0.4908,0.0803,0.999,0.9476,1.484,4.89,21.05,identified
+Pythia v1 pythia-1.4b / SciQ / 5-shot,Pythia v1,pythia-1.4b,SciQ,5,training tokens,15,9,0.096,0.085026,0.006886,0.119123,0.7446,0.3723,0.2031,0.5289,0.0937,0.9832,0.9645,1.34,3.536,1.94,identified
+Pythia v1 pythia-12b / ARC-Challenge / 5-shot,Pythia v1,pythia-12b,ARC-Challenge,5,training tokens,13,10,0.838453,0.347691,3e-06,0.827949,0.1262,0.0631,0.0375,0.7059,0.2057,0.9712,0.971,0.133,1.755,-4.22,identified
+Pythia v1 pythia-12b / ARC-Easy / 5-shot,Pythia v1,pythia-12b,ARC-Easy,5,training tokens,15,12,0.380472,0.163338,0.058489,0.348565,0.2714,0.1357,0.1035,0.5193,0.1242,0.9983,0.9959,0.692,3.792,6.83,identified
+Pythia v1 pythia-12b / LAMBADA,Pythia v1,pythia-12b,LAMBADA,0,training tokens,16,14,0.291675,0.188551,0.087163,0.222682,0.3938,0.1969,0.1364,0.2259,0.02,0.9983,0.99,1.188,4.89,21.69,identified
+Pythia v1 pythia-12b / LAMBADA / 5-shot,Pythia v1,pythia-12b,LAMBADA,5,training tokens,15,14,0.322337,0.159736,0.024041,0.201243,0.3492,0.1746,0.118,0.2004,0.024,0.9958,0.9915,0.886,3.792,6.53,identified
+Pythia v1 pythia-12b / PIQA / 5-shot,Pythia v1,pythia-12b,PIQA,5,training tokens,14,11,0.47987,0.366071,5e-06,0.44595,0.3241,0.1621,0.0505,0.2687,0.0742,0.9863,0.9751,0.466,3.714,2.66,identified
+Pythia v1 pythia-12b / SciQ,Pythia v1,pythia-12b,SciQ,0,training tokens,16,9,0.114667,0.10794,0.028192,0.11817,0.7953,0.3976,0.1555,0.5168,0.0904,0.9987,0.9719,1.861,4.727,22.68,identified
+Pythia v1 pythia-12b / SciQ / 5-shot,Pythia v1,pythia-12b,SciQ,5,training tokens,15,10,0.062667,0.029276,0.013201,0.046886,0.6005,0.3003,0.2487,0.4675,0.0528,0.9995,0.9957,1.626,3.792,16.18,identified
+Pythia v1 pythia-160m / ARC-Easy / 5-shot,Pythia v1,pythia-160m,ARC-Easy,5,training tokens,14,6,0.714927,0.62244,0.086,0.71962,0.2423,0.1211,0.0264,0.8826,0.2536,0.98,0.9698,0.146,3.32,-7.51,identified
+Pythia v1 pythia-160m / LAMBADA,Pythia v1,pythia-160m,LAMBADA,0,training tokens,16,6,0.600815,0.562926,0.195876,0.639463,0.4346,0.2173,0.0615,0.3579,0.0919,0.9808,0.9571,0.443,4.143,-5.16,identified
+Pythia v1 pythia-160m / LAMBADA / 5-shot,Pythia v1,pythia-160m,LAMBADA,5,training tokens,15,6,0.692994,0.534086,6e-06,0.731269,0.1868,0.0934,0.0276,1.3149,0.3235,0.9431,0.9403,0.201,3.045,-9.72,identified
+Pythia v1 pythia-160m / SciQ / 5-shot,Pythia v1,pythia-160m,SciQ,5,training tokens,15,6,0.230667,0.224068,2e-05,0.24343,0.9758,0.4879,0.0628,0.6216,0.1567,0.9961,0.9493,0.771,3.045,5.33,identified
+Pythia v1 pythia-2.8b / ARC-Challenge,Pythia v1,pythia-2.8b,ARC-Challenge,0,training tokens,12,6,0.934016,0.011087,5e-06,0.938263,0.0407,0.0204,0.0197,1.2424,0.4659,0.9289,0.9289,0.057,1.394,-10.0,identified
+Pythia v1 pythia-2.8b / ARC-Easy / 5-shot,Pythia v1,pythia-2.8b,ARC-Easy,5,training tokens,15,13,0.423681,0.258637,2.1e-05,0.345357,0.2779,0.139,0.061,0.222,0.0378,0.9975,0.9917,0.546,3.714,12.1,identified
+Pythia v1 pythia-2.8b / LAMBADA,Pythia v1,pythia-2.8b,LAMBADA,0,training tokens,16,15,0.352804,0.273156,0.234646,0.3044,0.4388,0.2194,0.1548,0.2689,0.0356,0.999,0.9777,0.978,4.963,43.76,identified
+Pythia v1 pythia-2.8b / LAMBADA / 5-shot,Pythia v1,pythia-2.8b,LAMBADA,5,training tokens,15,13,0.386377,0.28745,0.025321,0.315304,0.3984,0.1992,0.0768,0.2252,0.037,0.9956,0.9801,0.683,3.792,16.24,identified
+Pythia v1 pythia-2.8b / PIQA / 5-shot,Pythia v1,pythia-2.8b,PIQA,5,training tokens,14,9,0.52666,0.361377,3e-06,0.483487,0.2475,0.1237,0.0425,0.2142,0.0504,0.986,0.9816,0.365,3.32,-2.31,identified
+Pythia v1 pythia-2.8b / SciQ,Pythia v1,pythia-2.8b,SciQ,0,training tokens,16,10,0.144,0.143856,0.044849,0.150516,0.8288,0.4144,0.1335,0.5037,0.1048,0.9952,0.9445,1.665,4.89,20.21,identified
+Pythia v1 pythia-2.8b / SciQ / 5-shot,Pythia v1,pythia-2.8b,SciQ,5,training tokens,15,7,0.074667,0.046239,0.011365,0.073794,0.6073,0.3036,0.2166,1.003,0.1767,0.9958,0.9868,1.312,3.536,1.04,identified
+Pythia v1 pythia-410m / ARC-Easy / 5-shot,Pythia v1,pythia-410m,ARC-Easy,5,training tokens,15,11,0.588664,0.180621,2.6e-05,0.529576,0.1065,0.0533,0.0392,0.2691,0.065,0.9948,0.9946,0.284,3.714,-3.35,identified
+Pythia v1 pythia-410m / LAMBADA,Pythia v1,pythia-410m,LAMBADA,0,training tokens,16,10,0.477586,0.432583,0.078482,0.471693,0.4575,0.2287,0.0681,0.2878,0.067,0.9938,0.9598,0.7,4.89,14.39,identified
+Pythia v1 pythia-410m / LAMBADA / 5-shot,Pythia v1,pythia-410m,LAMBADA,5,training tokens,15,11,0.544537,0.457187,5e-06,0.501756,0.3466,0.1733,0.0383,0.2231,0.0519,0.9879,0.967,0.405,3.864,7.1,identified
+Pythia v1 pythia-410m / SciQ,Pythia v1,pythia-410m,SciQ,0,training tokens,16,7,0.242667,0.242424,0.219027,0.249084,1.0871,0.5435,0.2794,0.6038,0.1249,0.9968,0.8715,1.186,4.812,18.8,identified
+Pythia v1 pythia-410m / SciQ / 5-shot,Pythia v1,pythia-410m,SciQ,5,training tokens,15,8,0.129333,0.088631,0.009736,0.132814,0.4971,0.2486,0.1544,0.5849,0.1131,0.9845,0.976,1.095,3.536,-2.11,identified
+Pythia v1 pythia-410m / Winogrande,Pythia v1,pythia-410m,Winogrande,0,training tokens,22,7,0.926598,0.538931,0.000969,0.696143,0.01,0.005,0.005,0.0138,0.0298,0.7858,0.7896,0.063,11.871,-7.12,identified
+Pythia v1 pythia-6.9b / ARC-Challenge,Pythia v1,pythia-6.9b,ARC-Challenge,0,training tokens,13,7,0.905575,0.780977,7e-06,0.891974,0.3034,0.1517,0.0237,0.7683,0.2082,0.9773,0.9724,0.088,1.755,-5.64,identified
+Pythia v1 pythia-6.9b / ARC-Challenge / 5-shot,Pythia v1,pythia-6.9b,ARC-Challenge,5,training tokens,13,9,0.858931,0.7064,9e-06,0.846736,0.323,0.1615,0.0388,0.5141,0.108,0.9747,0.9694,0.128,1.827,-3.11,identified
+Pythia v1 pythia-6.9b / ARC-Easy / 5-shot,Pythia v1,pythia-6.9b,ARC-Easy,5,training tokens,15,11,0.39394,0.196746,0.142757,0.37473,0.2868,0.1434,0.1242,0.5388,0.1155,0.9961,0.9919,0.666,3.792,3.91,identified
+Pythia v1 pythia-6.9b / LAMBADA,Pythia v1,pythia-6.9b,LAMBADA,0,training tokens,16,14,0.322337,0.245024,0.1848,0.26695,0.4411,0.2206,0.16,0.2433,0.021,0.9993,0.9833,1.106,4.89,40.76,identified
+Pythia v1 pythia-6.9b / LAMBADA / 5-shot,Pythia v1,pythia-6.9b,LAMBADA,5,training tokens,15,12,0.361343,0.208464,0.035015,0.236466,0.3388,0.1694,0.0963,0.1843,0.0246,0.9981,0.9921,0.762,3.792,13.73,identified
+Pythia v1 pythia-6.9b / PIQA / 5-shot,Pythia v1,pythia-6.9b,PIQA,5,training tokens,15,10,0.487486,0.37338,2.1e-05,0.409222,0.323,0.1615,0.0484,0.1969,0.0438,0.9957,0.9821,0.451,3.792,9.99,identified
+Pythia v1 pythia-6.9b / SciQ,Pythia v1,pythia-6.9b,SciQ,0,training tokens,17,12,0.121333,0.083714,0.020943,0.128402,0.5703,0.2852,0.2123,0.4345,0.0641,0.9891,0.9817,2.096,5.397,2.51,identified
+Pythia v1 pythia-6.9b / SciQ / 5-shot,Pythia v1,pythia-6.9b,SciQ,5,training tokens,15,11,0.065333,0.047453,0.00865,0.064035,0.6382,0.3191,0.1687,0.4333,0.0748,0.9924,0.9814,1.538,3.864,5.93,identified
+Pythia v1 pythia-70m / LAMBADA,Pythia v1,pythia-70m,LAMBADA,0,training tokens,16,7,0.746555,0.673527,0.000154,0.767067,0.3064,0.1532,0.0166,0.5416,0.1268,0.9869,0.9721,0.241,3.97,-1.69,identified
+Pythia v1 pythia-70m / LAMBADA / 5-shot,Pythia v1,pythia-70m,LAMBADA,5,training tokens,15,6,0.825344,0.817746,0.000489,0.841511,0.6429,0.3214,0.0122,0.901,0.2436,0.9738,0.933,0.11,2.872,-4.36,identified
+Pythia v1 pythia-70m / SciQ,Pythia v1,pythia-70m,SciQ,0,training tokens,17,8,0.405333,0.404928,0.313575,0.444108,0.7541,0.3771,0.1281,0.4729,0.0843,0.9935,0.8982,0.884,4.96,16.41,identified
+Pythia v1 pythia-70m / Winogrande,Pythia v1,pythia-70m,Winogrande,0,training tokens,13,6,0.943962,0.512126,0.361706,0.705781,0.01,0.005,0.005,0.0173,0.1173,0.6969,0.698,0.038,5.632,-10.02,identified
+Pythia v0 deduped pythia-1.4b / ARC-Challenge,Pythia v0 deduped,pythia-1.4b,ARC-Challenge,0,training tokens,9,6,0.974972,0.0,,,0.0262,0.0131,,,,0.9798,0.9798,0.023,0.92,-10.0,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-1.4b / Winogrande,Pythia v0 deduped,pythia-1.4b,Winogrande,0,training tokens,15,6,0.853986,0.0,,,0.0212,0.0106,,,,0.7116,0.7116,0.105,3.864,-10.0,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-1.4b / Winogrande / 5-shot,Pythia v0 deduped,pythia-1.4b,Winogrande,5,training tokens,7,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-12b / ARC-Challenge,Pythia v0 deduped,pythia-12b,ARC-Challenge,0,training tokens,13,7,0.875996,0.0,,,0.0567,0.0283,,,,0.9244,0.9244,0.099,1.755,-7.0,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-12b / ARC-Challenge / 5-shot,Pythia v0 deduped,pythia-12b,ARC-Challenge,5,training tokens,14,11,0.807736,0.0,,,0.0931,0.0465,,,,0.9892,0.9892,0.211,2.325,-3.93,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-12b / LogiQA / 5-shot,Pythia v0 deduped,pythia-12b,LogiQA,5,training tokens,6,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-12b / SciQ,Pythia v0 deduped,pythia-12b,SciQ,0,training tokens,15,8,0.102667,0.0,,,0.3534,0.1767,,,,0.9953,0.9953,1.284,3.714,-5.6,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-12b / WSC,Pythia v0 deduped,pythia-12b,WSC,0,training tokens,9,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-12b / Winogrande,Pythia v0 deduped,pythia-12b,Winogrande,0,training tokens,15,10,0.691398,0.0,,,0.0897,0.0449,,,,0.9144,0.9144,0.344,3.714,-4.29,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-12b / Winogrande / 5-shot,Pythia v0 deduped,pythia-12b,Winogrande,5,training tokens,14,12,0.632992,0.0,,,0.1194,0.0597,,,,0.9694,0.9694,0.449,3.864,-3.67,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-160m / ARC-Easy,Pythia v0 deduped,pythia-160m,ARC-Easy,0,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-160m / PIQA,Pythia v0 deduped,pythia-160m,PIQA,0,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-160m / Winogrande,Pythia v0 deduped,pythia-160m,Winogrande,0,training tokens,13,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-160m / Winogrande / 5-shot,Pythia v0 deduped,pythia-160m,Winogrande,5,training tokens,7,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-1b / ARC-Challenge / 5-shot,Pythia v0 deduped,pythia-1b,ARC-Challenge,5,training tokens,8,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-1b / ARC-Easy,Pythia v0 deduped,pythia-1b,ARC-Easy,0,training tokens,15,10,0.579124,0.0,,,0.0624,0.0312,,,,0.9897,0.9897,0.232,3.629,-4.29,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-1b / Winogrande,Pythia v0 deduped,pythia-1b,Winogrande,0,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-1b / Winogrande / 5-shot,Pythia v0 deduped,pythia-1b,Winogrande,5,training tokens,15,7,0.883978,0.0,,,0.0258,0.0129,,,,0.98,0.98,0.1,3.864,-7.0,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-2.8b / ARC-Challenge,Pythia v0 deduped,pythia-2.8b,ARC-Challenge,0,training tokens,13,7,0.930603,0.0,,,0.038,0.019,,,,0.9438,0.9438,0.07,1.592,-7.0,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-2.8b / ARC-Challenge / 5-shot,Pythia v0 deduped,pythia-2.8b,ARC-Challenge,5,training tokens,13,9,0.875996,0.0,,,0.0607,0.0303,,,,0.8924,0.8924,0.12,1.755,-4.8,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-2.8b / ARC-Easy,Pythia v0 deduped,pythia-2.8b,ARC-Easy,0,training tokens,15,11,0.452301,0.0,,,0.1316,0.0658,,,,0.9945,0.9945,0.502,3.864,-3.93,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-2.8b / LogiQA / 5-shot,Pythia v0 deduped,pythia-2.8b,LogiQA,5,training tokens,7,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-2.8b / SciQ,Pythia v0 deduped,pythia-2.8b,SciQ,0,training tokens,15,10,0.146667,0.0,,,0.2143,0.1072,,,,0.9897,0.9897,0.784,3.714,-4.29,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-2.8b / Winogrande,Pythia v0 deduped,pythia-2.8b,Winogrande,0,training tokens,15,9,0.778216,0.0,,,0.0502,0.0251,,,,0.9153,0.9153,0.208,3.864,-4.8,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-2.8b / Winogrande / 5-shot,Pythia v0 deduped,pythia-2.8b,Winogrande,5,training tokens,15,11,0.786108,0.0,,,0.0624,0.0312,,,,0.972,0.972,0.238,3.714,-3.93,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-410m / LAMBADA,Pythia v0 deduped,pythia-410m,LAMBADA,0,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-410m / Winogrande,Pythia v0 deduped,pythia-410m,Winogrande,0,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-410m / Winogrande / 5-shot,Pythia v0 deduped,pythia-410m,Winogrande,5,training tokens,11,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-6.9b / ARC-Challenge,Pythia v0 deduped,pythia-6.9b,ARC-Challenge,0,training tokens,13,8,0.906712,0.0,,,0.047,0.0235,,,,0.9793,0.9793,0.083,1.677,-5.6,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-6.9b / ARC-Challenge / 5-shot,Pythia v0 deduped,pythia-6.9b,ARC-Challenge,5,training tokens,13,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-6.9b / Winogrande,Pythia v0 deduped,pythia-6.9b,Winogrande,0,training tokens,15,8,0.71981,0.0,,,0.0876,0.0438,,,,0.9021,0.9021,0.314,3.714,-5.6,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-6.9b / Winogrande / 5-shot,Pythia v0 deduped,pythia-6.9b,Winogrande,5,training tokens,15,11,0.704026,0.0,,,0.0873,0.0436,,,,0.9088,0.9088,0.315,3.714,-3.93,excluded: floor at boundary (degenerate)
+Pythia v0 deduped pythia-70m / LAMBADA,Pythia v0 deduped,pythia-70m,LAMBADA,0,training tokens,15,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-70m / LAMBADA / 5-shot,Pythia v0 deduped,pythia-70m,LAMBADA,5,training tokens,15,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-70m / PIQA,Pythia v0 deduped,pythia-70m,PIQA,0,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-70m / PIQA / 5-shot,Pythia v0 deduped,pythia-70m,PIQA,5,training tokens,14,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-70m / SciQ,Pythia v0 deduped,pythia-70m,SciQ,0,training tokens,15,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-70m / SciQ / 5-shot,Pythia v0 deduped,pythia-70m,SciQ,5,training tokens,13,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-70m / Winogrande,Pythia v0 deduped,pythia-70m,Winogrande,0,training tokens,14,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 deduped pythia-70m / Winogrande / 5-shot,Pythia v0 deduped,pythia-70m,Winogrande,5,training tokens,14,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-1.4b / Winogrande,Pythia v0,pythia-1.4b,Winogrande,0,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-1.4b / Winogrande / 5-shot,Pythia v0,pythia-1.4b,Winogrande,5,training tokens,7,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-12b / ARC-Challenge,Pythia v0,pythia-12b,ARC-Challenge,0,training tokens,13,9,0.872583,0.0,,,0.082,0.041,,,,0.9665,0.9665,0.127,1.592,-4.8,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-12b / ARC-Challenge / 5-shot,Pythia v0,pythia-12b,ARC-Challenge,5,training tokens,13,9,0.820251,0.0,,,0.0954,0.0477,,,,0.9797,0.9797,0.15,1.677,-4.8,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-12b / ARC-Easy,Pythia v0,pythia-12b,ARC-Easy,0,training tokens,15,10,0.397307,0.0,,,0.1685,0.0842,,,,0.9692,0.9692,0.621,3.714,-4.29,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-12b / LogiQA / 5-shot,Pythia v0,pythia-12b,LogiQA,5,training tokens,6,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-12b / PIQA,Pythia v0,pythia-12b,PIQA,0,training tokens,15,10,0.4679,0.0,,,0.1253,0.0626,,,,0.9922,0.9922,0.473,3.864,-4.29,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-12b / WSC,Pythia v0,pythia-12b,WSC,0,training tokens,9,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-12b / Winogrande,Pythia v0,pythia-12b,Winogrande,0,training tokens,15,9,0.70876,0.0,,,0.0834,0.0417,,,,0.88,0.88,0.302,3.629,-4.8,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-12b / Winogrande / 5-shot,Pythia v0,pythia-12b,Winogrande,5,training tokens,15,10,0.670876,0.0,,,0.1009,0.0504,,,,0.9206,0.9206,0.376,3.864,-4.29,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-160m / SciQ,Pythia v0,pythia-160m,SciQ,0,training tokens,15,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-160m / Winogrande,Pythia v0,pythia-160m,Winogrande,0,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-160m / Winogrande / 5-shot,Pythia v0,pythia-160m,Winogrande,5,training tokens,7,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-1b / ARC-Challenge / 5-shot,Pythia v0,pythia-1b,ARC-Challenge,5,training tokens,8,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-1b / ARC-Easy,Pythia v0,pythia-1b,ARC-Easy,0,training tokens,15,11,0.578564,0.0,,,0.0695,0.0348,,,,0.989,0.989,0.262,3.714,-3.93,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-1b / Winogrande,Pythia v0,pythia-1b,Winogrande,0,training tokens,14,6,0.896606,0.0,,,0.0262,0.0131,,,,0.8877,0.8877,0.099,3.792,-10.0,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-1b / Winogrande / 5-shot,Pythia v0,pythia-1b,Winogrande,5,training tokens,14,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-2.8b / ARC-Challenge,Pythia v0,pythia-2.8b,ARC-Challenge,0,training tokens,12,7,0.923777,0.0,,,0.0556,0.0278,,,,0.9707,0.9707,0.071,1.394,-7.0,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-2.8b / ARC-Easy,Pythia v0,pythia-2.8b,ARC-Easy,0,training tokens,15,12,0.491583,0.0,,,0.1066,0.0533,,,,0.9913,0.9913,0.409,3.864,-3.67,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-2.8b / ARC-Easy / 5-shot,Pythia v0,pythia-2.8b,ARC-Easy,5,training tokens,14,10,0.427048,0.0,,,0.1303,0.0652,,,,0.9732,0.9732,0.293,2.325,-4.29,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-2.8b / Winogrande,Pythia v0,pythia-2.8b,Winogrande,0,training tokens,15,7,0.754538,0.0,,,0.0596,0.0298,,,,0.7906,0.7906,0.224,3.536,-7.0,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-2.8b / Winogrande / 5-shot,Pythia v0,pythia-2.8b,Winogrande,5,training tokens,15,9,0.760852,0.0,,,0.0753,0.0377,,,,0.8683,0.8683,0.252,3.714,-4.8,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-410m / Winogrande,Pythia v0,pythia-410m,Winogrande,0,training tokens,15,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-6.9b / SciQ,Pythia v0,pythia-6.9b,SciQ,0,training tokens,15,7,0.130667,0.0,,,0.2734,0.1367,,,,0.9976,0.9976,0.964,3.434,-7.0,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-6.9b / Winogrande,Pythia v0,pythia-6.9b,Winogrande,0,training tokens,15,7,0.76401,0.0,,,0.061,0.0305,,,,0.8914,0.8914,0.233,3.864,-7.0,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-6.9b / Winogrande / 5-shot,Pythia v0,pythia-6.9b,Winogrande,5,training tokens,15,11,0.705604,0.0,,,0.08,0.04,,,,0.8681,0.8681,0.309,3.864,-3.93,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-70m / ARC-Easy,Pythia v0,pythia-70m,ARC-Easy,0,training tokens,16,6,0.771044,1e-06,,,0.0232,0.0116,,,,0.985,0.985,0.081,3.629,-10.0,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-70m / ARC-Easy / 5-shot,Pythia v0,pythia-70m,ARC-Easy,5,training tokens,17,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-70m / LAMBADA,Pythia v0,pythia-70m,LAMBADA,0,training tokens,16,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-70m / LAMBADA / 5-shot,Pythia v0,pythia-70m,LAMBADA,5,training tokens,17,6,0.810014,0.0,,,0.029,0.0145,,,,0.9883,0.9883,0.094,3.192,-10.0,excluded: floor at boundary (degenerate)
+Pythia v0 pythia-70m / PIQA,Pythia v0,pythia-70m,PIQA,0,training tokens,16,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-70m / PIQA / 5-shot,Pythia v0,pythia-70m,PIQA,5,training tokens,16,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v0 pythia-70m / Winogrande,Pythia v0,pythia-70m,Winogrande,0,training tokens,6,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-1.4b / ARC-Challenge,Pythia v1 deduped,pythia-1.4b,ARC-Challenge,0,training tokens,9,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-1.4b / ARC-Challenge / 5-shot,Pythia v1 deduped,pythia-1.4b,ARC-Challenge,5,training tokens,12,7,0.948805,0.0,,,0.0287,0.0143,,,,0.9445,0.9445,0.043,1.394,-7.0,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-1.4b / ARC-Easy,Pythia v1 deduped,pythia-1.4b,ARC-Easy,0,training tokens,26,18,0.510663,0.0,,,0.0605,0.0302,,,,0.8237,0.8237,0.662,11.871,-2.91,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-1.4b / PIQA,Pythia v1 deduped,pythia-1.4b,PIQA,0,training tokens,26,13,0.546246,0.0,,,0.0457,0.0229,,,,0.8962,0.8962,0.559,11.542,-3.47,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-1.4b / WSC,Pythia v1 deduped,pythia-1.4b,WSC,0,training tokens,11,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-1.4b / Winogrande,Pythia v1 deduped,pythia-1.4b,Winogrande,0,training tokens,20,7,0.868192,0.0,,,0.018,0.009,,,,0.8889,0.8889,0.126,7.712,-7.0,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-1.4b / Winogrande / 5-shot,Pythia v1 deduped,pythia-1.4b,Winogrande,5,training tokens,14,6,0.847672,0.0,,,0.0641,0.0321,,,,0.8717,0.8717,0.118,1.854,-10.0,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-12b / ARC-Challenge,Pythia v1 deduped,pythia-12b,ARC-Challenge,0,training tokens,13,9,0.882821,0.0,,,0.0632,0.0316,,,,0.9634,0.9634,0.11,1.755,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-12b / ARC-Easy,Pythia v1 deduped,pythia-12b,ARC-Easy,0,training tokens,26,17,0.388328,0.0,,,0.0778,0.0389,,,,0.8119,0.8119,0.935,11.798,-2.99,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-12b / PIQA,Pythia v1 deduped,pythia-12b,PIQA,0,training tokens,26,18,0.47334,0.0,,,0.0597,0.0299,,,,0.8338,0.8338,0.713,11.72,-2.91,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-12b / WSC,Pythia v1 deduped,pythia-12b,WSC,0,training tokens,13,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-12b / Winogrande,Pythia v1 deduped,pythia-12b,Winogrande,0,training tokens,19,13,0.680348,0.0,,,0.0339,0.0169,,,,0.6815,0.6815,0.381,10.484,-3.47,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-12b / Winogrande / 5-shot,Pythia v1 deduped,pythia-12b,Winogrande,5,training tokens,14,9,0.66772,0.0,,,0.1022,0.0511,,,,0.977,0.977,0.39,3.864,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-160m / ARC-Easy,Pythia v1 deduped,pythia-160m,ARC-Easy,0,training tokens,26,13,0.722223,0.0,,,0.031,0.0155,,,,0.8673,0.8673,0.315,11.542,-3.47,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-160m / ARC-Easy / 5-shot,Pythia v1 deduped,pythia-160m,ARC-Easy,5,training tokens,14,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-160m / PIQA,Pythia v1 deduped,pythia-160m,PIQA,0,training tokens,26,9,0.734494,0.0,,,0.0239,0.012,,,,0.7347,0.7347,0.258,10.404,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-160m / PIQA / 5-shot,Pythia v1 deduped,pythia-160m,PIQA,5,training tokens,12,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-160m / SciQ,Pythia v1 deduped,pythia-160m,SciQ,0,training tokens,16,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-160m / WSC,Pythia v1 deduped,pythia-160m,WSC,0,training tokens,9,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-160m / Winogrande,Pythia v1 deduped,pythia-160m,Winogrande,0,training tokens,12,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-160m / Winogrande / 5-shot,Pythia v1 deduped,pythia-160m,Winogrande,5,training tokens,13,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-1b / ARC-Challenge / 5-shot,Pythia v1 deduped,pythia-1b,ARC-Challenge,5,training tokens,6,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-1b / ARC-Easy,Pythia v1 deduped,pythia-1b,ARC-Easy,0,training tokens,26,21,0.553872,0.0,,,0.0518,0.0259,,,,0.8728,0.8728,0.583,11.871,-2.75,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-1b / PIQA,Pythia v1 deduped,pythia-1b,PIQA,0,training tokens,26,17,0.59086,0.0,,,0.0402,0.0201,,,,0.8597,0.8597,0.471,11.798,-2.99,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-1b / WSC,Pythia v1 deduped,pythia-1b,WSC,0,training tokens,10,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-1b / Winogrande,Pythia v1 deduped,pythia-1b,Winogrande,0,training tokens,15,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-1b / Winogrande / 5-shot,Pythia v1 deduped,pythia-1b,Winogrande,5,training tokens,14,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-2.8b / ARC-Challenge,Pythia v1 deduped,pythia-2.8b,ARC-Challenge,0,training tokens,12,9,0.93174,0.0,,,0.0383,0.0191,,,,0.9525,0.9525,0.056,1.466,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-2.8b / ARC-Challenge / 5-shot,Pythia v1 deduped,pythia-2.8b,ARC-Challenge,5,training tokens,13,9,0.894197,0.0,,,0.0512,0.0256,,,,0.9381,0.9381,0.081,1.827,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-2.8b / ARC-Easy,Pythia v1 deduped,pythia-2.8b,ARC-Easy,0,training tokens,23,19,0.476992,0.0,,,0.0762,0.0381,,,,0.8735,0.8735,0.716,9.719,-2.85,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-2.8b / PIQA,Pythia v1 deduped,pythia-2.8b,PIQA,0,training tokens,26,14,0.508162,0.0,,,0.0477,0.0239,,,,0.858,0.858,0.609,11.635,-3.31,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-2.8b / WSC,Pythia v1 deduped,pythia-2.8b,WSC,0,training tokens,7,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-2.8b / Winogrande,Pythia v1 deduped,pythia-2.8b,Winogrande,0,training tokens,23,13,0.809786,0.0,,,0.0161,0.0081,,,,0.8557,0.8557,0.197,11.798,-3.47,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-2.8b / Winogrande / 5-shot,Pythia v1 deduped,pythia-2.8b,Winogrande,5,training tokens,15,10,0.787688,0.0,,,0.0618,0.0309,,,,0.9261,0.9261,0.219,3.629,-4.29,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-410m / ARC-Easy,Pythia v1 deduped,pythia-410m,ARC-Easy,0,training tokens,24,14,0.632436,0.0,,,0.0407,0.0204,,,,0.7845,0.7845,0.456,11.44,-3.31,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-410m / PIQA,Pythia v1 deduped,pythia-410m,PIQA,0,training tokens,26,13,0.646354,0.0,,,0.0327,0.0164,,,,0.7905,0.7905,0.364,11.72,-3.47,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-410m / WSC,Pythia v1 deduped,pythia-410m,WSC,0,training tokens,19,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-410m / Winogrande / 5-shot,Pythia v1 deduped,pythia-410m,Winogrande,5,training tokens,14,6,0.915548,0.0,,,0.0215,0.0108,,,,0.6444,0.6444,0.075,3.434,-10.0,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-6.9b / ARC-Challenge,Pythia v1 deduped,pythia-6.9b,ARC-Challenge,0,training tokens,12,7,0.891923,0.0,,,0.0641,0.0321,,,,0.9631,0.9631,0.084,1.466,-7.0,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-6.9b / ARC-Challenge / 5-shot,Pythia v1 deduped,pythia-6.9b,ARC-Challenge,5,training tokens,13,9,0.856655,0.0,,,0.0739,0.037,,,,0.9104,0.9104,0.113,1.499,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-6.9b / ARC-Easy,Pythia v1 deduped,pythia-6.9b,ARC-Easy,0,training tokens,26,23,0.418631,0.0,,,0.0706,0.0353,,,,0.8257,0.8257,0.866,11.871,-2.66,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-6.9b / PIQA,Pythia v1 deduped,pythia-6.9b,PIQA,0,training tokens,26,13,0.47987,0.0,,,0.0531,0.0265,,,,0.799,0.799,0.647,11.871,-3.47,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-6.9b / SciQ / 5-shot,Pythia v1 deduped,pythia-6.9b,SciQ,5,training tokens,15,9,0.062667,0.0,,,0.4288,0.2144,,,,0.9982,0.9982,1.566,3.792,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-6.9b / WSC,Pythia v1 deduped,pythia-6.9b,WSC,0,training tokens,6,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-6.9b / Winogrande,Pythia v1 deduped,pythia-6.9b,Winogrande,0,training tokens,19,11,0.738752,0.0,,,0.0365,0.0183,,,,0.8439,0.8439,0.302,7.019,-3.93,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-6.9b / Winogrande / 5-shot,Pythia v1 deduped,pythia-6.9b,Winogrande,5,training tokens,15,11,0.705604,0.0,,,0.0911,0.0456,,,,0.9202,0.9202,0.335,3.792,-3.93,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-70m / ARC-Easy,Pythia v1 deduped,pythia-70m,ARC-Easy,0,training tokens,26,9,0.771044,0.0,,,0.0221,0.011,,,,0.7373,0.7373,0.23,10.669,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-70m / ARC-Easy / 5-shot,Pythia v1 deduped,pythia-70m,ARC-Easy,5,training tokens,15,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-70m / LAMBADA,Pythia v1 deduped,pythia-70m,LAMBADA,0,training tokens,16,4,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-70m / LAMBADA / 5-shot,Pythia v1 deduped,pythia-70m,LAMBADA,5,training tokens,15,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-70m / PIQA,Pythia v1 deduped,pythia-70m,PIQA,0,training tokens,26,8,0.78346,0.0,,,0.0194,0.0097,,,,0.9551,0.9551,0.192,10.878,-5.6,excluded: floor at boundary (degenerate)
+Pythia v1 deduped pythia-70m / PIQA / 5-shot,Pythia v1 deduped,pythia-70m,PIQA,5,training tokens,14,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-70m / WSC,Pythia v1 deduped,pythia-70m,WSC,0,training tokens,9,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-70m / Winogrande,Pythia v1 deduped,pythia-70m,Winogrande,0,training tokens,13,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 deduped pythia-70m / Winogrande / 5-shot,Pythia v1 deduped,pythia-70m,Winogrande,5,training tokens,7,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-1.4b / ARC-Challenge,Pythia v1,pythia-1.4b,ARC-Challenge,0,training tokens,7,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-1.4b / ARC-Easy,Pythia v1,pythia-1.4b,ARC-Easy,0,training tokens,26,17,0.524692,0.0,,,0.0575,0.0288,,,,0.8249,0.8249,0.635,11.798,-2.99,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-1.4b / PIQA,Pythia v1,pythia-1.4b,PIQA,0,training tokens,26,14,0.576714,0.0,,,0.0429,0.0215,,,,0.91,0.91,0.505,11.635,-3.31,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-1.4b / WSC,Pythia v1,pythia-1.4b,WSC,0,training tokens,11,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-1.4b / Winogrande,Pythia v1,pythia-1.4b,Winogrande,0,training tokens,19,13,0.844514,0.0,,,0.0164,0.0082,,,,0.7277,0.7277,0.168,9.026,-3.47,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-1.4b / Winogrande / 5-shot,Pythia v1,pythia-1.4b,Winogrande,5,training tokens,15,8,0.819258,0.0,,,0.0486,0.0243,,,,0.8414,0.8414,0.189,3.629,-5.6,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-12b / ARC-Challenge,Pythia v1,pythia-12b,ARC-Challenge,0,training tokens,13,10,0.898748,0.0,,,0.0461,0.0231,,,,0.9391,0.9391,0.076,1.755,-4.29,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-12b / ARC-Easy,Pythia v1,pythia-12b,ARC-Easy,0,training tokens,26,16,0.396745,0.0,,,0.076,0.038,,,,0.7551,0.7551,0.914,11.871,-3.08,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-12b / PIQA,Pythia v1,pythia-12b,PIQA,0,training tokens,26,18,0.468988,0.0,,,0.0593,0.0297,,,,0.8933,0.8933,0.722,11.798,-2.91,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-12b / WSC,Pythia v1,pythia-12b,WSC,0,training tokens,20,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-12b / Winogrande,Pythia v1,pythia-12b,Winogrande,0,training tokens,18,11,0.715074,0.0,,,0.03,0.015,,,,0.6782,0.6782,0.335,10.334,-3.93,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-12b / Winogrande / 5-shot,Pythia v1,pythia-12b,Winogrande,5,training tokens,14,9,0.686662,0.0,,,0.1058,0.0529,,,,0.8751,0.8751,0.364,3.629,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-160m / ARC-Easy,Pythia v1,pythia-160m,ARC-Easy,0,training tokens,26,13,0.716611,0.0,,,0.0297,0.0148,,,,0.8492,0.8492,0.323,11.44,-3.47,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-160m / PIQA,Pythia v1,pythia-160m,PIQA,0,training tokens,26,9,0.729054,0.0,,,0.0259,0.013,,,,0.7271,0.7271,0.266,10.669,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-160m / PIQA / 5-shot,Pythia v1,pythia-160m,PIQA,5,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-160m / SciQ,Pythia v1,pythia-160m,SciQ,0,training tokens,16,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-160m / WSC,Pythia v1,pythia-160m,WSC,0,training tokens,7,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-160m / Winogrande,Pythia v1,pythia-160m,Winogrande,0,training tokens,17,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-160m / Winogrande / 5-shot,Pythia v1,pythia-160m,Winogrande,5,training tokens,15,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-2.8b / ARC-Challenge / 5-shot,Pythia v1,pythia-2.8b,ARC-Challenge,5,training tokens,13,8,0.901024,0.0,,,0.0495,0.0248,,,,0.9436,0.9436,0.073,1.677,-5.6,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-2.8b / ARC-Easy,Pythia v1,pythia-2.8b,ARC-Easy,0,training tokens,23,19,0.474748,0.0,,,0.0763,0.0381,,,,0.8736,0.8736,0.721,9.791,-2.85,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-2.8b / PIQA,Pythia v1,pythia-2.8b,PIQA,0,training tokens,26,13,0.50925,0.0,,,0.0473,0.0237,,,,0.8528,0.8528,0.607,11.635,-3.47,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-2.8b / WSC,Pythia v1,pythia-2.8b,WSC,0,training tokens,7,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-2.8b / Winogrande,Pythia v1,pythia-2.8b,Winogrande,0,training tokens,23,14,0.800316,0.0,,,0.0167,0.0084,,,,0.8605,0.8605,0.209,11.798,-3.31,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-2.8b / Winogrande / 5-shot,Pythia v1,pythia-2.8b,Winogrande,5,training tokens,15,10,0.765588,0.0,,,0.0683,0.0342,,,,0.9256,0.9256,0.25,3.792,-4.29,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-410m / ARC-Easy,Pythia v1,pythia-410m,ARC-Easy,0,training tokens,24,16,0.638608,0.0,,,0.04,0.02,,,,0.8403,0.8403,0.447,11.871,-3.08,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-410m / PIQA,Pythia v1,pythia-410m,PIQA,0,training tokens,26,14,0.64962,0.0,,,0.0323,0.0162,,,,0.8167,0.8167,0.359,11.798,-3.31,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-410m / PIQA / 5-shot,Pythia v1,pythia-410m,PIQA,5,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-410m / WSC,Pythia v1,pythia-410m,WSC,0,training tokens,16,1,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-410m / Winogrande / 5-shot,Pythia v1,pythia-410m,Winogrande,5,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-6.9b / ARC-Easy,Pythia v1,pythia-6.9b,ARC-Easy,0,training tokens,26,19,0.431537,0.0,,,0.0649,0.0324,,,,0.804,0.804,0.836,11.798,-2.85,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-6.9b / LogiQA / 5-shot,Pythia v1,pythia-6.9b,LogiQA,5,training tokens,6,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-6.9b / PIQA,Pythia v1,pythia-6.9b,PIQA,0,training tokens,26,10,0.482046,0.0,,,0.0503,0.0251,,,,0.8658,0.8658,0.642,11.798,-4.29,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-6.9b / Winogrande,Pythia v1,pythia-6.9b,Winogrande,0,training tokens,19,8,0.748224,0.0,,,0.0317,0.0158,,,,0.7003,0.7003,0.285,6.783,-5.6,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-6.9b / Winogrande / 5-shot,Pythia v1,pythia-6.9b,Winogrande,5,training tokens,15,12,0.718232,0.0,,,0.0881,0.0441,,,,0.8189,0.8189,0.308,3.714,-3.67,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-70m / ARC-Easy,Pythia v1,pythia-70m,ARC-Easy,0,training tokens,26,9,0.787879,0.0,,,0.0194,0.0097,,,,0.7702,0.7702,0.209,11.051,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-70m / ARC-Easy / 5-shot,Pythia v1,pythia-70m,ARC-Easy,5,training tokens,15,3,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-70m / PIQA,Pythia v1,pythia-70m,PIQA,0,training tokens,26,9,0.784548,0.0,,,0.0183,0.0092,,,,0.8955,0.8955,0.19,10.043,-4.8,excluded: floor at boundary (degenerate)
+Pythia v1 pythia-70m / PIQA / 5-shot,Pythia v1,pythia-70m,PIQA,5,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-70m / SciQ / 5-shot,Pythia v1,pythia-70m,SciQ,5,training tokens,15,5,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-70m / WSC,Pythia v1,pythia-70m,WSC,0,training tokens,10,2,,,,,,,,,,,,,,,excluded: front shorter than six points
+Pythia v1 pythia-70m / Winogrande / 5-shot,Pythia v1,pythia-70m,Winogrande,5,training tokens,14,4,,,,,,,,,,,,,,,excluded: front shorter than six points

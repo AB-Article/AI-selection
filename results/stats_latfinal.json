@@ -1,0 +1,128 @@
+{
+ "selection": {
+  "n_units": 9,
+  "total": -30.325000000000003,
+  "mean": -3.369444444444445,
+  "ci": [
+   -5.004625000000001,
+   -1.716527777777777
+  ],
+  "favourable": 1,
+  "sign_p": 0.0390625,
+  "wilcoxon_p": 0.99609375,
+  "by_class": {
+   "retired": {
+    "n": 5,
+    "total": -16.865,
+    "mean": -3.3729999999999998,
+    "pos": 0
+   },
+   "headroom": {
+    "n": 4,
+    "total": -13.46,
+    "mean": -3.365,
+    "pos": 1
+   }
+  },
+  "rho": [
+   0.18333333333333335,
+   0.6368198117628943
+  ],
+  "units": {
+   "qwen/qwen1.5 | ARC-Challenge": -2.1750000000000003,
+   "qwen/qwen1.5 | BBH": 1.31,
+   "qwen/qwen1.5 | GSM8K": -6.62,
+   "qwen/qwen1.5 | HellaSwag": -0.71,
+   "qwen/qwen1.5 | IFEval": -4.140000000000001,
+   "qwen/qwen1.5 | MMLU": -4.74,
+   "qwen/qwen1.5 | MMLU-PRO": -3.72,
+   "qwen/qwen1.5 | MuSR": -6.91,
+   "qwen/qwen1.5 | Winogrande": -2.62
+  }
+ },
+ "stability": {
+  "across_families": [],
+  "n_homogeneous": 0,
+  "n_shared": 0,
+  "within": [],
+  "n_within_homogeneous": 0,
+  "median_within_I2": null
+ },
+ "anchor": {
+  "n": 5,
+  "violations": 1,
+  "expected": 1.9352041701663665,
+  "p_left": 0.35707939065049316,
+  "ceilings": {
+   "HellaSwag": [
+    0.956,
+    0.25
+   ],
+   "Winogrande": [
+    0.94,
+    0.5
+   ],
+   "MMLU": [
+    0.898,
+    0.25
+   ]
+  },
+  "eps_ceiling": {
+   "HellaSwag": 0.058666666666666756,
+   "Winogrande": 0.1200000000000001,
+   "MMLU": 0.136
+  },
+  "rows": [
+   {
+    "label": "qwen1.5 | 1xA10 | float16 | HellaSwag",
+    "task": "HellaSwag",
+    "family": "qwen/qwen1.5",
+    "eps_inf": 0.165908,
+    "eps_min": 0.2,
+    "eps_c": 0.058666666666666756,
+    "A": 0.2933333333333338,
+    "respects": true
+   },
+   {
+    "label": "qwen1.5 | 1xA10 | float16 | MMLU",
+    "task": "MMLU",
+    "family": "qwen/qwen1.5",
+    "eps_inf": 0.057016,
+    "eps_min": 0.3426,
+    "eps_c": 0.136,
+    "A": 0.396964389959136,
+    "respects": false
+   },
+   {
+    "label": "qwen1.5 | 1xA100 | float16 | HellaSwag",
+    "task": "HellaSwag",
+    "family": "qwen/qwen1.5",
+    "eps_inf": 0.166766,
+    "eps_min": 0.16693,
+    "eps_c": 0.058666666666666756,
+    "A": 0.35144471734659294,
+    "respects": true
+   },
+   {
+    "label": "qwen1.5 | 1xA100 | float16 | MMLU",
+    "task": "MMLU",
+    "family": "qwen/qwen1.5",
+    "eps_inf": 0.246329,
+    "eps_min": 0.264,
+    "eps_c": 0.136,
+    "A": 0.5151515151515151,
+    "respects": true
+   },
+   {
+    "label": "qwen1.5 | 1xA100 | float16 | Winogrande",
+    "task": "Winogrande",
+    "family": "qwen/qwen1.5",
+    "eps_inf": 0.243965,
+    "eps_min": 0.3172,
+    "eps_c": 0.1200000000000001,
+    "A": 0.3783102143757885,
+    "respects": true
+   }
+  ]
+ }
+}

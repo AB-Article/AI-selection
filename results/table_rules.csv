@@ -1,0 +1,16 @@
+rule,accuracy_pct,undefined_pct,mean_regret_nats
+Universal knee price $\lambda=0.35$,94.98,0.00,0.0040
+Leave-one-cell-out knee price,95.49,0.00,0.0038
+Leave-one-task-out knee price,87.89,0.00,0.0126
+Leave-one-family-out knee price,87.89,0.00,0.0126
+Fixed $\lambda=0.166$,54.24,0.00,0.1388
+Fixed $\lambda=0.2$,66.33,0.00,0.0860
+Fixed $\lambda=0.25$,82.05,0.00,0.0305
+Fixed $\lambda=0.3$,91.08,0.00,0.0091
+Fixed $\lambda=0.4$,90.31,0.00,0.0080
+Fixed $\lambda=0.5$,84.56,0.00,0.0204
+Fixed $\lambda=1.0$,74.37,0.00,0.0471
+Accuracy per unit time ($\varepsilon t$),74.37,0.00,0.0471
+Always the faster system,74.35,0.00,0.0472
+Always the more accurate system,25.65,0.00,0.2952
+Coin flip,50.06,0.00,0.1691

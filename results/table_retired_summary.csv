@@ -1,0 +1,7 @@
+benchmark,n_ladders,n_identified,median_eps_min,median_S_max,median_dAICc,n_saturating_preferred,n_with_aicc,median_R2,eps_ceiling
+SciQ,55,51,0.1293,2.045,6.01,41,55,0.9953,
+LAMBADA,55,54,0.3796,0.969,7.33,43,55,0.9949,
+ARC-Easy,56,34,0.4764,0.741,-2.71,22,56,0.9921,
+PIQA,51,35,0.5147,0.664,-2.1,21,51,0.9867,0.1
+Winogrande,39,4,0.7545,0.282,-4.8,0,39,0.88,0.12
+ARC-Challenge,27,10,0.8965,0.109,-4.8,0,27,0.9631,

@@ -1,0 +1,43 @@
+{
+  "mult_median_all": 14.622619437555567,
+  "mult_min_all": 2.202433601031796,
+  "mult_max_all": 19.879530047909668,
+  "mult_median_cell": 14.622619437555567,
+  "vstar_median": 1.0723254254207415e-07,
+  "vstar_min": 5.8463285524396966e-08,
+  "vstar_max": 4.998958259048114e-07,
+  "ratio_median": 2.144650850841483e-06,
+  "lam_a1_min": 0.0023817763550637093,
+  "lam_a1_max": 0.009328869156193832,
+  "lam_a1_median": 0.003349857776013426,
+  "rhostar_median": 1257.5749999999998,
+  "rho_a1_median": 0.003333333333333333,
+  "decades": 5.576655149930607,
+  "n_gpu": 7,
+  "tstar_needed_s": 28.6272,
+  "tstar_actual_s": 6.3e-05,
+  "tstar_factor": 454400.0,
+  "capacity_qps_per_device_at_knee": 15873.015873015873,
+  "table_body": [
+    "RTX Pro 6000 / compile bf16 & Classification & 2.20 & 0.040 & 0.0503 & 19.9 & $4.86\\times10^{-7}$ & 0.0093 \\\\",
+    "RTX Pro 6000 / eager fp16 & Classification & 2.20 & 0.052 & 0.0636 & 15.7 & $5.00\\times10^{-7}$ & 0.0069 \\\\",
+    "CPU i7-12700H / compile fp32 & Classification & --- & 10.760 & 0.0651 & 15.4 & --- & --- \\\\",
+    "RTX 3090 / eager fp16 & Classification & 0.15 & 0.112 & 0.0653 & 15.3 & $7.15\\times10^{-8}$ & 0.0031 \\\\",
+    "RTX 4090 / eager fp16 & Classification & 0.43 & 0.063 & 0.0684 & 14.6 & $1.10\\times10^{-7}$ & 0.0034 \\\\",
+    "RTX 5090 / eager fp16 & Classification & 0.60 & 0.044 & 0.0684 & 14.6 & $1.07\\times10^{-7}$ & 0.0033 \\\\",
+    "RTX 4090 / compile fp16 & Classification & 0.43 & 0.041 & 0.0684 & 14.6 & $7.16\\times10^{-8}$ & 0.0028 \\\\",
+    "RTX 5090 / compile fp16 & Classification & 0.60 & 0.025 & 0.0713 & 14.0 & $5.85\\times10^{-8}$ & 0.0024 \\\\",
+    "CPU ONNX (oriented det.) & Oriented det. & --- & 12.360 & 0.1299 & 7.7 & --- & --- \\\\",
+    "CPU ONNX (pose est.) & Pose est. & --- & 40.140 & 0.2479 & 4.0 & --- & --- \\\\",
+    "CPU i9-10940X / compile fp32 & Classification & --- & 7.195 & 0.0945 & 10.6 & --- & --- \\\\",
+    "CPU ONNX (object det.) & Object det. & --- & 23.280 & 0.4540 & 2.2 & --- & --- \\\\"
+  ],
+  "tangency": {
+    "1.05": 1.0,
+    "1.5": 0.998125,
+    "2.0": 0.9928,
+    "4.0": 0.97225,
+    "10.0": 0.927775,
+    "100.0": 0.764825
+  }
+}

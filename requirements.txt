@@ -1,0 +1,12 @@
+# Analysis pipeline dependencies.
+#
+# Version floors are the earliest known to work; the upper pins record the
+# versions the archived results were produced with, so an exact reproduction
+# can install those.  Nothing else is required: no network access, no GPU,
+# no compiled extensions beyond the wheels these pull in.
+#
+# Verified with: numpy 2.4.4, scipy 1.17.1, matplotlib 3.10.8 on Python 3.12.
+
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.6

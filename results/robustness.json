@@ -1,0 +1,459 @@
+{
+ "winners_curse": [
+  {
+   "n_sys": 1200,
+   "sigma": 0.1,
+   "n_ok": 394,
+   "alpha_true": 0.7,
+   "alpha_mean": 0.5214658366996654,
+   "alpha_median": 0.5219494346471453,
+   "rel_bias": -0.25504880471476365,
+   "coverage": 0.6472081218274112,
+   "front_len": 55.076142131979694
+  },
+  {
+   "n_sys": 1200,
+   "sigma": 0.2,
+   "n_ok": 398,
+   "alpha_true": 0.7,
+   "alpha_mean": 0.6007214868273556,
+   "alpha_median": 0.6011363697843211,
+   "rel_bias": -0.1418264473894919,
+   "coverage": 0.6331658291457286,
+   "front_len": 34.37688442211055
+  },
+  {
+   "n_sys": 1200,
+   "sigma": 0.35,
+   "n_ok": 399,
+   "alpha_true": 0.7,
+   "alpha_mean": 0.7761129747387342,
+   "alpha_median": 0.7749413529866486,
+   "rel_bias": 0.10873282105533466,
+   "coverage": 0.7443609022556391,
+   "front_len": 24.230576441102755
+  },
+  {
+   "n_sys": 200,
+   "sigma": 0.2,
+   "n_ok": 331,
+   "alpha_true": 0.7,
+   "alpha_mean": 0.527814187150232,
+   "alpha_median": 0.5244979655956172,
+   "rel_bias": -0.2459797326425257,
+   "coverage": 0.6404833836858006,
+   "front_len": 24.205438066465256
+  },
+  {
+   "n_sys": 40,
+   "sigma": 0.2,
+   "n_ok": 300,
+   "alpha_true": 0.7,
+   "alpha_mean": 0.5265251996203089,
+   "alpha_median": 0.5072134455638795,
+   "rel_bias": -0.24782114339955874,
+   "coverage": 0.7366666666666667,
+   "front_len": 14.4
+  },
+  {
+   "n_sys": 20,
+   "sigma": 0.2,
+   "n_ok": 298,
+   "alpha_true": 0.7,
+   "alpha_mean": 0.5666572848942658,
+   "alpha_median": 0.5391663829979201,
+   "rel_bias": -0.19048959300819168,
+   "coverage": 0.8557046979865772,
+   "front_len": 10.399328859060402
+  }
+ ],
+ "bias_worst": 0.25504880471476365,
+ "coverage_worst": 0.6331658291457286,
+ "_stages_completed": [
+  "R1 winners curse",
+  "R1b calibration",
+  "R4 identifiability sensitivity",
+  "R5 metric dependence"
+ ],
+ "calibration": [
+  {
+   "cell": "timm | CPU i7-12700H | PyTorch 2.4.0 compile | fp32",
+   "sigma": 0.13469129950402497,
+   "n": 1091,
+   "n_ok": 60,
+   "alpha_fitted": 0.6546466313744996,
+   "alpha_recovered": 0.724213230030768,
+   "rel_bias": 0.106265877379077,
+   "coverage": 0.7333333333333333,
+   "inflation": 1.4720314988617431
+  },
+  {
+   "cell": "timm | CPU i9-10940X | PyTorch 2.4.0 compile | fp32",
+   "sigma": 0.1433143443127101,
+   "n": 1086,
+   "n_ok": 60,
+   "alpha_fitted": 0.9506222127715489,
+   "alpha_recovered": 1.0536833894886444,
+   "rel_bias": 0.10841444196493111,
+   "coverage": 0.7,
+   "inflation": 1.2603735332772605
+  },
+  {
+   "cell": "timm | RTX 3090 | PyTorch 2.4.0 eager | amp-fp16",
+   "sigma": 0.1294849884475857,
+   "n": 1091,
+   "n_ok": 60,
+   "alpha_fitted": 0.6568889520499371,
+   "alpha_recovered": 0.7239993097291356,
+   "rel_bias": 0.10216393116335554,
+   "coverage": 0.7,
+   "inflation": 1.4623572227113213
+  },
+  {
+   "cell": "timm | RTX 4090 | PyTorch 2.9.1 compile | amp-fp16",
+   "sigma": 0.13037326891915274,
+   "n": 1191,
+   "n_ok": 60,
+   "alpha_fitted": 0.6879105368449437,
+   "alpha_recovered": 0.7539281360462107,
+   "rel_bias": 0.09596829190035705,
+   "coverage": 0.6333333333333333,
+   "inflation": 1.2588419190654425
+  },
+  {
+   "cell": "timm | RTX 4090 | PyTorch 2.9.1 eager | amp-fp16",
+   "sigma": 0.13506142672854746,
+   "n": 1193,
+   "n_ok": 60,
+   "alpha_fitted": 0.6875845677345374,
+   "alpha_recovered": 0.7589622761399551,
+   "rel_bias": 0.10380935197628705,
+   "coverage": 0.7,
+   "inflation": 1.4585975017705985
+  },
+  {
+   "cell": "timm | RTX 5090 | PyTorch 2.9.1 compile | amp-fp16",
+   "sigma": 0.13292034156304552,
+   "n": 1193,
+   "n_ok": 60,
+   "alpha_fitted": 0.7171606375931951,
+   "alpha_recovered": 0.7741218858871748,
+   "rel_bias": 0.07942606622296311,
+   "coverage": 0.7833333333333333,
+   "inflation": 1.475146361180305
+  },
+  {
+   "cell": "timm | RTX 5090 | PyTorch 2.9.1 eager | amp-fp16",
+   "sigma": 0.1332343453126847,
+   "n": 1193,
+   "n_ok": 60,
+   "alpha_fitted": 0.6876440715553935,
+   "alpha_recovered": 0.7530914474433507,
+   "rel_bias": 0.09517623810806741,
+   "coverage": 0.6166666666666667,
+   "inflation": 1.5025434318595519
+  },
+  {
+   "cell": "timm | RTX Pro 6000 | PyTorch 2.9.1 compile | bf16",
+   "sigma": 0.12667334919157075,
+   "n": 1187,
+   "n_ok": 60,
+   "alpha_fitted": 0.537826141628659,
+   "alpha_recovered": 0.6102507402780221,
+   "rel_bias": 0.13466172995988068,
+   "coverage": 0.5,
+   "inflation": 1.397750352604783
+  },
+  {
+   "cell": "timm | RTX Pro 6000 | PyTorch 2.9.1 eager | amp-fp16",
+   "sigma": 0.1314992389438539,
+   "n": 1193,
+   "n_ok": 60,
+   "alpha_fitted": 0.6477975815042271,
+   "alpha_recovered": 0.7154132968354266,
+   "rel_bias": 0.10437784465664657,
+   "coverage": 0.5,
+   "inflation": 1.4581280596918964
+  },
+  {
+   "cell": "ultralytics | CPU ONNX | ONNX Runtime",
+   "sigma": 0.059454044456034215,
+   "n": 20,
+   "n_ok": 49,
+   "alpha_fitted": 1.0523417403943183,
+   "alpha_recovered": 1.0087903439847434,
+   "rel_bias": -0.041385221870279376,
+   "coverage": 0.8775510204081632,
+   "inflation": 1.51774337010763
+  },
+  {
+   "cell": "ultralytics | CPU ONNX | ONNX Runtime",
+   "sigma": 0.02501777957734615,
+   "n": 10,
+   "n_ok": 29,
+   "alpha_fitted": 0.7189893127664868,
+   "alpha_recovered": 1.1966558351304413,
+   "rel_bias": 0.6643583066986294,
+   "coverage": 0.9655172413793104,
+   "inflation": 1.1542733249623878
+  },
+  {
+   "cell": "ultralytics | CPU ONNX | ONNX Runtime",
+   "sigma": 0.08800387118696915,
+   "n": 11,
+   "n_ok": 31,
+   "alpha_fitted": 0.8890232429336755,
+   "alpha_recovered": 0.8563403676374299,
+   "rel_bias": -0.036762678091965095,
+   "coverage": 0.8709677419354839,
+   "inflation": 0.9478701160538979
+  }
+ ],
+ "calibration_median_inflation": 1.4583627807312474,
+ "calibration_median_bias": 0.10298664156982129,
+ "calibration_median_coverage": 0.7,
+ "bias_corrected_median_lambda": 0.3117795258251235,
+ "system_bootstrap": {
+  "k": 12,
+  "pooled": 0.3483660104621274,
+  "se": 0.01583741159357345,
+  "tau": 0.04231874592428237,
+  "ci": [
+   0.3173246837387234,
+   0.3794073371855314
+  ],
+  "pi": [
+   0.2476871708796208,
+   0.449044850044634
+  ],
+  "median_se": 0.025708133206126187,
+  "cells": {
+   "('timm', 'timm | RTX Pro 6000 | PyTorch 2.9.1 compile | bf16', 'Image classification')": {
+    "se": 0.025522500976167053,
+    "lo": 0.25371955365307935,
+    "hi": 0.35237462555556864,
+    "n": 400
+   },
+   "('timm', 'timm | RTX Pro 6000 | PyTorch 2.9.1 eager | amp-fp16', 'Image classification')": {
+    "se": 0.03063794315441133,
+    "lo": 0.2899921116484448,
+    "hi": 0.4154778936609273,
+    "n": 400
+   },
+   "('timm', 'timm | CPU i7-12700H | PyTorch 2.4.0 compile | fp32', 'Image classification')": {
+    "se": 0.025893765436085323,
+    "lo": 0.27747073804824024,
+    "hi": 0.38101932499549573,
+    "n": 400
+   },
+   "('timm', 'timm | RTX 3090 | PyTorch 2.4.0 eager | amp-fp16', 'Image classification')": {
+    "se": 0.011303271952532407,
+    "lo": 0.3080088710749,
+    "hi": 0.3520778316166381,
+    "n": 400
+   },
+   "('timm', 'timm | RTX 4090 | PyTorch 2.9.1 eager | amp-fp16', 'Image classification')": {
+    "se": 0.027754798989356694,
+    "lo": 0.3128864197333775,
+    "hi": 0.413150903427938,
+    "n": 400
+   },
+   "('timm', 'timm | RTX 5090 | PyTorch 2.9.1 eager | amp-fp16', 'Image classification')": {
+    "se": 0.02108356154706735,
+    "lo": 0.3139364041499981,
+    "hi": 0.39091170115914464,
+    "n": 400
+   },
+   "('timm', 'timm | RTX 4090 | PyTorch 2.9.1 compile | amp-fp16', 'Image classification')": {
+    "se": 0.02151159414337216,
+    "lo": 0.32214045114976864,
+    "hi": 0.405223025041745,
+    "n": 400
+   },
+   "('timm', 'timm | RTX 5090 | PyTorch 2.9.1 compile | amp-fp16', 'Image classification')": {
+    "se": 0.0132677572001523,
+    "lo": 0.3323235723627525,
+    "hi": 0.3831340994863282,
+    "n": 400
+   },
+   "('ultralytics', 'ultralytics | CPU ONNX | ONNX Runtime', 'Oriented detection')": {
+    "se": 0.3732158220386255,
+    "lo": 0.14516036666675522,
+    "hi": 1.1382530368606416,
+    "n": 35
+   },
+   "('ultralytics', 'ultralytics | CPU ONNX | ONNX Runtime', 'Pose estimation')": {
+    "se": 0.15248920817916606,
+    "lo": 0.13007295215340395,
+    "hi": 0.5988235983597314,
+    "n": 123
+   },
+   "('timm', 'timm | CPU i9-10940X | PyTorch 2.4.0 compile | fp32', 'Image classification')": {
+    "se": 0.022089959467540148,
+    "lo": 0.3905538688157888,
+    "hi": 0.4979665511437777,
+    "n": 400
+   },
+   "('ultralytics', 'ultralytics | CPU ONNX | ONNX Runtime', 'Object detection')": {
+    "se": 0.355506340582659,
+    "lo": 0.22455771107707448,
+    "hi": 1.752685236023583,
+    "n": 343
+   }
+  }
+ },
+ "clustered": {
+  "n_clusters": 2,
+  "pooled": 0.3845210038020339,
+  "se": 0.04761846909729848,
+  "ci": [
+   0.2911888043713289,
+   0.47785320323273894
+  ],
+  "cluster_means": [
+   0.34600451850316344,
+   0.4433923826824134
+  ],
+  "labels": [
+   "timm (shared checkpoints)",
+   "ultralytics"
+  ]
+ },
+ "rule_sensitivity": {
+  "settings": [
+   {
+    "min_front": 5,
+    "floor_tol": 0.99,
+    "k": 9,
+    "median": 0.4816539180825084,
+    "mean": 0.5043649315987037
+   },
+   {
+    "min_front": 5,
+    "floor_tol": 0.999,
+    "k": 21,
+    "median": 0.47531110638577445,
+    "mean": 0.5851369530606508
+   },
+   {
+    "min_front": 5,
+    "floor_tol": 0.9999,
+    "k": 21,
+    "median": 0.47531110638577445,
+    "mean": 0.5851369530606508
+   },
+   {
+    "min_front": 6,
+    "floor_tol": 0.99,
+    "k": 4,
+    "median": 0.34169672356767844,
+    "mean": 0.34920453485413105
+   },
+   {
+    "min_front": 6,
+    "floor_tol": 0.999,
+    "k": 12,
+    "median": 0.34388865210008435,
+    "mean": 0.3703514845479759
+   },
+   {
+    "min_front": 6,
+    "floor_tol": 0.9999,
+    "k": 12,
+    "median": 0.34388865210008435,
+    "mean": 0.3703514845479759
+   },
+   {
+    "min_front": 8,
+    "floor_tol": 0.99,
+    "k": 2,
+    "median": 0.2964059307832215,
+    "mean": 0.2964059307832215
+   },
+   {
+    "min_front": 8,
+    "floor_tol": 0.999,
+    "k": 9,
+    "median": 0.3437922838672687,
+    "mean": 0.34600451850316344
+   },
+   {
+    "min_front": 8,
+    "floor_tol": 0.9999,
+    "k": 9,
+    "median": 0.3437922838672687,
+    "mean": 0.34600451850316344
+   },
+   {
+    "min_front": 10,
+    "floor_tol": 0.99,
+    "k": 2,
+    "median": 0.2964059307832215,
+    "mean": 0.2964059307832215
+   },
+   {
+    "min_front": 10,
+    "floor_tol": 0.999,
+    "k": 9,
+    "median": 0.3437922838672687,
+    "mean": 0.34600451850316344
+   },
+   {
+    "min_front": 10,
+    "floor_tol": 0.9999,
+    "k": 9,
+    "median": 0.3437922838672687,
+    "mean": 0.34600451850316344
+   },
+   {
+    "min_front": 12,
+    "floor_tol": 0.99,
+    "k": 2,
+    "median": 0.2964059307832215,
+    "mean": 0.2964059307832215
+   },
+   {
+    "min_front": 12,
+    "floor_tol": 0.999,
+    "k": 9,
+    "median": 0.3437922838672687,
+    "mean": 0.34600451850316344
+   },
+   {
+    "min_front": 12,
+    "floor_tol": 0.9999,
+    "k": 9,
+    "median": 0.3437922838672687,
+    "mean": 0.34600451850316344
+   }
+  ],
+  "lo": 0.2964059307832215,
+  "hi": 0.4816539180825084
+ },
+ "metric_dependence": [
+  {
+   "cell": "ultralytics | CPU ONNX | ONNX Runtime",
+   "task": "Object detection",
+   "lam": 0.5261708701971591,
+   "n_front": 7
+  },
+  {
+   "cell": "ultralytics | CPU ONNX | ONNX Runtime",
+   "task": "Oriented detection",
+   "lam": 0.3594946563832434,
+   "n_front": 6
+  },
+  {
+   "cell": "mmdet | COCO | V100",
+   "task": "Object detection",
+   "metric": "box AP",
+   "lam": 0.2090934683035135,
+   "n_front": 12
+  }
+ ],
+ "metric_spread": [
+  0.2090934683035135,
+  0.5261708701971591
+ ],
+ "_complete": true
+}

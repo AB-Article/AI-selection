@@ -2,8 +2,8 @@
 
 Data and analysis code for:
 
-> D. Ignatov, *The price of computation: every saturating frontier
-fixes its own exchange rate in AI model selection*. Submitted to **Information Sciences**
+> D. Ignatov, *The price of computation: every saturating frontier fixes 
+> its own exchange rate in AI model selection*. Submitted to **Information Sciences**
 > (Elsevier).
 
 Everything reported in the article and its supplementary material is produced by
@@ -201,6 +201,4 @@ sources given above.
 
 ## Contact
 
-For questions concerning the repository or reproducibility of the
-analyses, please contact the corresponding author (Dmitry Ignatov) through the
-contact information associated with the article.
+Dmitry Ignatov — Computer Vision Lab, CAIDAS & IFI, University of Würzburg

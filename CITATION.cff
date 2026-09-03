@@ -30,7 +30,7 @@ keywords:
   - reproducibility
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22261267
+    value: 10.5281/zenodo.22279591
     description: Archived snapshot of this release
 preferred-citation:
   type: article

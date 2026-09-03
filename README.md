@@ -2,7 +2,7 @@
 
 Data and analysis code for:
 
-> D. Ignatov, *The price of computation: every saturating frontier fixes 
+> D. Ignatov, *The price of computation: a saturating frontier fixes 
 > its own exchange rate in AI model selection*. Submitted to **Information Sciences**
 > (Elsevier).
 

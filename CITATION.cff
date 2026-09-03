@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use this archive, please cite both the article and the archive.
 title: >-
-  The price of computation: every saturating frontier fixes its own exchange rate
+  The price of computation: a saturating frontier fixes its own exchange rate
   in AI model selection — reproducibility archive
 abstract: >-
   Data and analysis code reproducing every number, table and figure in the

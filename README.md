@@ -2,7 +2,7 @@
 
 Data and analysis code for:
 
-> D. Ignatov, *The price of computation: canonical exchange rates from saturating frontiers for AI model selection*. Submitted to **Information Sciences**
+> D. Ignatov, *The price of computation: a canonical exchange-rate framework for AI model selection*. Submitted to **Information Sciences**
 > (Elsevier).
 
 Everything reported in the article and its supplementary material is produced by

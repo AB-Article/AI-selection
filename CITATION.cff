@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use this archive, please cite both the article and the archive.
 title: >-
-  The price of computation: canonical exchange rates from saturating frontiers for AI model selection
+  The price of computation: a canonical exchange-rate framework for AI model selection
 abstract: >-
   Data and analysis code reproducing every number, table and figure in the
   article. The archive contains seven measurement corpora spanning image

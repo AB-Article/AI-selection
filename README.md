@@ -2,7 +2,7 @@
 
 Data and analysis code for:
 
-> D. Ignatov, *Pricing the Accuracy--Compute Trade-off: A Uniqueness Theorem and an Exact Regret for AI Model Selection*. 
+> D. Ignatov, *Pricing the Accuracy-Compute Trade-off: A Uniqueness Theorem and an Exact Regret for AI Model Selection*. 
 
 Everything reported in the article and its supplementary material is produced by
 the code in this archive from the data in this archive. There are no hidden

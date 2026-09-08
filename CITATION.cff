@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use this archive, please cite both the article and the archive.
 title: >-
-  The price of computation: a canonical exchange-rate framework for AI model selection
+  Pricing Quality-Resource Trade-offs in AI Model Selection: A Uniqueness Theory and Regret Analysis
 abstract: >-
   Data and analysis code reproducing every number, table and figure in the
   article. The archive contains seven measurement corpora spanning image

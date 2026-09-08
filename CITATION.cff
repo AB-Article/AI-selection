@@ -34,8 +34,7 @@ identifiers:
 preferred-citation:
   type: article
   title: >-
-    The price of computation: a convex duality for the quality-cost trade-off
-    in AI model selection
+    Pricing Quality-Resource Trade-offs in AI Model Selection: A Uniqueness Theory and Regret Analysis
   authors:
     - family-names: Ignatov
       given-names: Dmitry

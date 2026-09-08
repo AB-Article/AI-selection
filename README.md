@@ -2,8 +2,7 @@
 
 Data and analysis code for:
 
-> D. Ignatov, *The price of computation: a canonical exchange-rate framework for AI model selection*. Submitted to **Information Sciences**
-> (Elsevier).
+> D. Ignatov, *Pricing the Accuracy--Compute Trade-off: A Uniqueness Theorem and an Exact Regret for AI Model Selection*. 
 
 Everything reported in the article and its supplementary material is produced by
 the code in this archive from the data in this archive. There are no hidden

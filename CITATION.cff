@@ -34,7 +34,7 @@ identifiers:
 preferred-citation:
   type: article
   title: >-
-    Pricing Quality-Resource Trade-offs in AI Model Selection: A Uniqueness Theory and Regret Analysis
+    A Frontier-Based Theory of Quality–Resource Trade-offs for AI Model Selection
   authors:
     - family-names: Ignatov
       given-names: Dmitry

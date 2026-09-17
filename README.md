@@ -2,7 +2,7 @@
 
 Data and analysis code for:
 
-> D. Ignatov, *Pricing Quality-Resource Trade-offs in AI Model Selection: A Uniqueness Theory and Regret Analysis*. 
+> D. Ignatov, *A Frontier-Based Theory of Quality–Resource Trade-offs for AI Model Selection*. 
 
 Everything reported in the article and its supplementary material is produced by
 the code in this archive from the data in this archive. There are no hidden
